@@ -1,0 +1,30 @@
+
+
+
+*****- La figura que usas para justificar la distancia de mejoría es mejorable. Entiendo que hay dos puntos que hay que ilustrar:
+1) La razón por la que decidimos hacer el cambio y que comentamos el otro día. Puse esta frase: Particularmente, puede ocurrir que en una población aparezca algún individuo con distancias muy grandes a los individuos de referencia pero que su contribución sea mínima en el sentido de que se produzca que a costa de mejorar de forma mínima en una función objetivo se produzca un empeoramiento grande en otro objetivo, y que precisamente por haber empeorado mucho, la distancia pase a tener un valor grande, tal y como se ilustra en la figura... Aquí habría que poner una figura que ilustre eso. No hace falta que sea generada por el optimizador.
+2) Intentas ilustrar que la distancia es buena para el hipervolumen (y yo añado para el IGD+). Creo que se puede ilustrar mejor en 2 dimensiones que en 3 dimensiones. Te mando generate.cpp y generate2.cpp que generan considerando que el frente está en f1^2 + f2^2 = 1. Se generan 100,000 puntos y se eligen 50. Al pintarlos se ve el efecto claro de que no se eligen en las zonas planas y además si calculas el IGD+ y el HV es mejor el de la distancia de mejoría. Entonces creo que mejor usar esos datos y reportar el valor de IGD+ y HV.
+*****- En la simulación con la función deceptiva no indicas como se inicializa el D_I.
+*****- En la simulación que haces del SMS-EMOA en la figura 3.11, para que la comparativa sea justa por lo que hay que comparar es por número
+de evaluaciones y no por número de generaciones, es decir, el SMS-EMOA debería ejecutarse a más generaciones que el resto. Si no lo hiciste así, o repites la ejecución del SMS-EMOA o lo quitas.
+*****- Sobre la complejidad: cuando hiciste la implementación yo tenía entendido que al elegir un nuevo individuo, simplemente actualizabas
+la distancia de todos frente a ese, y no que calculabas la distancia al más cercano cada vez recorriendo el bucle completo, ¿esto no fue
+así? No hay problema pero sólo para saberlo porque si no, el análisis de complejidad no está bien.
+*****- Para que se entienda bien el algoritmo 14 hace falta explicar la función "mover", creo que lo tenías explicado en alguno de los artículos que se publicaron.
+*****- En el análisis de complejidad tu sumatoria interna va de j = 1 a i, ¿no debería ser j = M, a M + i - 1? En el último creo que tiene que ir hasta "2N - M - i + 1". Checa la fórmula experimentalmente.
+*****- Dar acrónimo de VSD-MOEA
+*****- Igual que en en los capítulos anteriores, checa los captions para que sean más autocontenidos.
+*****- Indicas que se usa torneo binario, pero no dices en base a qué comparas a los individuos.
+*****- Inicialmante como se indica en el algoritmo \ref{alg:Fase_Remplazo_Complejidad} para identificar a los individuos extremos es 
+*****- necesario realizar $2N$ iteraciones para encontrar a los $M$ mejores individuos de cada función objetivo: ¿No sería 2 \times N \times M?
+*****- Después de la frase "El proceso termina ya que los $N$ individuos fueron seleccionados, terminando la simulación como se muestra en la  
+figura \ref{fig:Simulacion_3}." creo que sería bueno poner otro ejemplo más en que se seleccione un dominado dejando a un no-dominado sin seleccionar. Podrías poner: En el ejemplo anterior, los individuos seleccionados finales fueron todos no dominados, y en un principio podría parecer que el resultado no es tan diferente al obtenido por un MOEA tradicional, sin embargo esto depende completamente de la situación. Por ejemplo en la figura Nuevo_Ejemplo. El nuevo ejemplo podría ser uno en que tengas 4 no-dominados pegados en el espacio objetivo y en el espacio de las variables, y uno dominado (por poquito) pero en otra región (si quieres mañana podemos ver el ejemplo) pero que esté despegado en el espacio de las variables y que se vea que el algoritmo mantendría la zona distancia del espacio de las variables vivas, pues todos los que están pegados quedarían penalizados.
+
+*****- Uno de los métodos más utilizados en los MOEAs basados en dominancia para mantener diversidad es el denominado como distancia 
+de amontonamiento, y consiste en eliminar iterativamente a cada individo con la mínima contribución a la diversidad (\cite{Joel:NSGAII}), 
+donde la contribución de cada individuo es calculada en base a la distancia al vecino más cercano. Creo que te refieres a la distancia de crowding, pero la distancia de crowding no es la distancia al individuo más cercano. Explica bien esa parte.
+
+*****- La figura 3.9 lleva a confusión. Nuestro esquema cuando llega a ese punto sólo debe tener como individuos verdes a individuos
+del mismo rango. En este caso el 7 es un individuo dominado y es el elegido, con lo que hay que cambiar eso, poniendo una figura sólo
+con no dominados entre sí.
+

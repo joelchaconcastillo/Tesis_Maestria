@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: Chapters/Chapter1.aux
+A level-1 auxiliary file: Chapters/Chapter2.aux
+A level-1 auxiliary file: Chapters/Chapter3.aux
+A level-1 auxiliary file: Chapters/Chapter4.aux
+A level-1 auxiliary file: Chapters/Chapter5.aux
+A level-1 auxiliary file: Chapters/Chapter6.aux
+A level-1 auxiliary file: Chapters/Chapter7.aux
+A level-1 auxiliary file: Appendices/AppendixA.aux
+A level-1 auxiliary file: Appendices/AppendixB.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 22792 items from 5000.
+Database file #1: main-blx.bib
+Database file #2: example.bib
+Warning--I'm ignoring Joel:SMSEMOA's extra "keywords" field
+--line 124 of file example.bib
+Warning--I'm ignoring Joel:SMSEMOA's extra "keywords" field
+--line 125 of file example.bib
+Warning--I'm ignoring Joel:SMSEMOA's extra "keywords" field
+--line 126 of file example.bib
+Warning--I'm ignoring Joel:SMSEMOA's extra "keywords" field
+--line 128 of file example.bib
+Warning--I'm ignoring Joel:OperatorAHX's extra "keywords" field
+--line 222 of file example.bib
+Warning--I'm ignoring Joel:OperatorAHX's extra "keywords" field
+--line 223 of file example.bib
+Warning--I'm ignoring Joel:OperatorAHX's extra "keywords" field
+--line 225 of file example.bib
+Warning--string name "ieee_j_evc" is undefined
+--line 284 of file example.bib
+Biblatex version: 2.8
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 128 entries,
+            6047 wiz_defined-function locations,
+            1952 strings with 45133 characters,
+and the built_in function-call counts, 477264 in all, are:
+= -- 19780
+> -- 16368
+< -- 4974
++ -- 5765
+- -- 5944
+* -- 40064
+:= -- 27783
+add.period$ -- 0
+call.type$ -- 128
+change.case$ -- 2959
+chr.to.int$ -- 89
+cite$ -- 254
+duplicate$ -- 53529
+empty$ -- 48551
+format.name$ -- 10515
+if$ -- 108434
+int.to.chr$ -- 0
+int.to.str$ -- 430
+missing$ -- 0
+newline$ -- 4380
+num.names$ -- 7195
+pop$ -- 41489
+preamble$ -- 1
+purify$ -- 3433
+quote$ -- 0
+skip$ -- 27730
+stack$ -- 0
+substring$ -- 12865
+swap$ -- 19108
+text.length$ -- 3729
+text.prefix$ -- 131
+top$ -- 1
+type$ -- 4851
+warning$ -- 0
+while$ -- 2533
+width$ -- 0
+write$ -- 4251
+(There were 8 warnings)

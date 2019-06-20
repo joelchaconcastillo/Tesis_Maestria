@@ -1,0 +1,4 @@
+*****- Tienes que explicar como integras el operador de mutación polinomial. Por ejemplo, ¿es independiente de la aplicación de ED, pudiendo afectar a otras variables, o afecta a las variables que se cambiaron en DE?
+******- Creo que ya te lo había dicho en otros capítulos, pero hay citas que no tienen el año y eso hace que al referenciarlo meta todo el título en el texto y queda mal.
+******- Relee para ver que haya quedado todo bien enlazado, haz los cambios que consideres y me lo reenvías para cuando haga la última lectura.
+

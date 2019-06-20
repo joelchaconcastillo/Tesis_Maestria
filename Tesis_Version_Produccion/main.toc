@@ -1,0 +1,91 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\contentsline {chapter}{Resumen}{\es@scroman {v}}{section*.1}
+\contentsline {chapter}{Agradecimientos}{\es@scroman {vii}}{section*.2}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.6}
+\contentsline {section}{\numberline {1.1}Introducci\IeC {\'o}n}{1}{section.7}
+\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n}{2}{section.8}
+\contentsline {section}{\numberline {1.3}Descripci\IeC {\'o}n del problema e hip\IeC {\'o}tesis}{2}{section.9}
+\contentsline {section}{\numberline {1.4}Objetivo general}{2}{section.10}
+\contentsline {section}{\numberline {1.5}Contribuciones}{3}{section.11}
+\contentsline {section}{\numberline {1.6}Organizaci\IeC {\'o}n de la tesis}{3}{section.12}
+\contentsline {chapter}{\numberline {2}Optimizaci\IeC {\'o}n Multi-objetivo}{5}{chapter.13}
+\contentsline {section}{\numberline {2.1}Conceptos}{5}{section.14}
+\contentsline {subsection}{\numberline {2.1.1}Dominancia}{5}{subsection.16}
+\contentsline {section}{\numberline {2.2}Optimizadores Multi-objetivo}{8}{section.30}
+\contentsline {subsection}{\numberline {2.2.1}M\IeC {\'e}todos Cl\IeC {\'a}sicos}{8}{subsection.31}
+\contentsline {subsubsection}{M\IeC {\'e}todo de sumas ponderadas}{9}{section*.32}
+\contentsline {subsubsection}{M\IeC {\'e}todo de restricci\IeC {\'o}n $\epsilon $}{10}{section*.38}
+\contentsline {subsubsection}{M\IeC {\'e}todos con m\IeC {\'e}tricas ponderadas}{11}{section*.43}
+\contentsline {subsection}{\numberline {2.2.2}Algoritmos Evolutivos Multi-objetivo Iniciales}{12}{subsection.48}
+\contentsline {subsubsection}{Algoritmo Gen\IeC {\'e}tico basado en Evaluaci\IeC {\'o}n de Vectores (VEGA)}{12}{section*.49}
+\contentsline {subsubsection}{Algoritmo Gen\IeC {\'e}tico de M\IeC {\'u}ltiples Objetivos (MOGA)}{13}{section*.53}
+\contentsline {subsubsection}{Algoritmo Gen\IeC {\'e}tico basado en Nichos y Pareto (NPGA)}{13}{section*.56}
+\contentsline {subsection}{\numberline {2.2.3}Clasificaci\IeC {\'o}n Actual de Algoritmos Evolutivos Multi-objetivo}{15}{subsection.60}
+\contentsline {subsubsection}{M\IeC {\'e}todos basados en dominancia}{15}{section*.61}
+\contentsline {subsubsection}{M\IeC {\'e}todos basados en indicadores}{15}{section*.62}
+\contentsline {subsubsection}{M\IeC {\'e}todos basados en descomposici\IeC {\'o}n}{16}{section*.63}
+\contentsline {section}{\numberline {2.3}Estado del arte}{16}{section.64}
+\contentsline {subsection}{\numberline {2.3.1}Algoritmo Gen\IeC {\'e}tico basado en Ordenaci\IeC {\'o}n de No dominados II (NSGA-II)}{17}{subsection.65}
+\contentsline {subsection}{\numberline {2.3.2}Algoritmo Evolutivo Multi-objetivo Basado en Descomposici\IeC {\'o}n (MOEA/D) }{19}{subsection.69}
+\contentsline {subsection}{\numberline {2.3.3}Algoritmo Evolutivo Multi-objetivo basado en selecci\IeC {\'o}n de la M\IeC {\'e}trica $\mathscr {S}$ (SMS-EMOA)}{22}{subsection.80}
+\contentsline {subsection}{\numberline {2.3.4}Metaheur\IeC {\'\i }stica de Muchos Objetivos Basada en el Indicador R2 (MOMBI-II)}{23}{subsection.83}
+\contentsline {subsection}{\numberline {2.3.5}Evoluci\IeC {\'o}n Diferencial Generalizada (GDE3)}{24}{subsection.86}
+\contentsline {section}{\numberline {2.4}Problemas de Prueba}{26}{section.88}
+\contentsline {subsection}{\numberline {2.4.1}ZDT}{27}{subsection.90}
+\contentsline {subsection}{\numberline {2.4.2}DTLZ}{28}{subsection.98}
+\contentsline {subsection}{\numberline {2.4.3}Generador de Problemas Walking Fish Group (WFG)}{32}{subsection.108}
+\contentsline {subsection}{\numberline {2.4.4}Problemas de prueba sin restricciones (UF - \textit {Unconstrained Functions})}{35}{subsection.111}
+\contentsline {subsection}{\numberline {2.4.5}Generaci\IeC {\'o}n de soluciones \IeC {\'o}ptimas}{35}{subsection.116}
+\contentsline {section}{\numberline {2.5}An\IeC {\'a}lisis de rendimiento de optimizadores multi-objetivo}{39}{section.118}
+\contentsline {subsection}{\numberline {2.5.1}Distancia Generacional y Distancia Generacional Invertida}{40}{subsection.119}
+\contentsline {subsection}{\numberline {2.5.2}Distancia promedio de Hausdorff $\Delta _p$}{42}{subsection.123}
+\contentsline {subsection}{\numberline {2.5.3}Distancia al vecino m\IeC {\'a}s cercano (DCN - \textit {Distance to the Closest Neighbor})}{42}{subsection.125}
+\contentsline {subsection}{\numberline {2.5.4}Distancia media (ADI - \textit {Average Distance to all Individuals})}{42}{subsection.126}
+\contentsline {subsection}{\numberline {2.5.5}Hipervolumen (HV - \textit {Hypervolume})}{43}{subsection.128}
+\contentsline {subsection}{\numberline {2.5.6}Indicador R2}{43}{subsection.131}
+\contentsline {subsection}{\numberline {2.5.7}Superficies de Alcance}{44}{subsection.138}
+\contentsline {section}{\numberline {2.6}An\IeC {\'a}lisis preliminar de Algoritmos Actuales}{45}{section.142}
+\contentsline {chapter}{\numberline {3}Algoritmo basado en Dominancia con Control de Diversidad en el Espacio de Decisi\IeC {\'o}n}{49}{chapter.145}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{49}{section.146}
+\contentsline {section}{\numberline {3.2}Diversidad en el espacio de las variables en EAs mono-objetivo y multi-objetivo}{50}{section.147}
+\contentsline {section}{\numberline {3.3}Propuesta}{52}{section.148}
+\contentsline {section}{\numberline {3.4}An\IeC {\'a}lisis del proceso de b\IeC {\'u}squeda en VSD-MOEA}{62}{section.170}
+\contentsline {section}{\numberline {3.5}Complejidad Algor\IeC {\'\i }tmica}{65}{section.176}
+\contentsline {chapter}{\numberline {4}Algoritmos basados en Descomposici\IeC {\'o}n con Control de Diversidad en el Espacio de Decisi\IeC {\'o}n}{69}{chapter.181}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{69}{section.182}
+\contentsline {section}{\numberline {4.2}Estrategias para mejorar los m\IeC {\'e}todos de descomposici\IeC {\'o}n}{70}{section.183}
+\contentsline {section}{\numberline {4.3}Propuesta con selecci\IeC {\'o}n especial de padres (MOEA/D-EVSD)}{75}{section.195}
+\contentsline {subsection}{\numberline {4.3.1}Observaciones}{77}{subsection.198}
+\contentsline {section}{\numberline {4.4}Propuesta de diversidad con elitismo especial (MOEA/D-SEBV)}{78}{section.200}
+\contentsline {subsection}{\numberline {4.4.1}Observaciones}{81}{subsection.205}
+\contentsline {section}{\numberline {4.5}Algoritmo de descomposici\IeC {\'o}n basado en la diversidad (VSD-MOEA/D)}{81}{section.206}
+\contentsline {subsection}{\numberline {4.5.1}Observaciones}{83}{subsection.209}
+\contentsline {section}{\numberline {4.6}Complejidad de los algoritmos propuestos}{84}{section.210}
+\contentsline {subsection}{\numberline {4.6.1}Optimizaci\IeC {\'o}n propuesta - Fast VSD-MOEA/D}{86}{subsection.218}
+\contentsline {chapter}{\numberline {5}Operadores de reproducci\IeC {\'o}n y diversidad}{89}{chapter.221}
+\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{89}{section.222}
+\contentsline {section}{\numberline {5.2}Operadores de cruce}{90}{section.223}
+\contentsline {subsection}{\numberline {5.2.1}Cruce Binario Simulado (SBX)}{90}{subsection.224}
+\contentsline {subsection}{\numberline {5.2.2}An\IeC {\'a}lisis operador de cruce SBX}{93}{subsection.231}
+\contentsline {subsection}{\numberline {5.2.3}Propuesta del operador SBX basado en esquemas de diversidad}{93}{subsection.233}
+\contentsline {section}{\numberline {5.3}Operadores de evoluci\IeC {\'o}n diferencial (DE)}{95}{section.236}
+\contentsline {chapter}{\numberline {6}Validaci\IeC {\'o}n Experimental}{103}{chapter.253}
+\contentsline {section}{\numberline {6.1}Esquema de validaci\IeC {\'o}n experimental}{103}{section.254}
+\contentsline {section}{\numberline {6.2}Algoritmo basado en dominancia VSD-MOEA}{105}{section.258}
+\contentsline {subsection}{\numberline {6.2.1}Rendimiento frente al estado del arte}{105}{subsection.259}
+\contentsline {subsection}{\numberline {6.2.2}Estudio de escalabilidad en el espacio de las variables}{108}{subsection.268}
+\contentsline {subsection}{\numberline {6.2.3}Estudio de la influencia del par\IeC {\'a}metro $D_I$}{111}{subsection.271}
+\contentsline {subsection}{\numberline {6.2.4}Superficies de cubrimiento}{112}{subsection.274}
+\contentsline {section}{\numberline {6.3}Algoritmos basados en descomposici\IeC {\'o}n}{114}{section.276}
+\contentsline {subsection}{\numberline {6.3.1}Validaci\IeC {\'o}n experimental del MOEA/D-EVSD}{114}{subsection.277}
+\contentsline {subsection}{\numberline {6.3.2}Validaci\IeC {\'o}n experimental de los algoritmos MOEA/D-SEBV y VSD-MOEA/D}{115}{subsection.281}
+\contentsline {subsection}{\numberline {6.3.3}Comparativa entre algoritmos basados en diversidad y el estado del arte}{117}{subsection.284}
+\contentsline {section}{\numberline {6.4}Operador de cruce SBX}{120}{section.290}
+\contentsline {chapter}{\numberline {7}Conclusiones y Trabajo Futuro}{125}{chapter.294}
+\contentsline {section}{\numberline {7.1}Conclusiones}{125}{section.295}
+\contentsline {section}{\numberline {7.2}Trabajo futuro}{127}{section.296}
+\contentsline {chapter}{\numberline {A}Resultados adicionales para VSD-MOEA}{129}{appendix.297}
+\contentsline {chapter}{\numberline {B}Resultados adicionales para las propuestas basadas en descomposici\IeC {\'o}n}{145}{appendix.328}
+\contentsline {chapter}{Bibliograf\'{\i }a}{163}{appendix*.354}

@@ -1,0 +1,41 @@
+*****- Cambié algunas cosas de dominancia fuerte, porque creo que no quedaba muy claro. Chécalo.
+*****- En la definición de solución óptima de Pareto usas el símbolo F sin definirlo. De hecho diría que es mejor que uses una definición tradicional del tipo, no existe y in Omega, tal que...
+*****- Incluyes la Figura 2.1 sin referenciarla: todas las figuras que se ponen en la tesis hay que referenciarlas en el texto.
+*****- Otro cambio que hay que hacer es el título. Me gustaría que pensaras un nuevo título que incluya "Diversidad en el Espacio de las Variables" (o espacio de decisión, si quieres puedes decir también espacio objetivo, pero para que quede claro por donde va la novedad), para notar muy claramente que no es solo en el espacio objetivo, que es lo que hace todo el mundo. Creo que también debería estar la palabra diseño además de análisis.
+*****- Corrige lo de antisimetría o quítalo. No es verdad que una relación por no ser simétrica no pueda ser antisimétrica (sé que lo dice Deb pero está mal). Míra bien la definición y http://www.sciencedirect.com/science/article/pii/S016763770200189X
+*****- Cambiar Definition por Propiedad o algo así.
+*****- Esta Propiedad "Una solución al problema de la ecuación (2.3) es óptimo de Pareto, sólo si cada componente del vector de pesos es positivo", diría que es falso. Más bien creo que sería: "Si cada componente del vector de pesos
+es positivo, cualquier solución óptima al problema de la ecuación (2.3) es óptimo de Pareto".
+*****- El algoritmo 3 (NPGA - Procedimiento Principal) es más bien una generación del NPGA, no? Entonces o cambias el título
+para indicar que es una generación, o pones completo con el criterio de parada, etc.
+*****- Cambiar Algorithm por Algoritmo
+*****- Mira bien todos los caption de algoritmos, figuras y tablas. Por ejemplo, el Algoritmo 5 sólo pone procedimiento principal, sin poner NSGA-II.
+*****- La línea 3 del Algoritmo 5, ¿no deberia ser Q1 = emptyset?
+*****- La línea 11 del Algoritmo 11 entiendo que sería: Pt+1 = Pt+1 U fi
+*****- En las líneas 2 y 7 del Algoritmo 5, puedes poner un comentario del tipo: Ver Algoritmo 6.
+*****- En el algoritmo 7, línea 3, l es un número y haces for i in l, que no es algo estandar. Pon for i in {1..l} o alguna otra nomenclatura.
+*****- En la línea 4 de MOEA/D dado que nosotros no usamos métodos específicos, mejor decir, inicializarlo al mínimo de cada función encontrada hasta el momento.
+*****- En la línea 8 del MOEA/D dado que todo la tesis la has explicado como minimización, mejor cambiarlo.
+*****- En GDE3 te falta explicar el operador \preceq_c. Sin eso el pseudocódigo no se entiende. Lo tienes bien explicado en: https://link.springer.com/content/pdf/10.1007%2F978-3-319-44003-3_11.pdf
+*****- Para los problemas ZDT das las funciones f1, g y h pero en ningún lado dices como se forma f2. Creo que lo puedes poner en la explicación global de los ZDT cuando dices que dependen de tres funciones.
+*****- En los DTLZ no defines que es X_M pero lo usas. En DTLZ1 dices que X_M tiene que ser 0, creo que eso está mal, chécalo.
+*****- Te falta meter la DTLZ4 (tienes algunos comentarios que son de la DTLZ4 metidos en la sección de la DTLZ3).
+*****- En la tabla 2.7 cuando dices unimodal-multimodal, no queda claro que funciones son unimodales y cuáles multi-modales, entonces, especifica cuáles son de cada tipo o pon Mixto. Para referenciar la tabla, al principio cuando hablas de todos los conjuntos de problemas que hay, ahí puedes decir que esa tabla resume las características e indicar qué tipos de características se incluyen. Puse alguna frase sobre eso en la parte del WFG, tal vez la puedes subir para que quede para todos.
+*****- En la tabla 2.7 prácticamente no pones propiedades de los UF. Supongo que es porque en los artículos de referencia no hacen mucho hincapié en las propiedades, no? Si es así, cuando presentas las UF, pon alguna nota del tipo, Dado que al proponer los UF no se analizaron muchas de las propiedades que se enumeran en la tabla 2.7, se pone un guión en las mismas para indicar que no hemos encontrado un análisis riguroso de las mismas. En algunos casos, realizar dicho análisis es sencillo, pero este tema queda fuera del alcance de esta tesis.
+*****- Tenías mal definido los métodos a posteriori, reléelo bien para que te quede claro
+*****- Checa que cuando usas cada acrónimo por primera vez lo definas. Por ejemplo, no estás definiendo en ningún lado de donde viene VSD-MOEA.
+*****- En la parte "Generación de soluciones óptimas" tengo la duda de si para el WFG1 se consiguió generar soluciones bien diversas y en todos lados (recuerdo que es uno de los que más problemas nos dio) o si tuviste que hacer algo más. Además, dices que se generan 10,000 y que luego eliminas a los más cercanos dada una tolerancia. ¿A cuánto se fijó esa tolerancia? ¿Con cuántos puntos quedaron los frentes que generaste? Creo que podrías decir algo de eso, o incluso poner una tabla.
+*****- Puse esta frase: "Tras utilizar este método, se pudo visualizar que en todos los casos se conseguían distribuciones con una alta diversidad que cubrían todo el frente de Pareto". No sé si es así, o si en algún caso tuviste que hacer algo más.
+****- Cuando das las definiciones de Pareto, utópico etc. a veces sirven para minimización y a veces para maximización y minimización. A veces lo dices y a veces no; mejor indica antes de empezar con los conceptos que para las definiciones vas a considerar que es un problema de minimización y ya no pongas aclaraciones.
+****- Creo que en el vector ideal te lías un poco. Dices que tienes un conjunto de mínimos, luego calculas el mínimo sobre ellos. Mejor poner que es el mínimo obtenido al considerar el cojunto Omega.
+
+****- Igual que con las figuras, todos los algoritmos desde ser nombrados en el texto, es decir, poner algo algo El algoritmo NPGA (ver Algoritmo 3)
+****- Falta referenciar la tabla 2.4 y tabla 2.5. La tabla 2.5 ponla como figura. En general, checa que todo esté referenciado. Además cambia cuadro por tabla.
+
+****- La parte en que explicas las superficies de alcance (creo que mejor usar superficie de alcance en vez de superficie de cubrimiento) es mejorable. Mírate "A Tutorial on the Performance Assessment of Stochastic Multiobjective Optimizers" (sección 3.3). Deberías empezar definiendo attainment function, luego empirical attainment function, k%-approximation set y finalmente k%-attainment surface. También puedes decir que en base a las funciones de alcance se pueden hacer pruebas estadísticas, y que algunos autores lo trabajan así, pero que en la tesis se usan como herramienta para ilustrar gráficamente los resultados.
+
+*****- La referencia de Cohon no la estás incluyendo y no entiendo bien la clasificación. La cambié en base a lo que creía entender pero chécalo a ver si es así y mándame la referencia que usaste.
+
+Notas..... 
+¿Es necesario imprimir los puntos de referencia?
+Proporcionar la referencia de Cohon.

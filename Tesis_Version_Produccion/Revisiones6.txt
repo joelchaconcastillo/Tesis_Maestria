@@ -1,0 +1,13 @@
+
+
+- Ananalizar el hipervolumen para el EVSD, ¿usas otro punto de referencia distinto al usado anteriormente? Si es así, creo que mejor cambiarlo para que quede homogéneo, pues si no, no se puede comparar unos y otros resultados. En la sección 6.15 pasa lo mismo. Si se te complica mucho lo puedes dejar así.
+
+*****- Hay varias partes donde citas los apéndices, si al final quitas los apéndices date cuenta de quitar las referencias. De todas formas, viendo como los tienes referenciado igual se pueden dejar los apéndices sólo poniendo una pequeño párrafo al principio de cada apéndice, lo hablamos luego.
+
+
+*****- La sección 6.4 es todo con 2 objetivos verdad. Si es así, cuando digas que usas los WFG menciona que se usan con 2 objetivos.
+*****- En el MOEA/D-EVSD no me queda claro si en la primera fase usabas SBX o NRD-SBX. Especifícalo en la tabla de parámetros para que quede más claro.
+*****- En la sección 6.1 hablas del WFG1, WFG2, WFG6, WFG8 y WFG9, pero en los resultados no lo muestras todos. Creo que es mejor poner una figura con los WFG en que se mejoró y otro con los WFG en que se empeoró, y la explicación puede quedar igual.
+*****- En la sección 6.3.3 tienes que empezar diciendo que algoritmos vas a considerar. Por ejemplo, veo que sólo utilizar el VSD-MOEA/D con T10 (creo). Entonces tienes que poner algo del tipo: "En base a los resultados anteriores, de los algoritmos basados en dominancia de decidió realizar esta comparativa utilizando el VSD-MOEA/D con T=10, pues fue el que dio mejores resultados. Este se comparaba con GDE3, MOMBI-II, NSGA-II y MOEA/D que son algoritmos representativas del estado del arte. Además, también se incluye la propuesta basada en dominancia VSD-MOEA. Luego empezaste a describir directamente conclusiones de la tabla 6.11 y 6.12, pero antes deberías decir algo como. En la tabla 6.11 se muestran las estadísticas relativas al hipervolumen con 2 objetivos, mientras que en la 6.12... Y luego ya sigues con lo que tienes.
+
+

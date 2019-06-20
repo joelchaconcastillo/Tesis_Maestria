@@ -1,0 +1,75 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Problemas ZDT\relax }}{29}{table.caption.100}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Problemas DTLZ\relax }}{33}{table.caption.110}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Problemas de prueba WFG\relax }}{35}{table.caption.113}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Expresi\IeC {\'o}n del frente de Pareto y el conjunto de Pareto de los problemas UF\relax }}{36}{table.caption.115}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Problemas de prueba UF (CEC 2009)\relax }}{38}{table.caption.117}
+\contentsline {table}{\numberline {2.6}{\ignorespaces Propiedades de los problemas de prueba ZDT, DTLZ, WFG y UF\relax }}{39}{table.caption.118}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces An\IeC {\'a}lisis del proceso de selecci\IeC {\'o}n con la distancia de mejor\IeC {\'\i }a y la distancia Euclideana\relax }}{64}{table.caption.174}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Grado de complejidad de los MOEAs m\IeC {\'a}s populares\relax }}{69}{table.caption.186}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Complejidad de los algoritmos\relax }}{88}{table.caption.223}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Complejidad de los algoritmos, con la nueva versi\IeC {\'o}n del VSD-MOEA/D\relax }}{89}{table.caption.226}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Parametrizaci\IeC {\'o}n\relax }}{106}{table.caption.261}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Puntos de referencia para el indicador del hipervolumen\relax }}{107}{table.caption.263}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Estad\IeC {\'\i }sticas del hipervolumen considerando dos objetivos\relax }}{109}{table.caption.268}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Estad\IeC {\'\i }sticas del hipervolumen considerando tres objetivos.\relax }}{109}{table.caption.270}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Valores de efectividad del hipervolumen considerando dos objetivos\relax }}{110}{table.caption.272}
+\contentsline {table}{\numberline {6.6}{\ignorespaces Valor de efectividad del hipervolumen considerando tres objetivos\relax }}{110}{table.caption.273}
+\contentsline {table}{\numberline {6.7}{\ignorespaces Pruebas Estad\IeC {\'\i }sticas del Hipervolumen\relax }}{117}{table.caption.284}
+\contentsline {table}{\numberline {6.8}{\ignorespaces Estad\IeC {\'\i }sticas del Hipervolumen\relax }}{117}{table.caption.285}
+\contentsline {table}{\numberline {6.9}{\ignorespaces Estad\IeC {\'\i }sticas IGD+ considerando dos objetivos\relax }}{118}{table.caption.288}
+\contentsline {table}{\numberline {6.10}{\ignorespaces Estad\IeC {\'\i }sticas del hipervolumen considerando tres objetivos\relax }}{119}{table.caption.289}
+\contentsline {table}{\numberline {6.11}{\ignorespaces Estad\IeC {\'\i }sticas del hipervolumen con dos objetivos de los algoritmos representativos\relax }}{120}{table.caption.291}
+\contentsline {table}{\numberline {6.12}{\ignorespaces Estad\IeC {\'\i }sticas del IGD+ con dos objetivos de los algoritmos representativos\relax }}{120}{table.caption.292}
+\contentsline {table}{\numberline {6.13}{\ignorespaces Estad\IeC {\'\i }sticas del hipervolumen con tres objetivos de los algoritmos representativos\relax }}{121}{table.caption.293}
+\contentsline {table}{\numberline {6.14}{\ignorespaces Estad\IeC {\'\i }sticas del IGD+ con tres objetivos de los algoritmos representativos\relax }}{121}{table.caption.294}
+\contentsline {table}{\numberline {6.15}{\ignorespaces Valores de hipervolumen alcanzados por los diferentes MOEAs con los operadores de cruce SBX y NRD-SBX\relax }}{124}{table.caption.298}
+\contentsline {table}{\numberline {6.16}{\ignorespaces Puntuaci\IeC {\'o}n obtenida por los diferentes algoritmos en base a las pruebas estad\IeC {\'\i }sticas\relax }}{125}{table.caption.299}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Estad\IeC {\'\i }sticas del hipervolumen considerando diez objetivos\relax }}{131}{table.caption.304}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Pruebas efectivas del hipervolumen considerando diez objetivos\relax }}{131}{table.caption.305}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Pruebas estad\IeC {\'\i }sticas del hipervolumen considerando dos objetivos.\relax }}{132}{table.caption.306}
+\contentsline {table}{\numberline {A.4}{\ignorespaces Pruebas estad\IeC {\'\i }sticas del hipervolumen considerando tres objetivos\relax }}{132}{table.caption.307}
+\contentsline {table}{\numberline {A.5}{\ignorespaces Pruebas estad\IeC {\'\i }sticas del hipervolumen considerando diez objetivos\relax }}{133}{table.caption.308}
+\contentsline {table}{\numberline {A.6}{\ignorespaces Statistics IGD+ with two objectives\relax }}{133}{table.caption.309}
+\contentsline {table}{\numberline {A.7}{\ignorespaces Estad\IeC {\'\i }sticas del IGD+ considerando tres objetivos\relax }}{133}{table.caption.310}
+\contentsline {table}{\numberline {A.8}{\ignorespaces Estad\IeC {\'\i }sticas del IGD+ considerando diez objetivos\relax }}{134}{table.caption.311}
+\contentsline {table}{\numberline {A.9}{\ignorespaces Pruebas efectivas del IGD+ considerando dos objetivos\relax }}{134}{table.caption.312}
+\contentsline {table}{\numberline {A.10}{\ignorespaces Pruebas efectivas del IGD+ considerando tres objetivos\relax }}{134}{table.caption.313}
+\contentsline {table}{\numberline {A.11}{\ignorespaces Pruebas efectivas del IGD+ considerando diez objetivos\relax }}{135}{table.caption.314}
+\contentsline {table}{\numberline {A.12}{\ignorespaces Pruebas estad\IeC {\'\i }sticas del IGD+ considerando dos objetivos\relax }}{135}{table.caption.315}
+\contentsline {table}{\numberline {A.13}{\ignorespaces Pruebas estad\IeC {\'\i }sticas del IGD+ considerando tres objetivos\relax }}{136}{table.caption.316}
+\contentsline {table}{\numberline {A.14}{\ignorespaces Pruebas estad\IeC {\'\i }sticas del IGD+ considerando diez objetivos\relax }}{136}{table.caption.317}
+\contentsline {table}{\numberline {A.15}{\ignorespaces Estad\IeC {\'\i }sticas de Hausdorff considerando dos objetivos\relax }}{136}{table.caption.318}
+\contentsline {table}{\numberline {A.16}{\ignorespaces Estad\IeC {\'\i }sticas de Hausdorff considerando tres objetivos\relax }}{137}{table.caption.319}
+\contentsline {table}{\numberline {A.17}{\ignorespaces Estad\IeC {\'\i }sticas de Hausdorff considerando diez objetivos\relax }}{137}{table.caption.320}
+\contentsline {table}{\numberline {A.18}{\ignorespaces Pruebas efectivas de Hausdorff considerando dos objetivos\relax }}{138}{table.caption.321}
+\contentsline {table}{\numberline {A.19}{\ignorespaces Pruebas efectivas de Hausdorff considerando tres objetivos\relax }}{138}{table.caption.322}
+\contentsline {table}{\numberline {A.20}{\ignorespaces Pruebas efectivas de Hausdorff considerando diez objetivos\relax }}{138}{table.caption.323}
+\contentsline {table}{\numberline {A.21}{\ignorespaces Pruebas estad\IeC {\'\i }sticas de Hausdorff considerando dos objetivos\relax }}{139}{table.caption.324}
+\contentsline {table}{\numberline {A.22}{\ignorespaces Pruebas estad\IeC {\'\i }sticas de Hausdorff considerando tres objetivos\relax }}{139}{table.caption.325}
+\contentsline {table}{\numberline {A.23}{\ignorespaces Pruebas estad\IeC {\'\i }sticas de Hausdorff considerando diez objetivos\relax }}{140}{table.caption.326}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Estad\IeC {\'\i }sticas del hipervolumen considerando dos objetivos\relax }}{148}{table.caption.335}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Estad\IeC {\'\i }sticas de Hausdorff considerando dos objetivos\relax }}{148}{table.caption.336}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Estad\IeC {\'\i }sticas IGD+ considerando dos objetivos\relax }}{149}{table.caption.337}
+\contentsline {table}{\numberline {B.4}{\ignorespaces Estad\IeC {\'\i }sticas del hipervolumen considerando tres objetivos\relax }}{149}{table.caption.338}
+\contentsline {table}{\numberline {B.5}{\ignorespaces Estad\IeC {\'\i }sticas con Hausdorff considerando tres objetivos\relax }}{149}{table.caption.339}
+\contentsline {table}{\numberline {B.6}{\ignorespaces Estad\IeC {\'\i }sticas del IGD considerando tres objetivos\relax }}{150}{table.caption.340}
+\contentsline {table}{\numberline {B.7}{\ignorespaces Estad\IeC {\'\i }sticas del hipervolumen con dos objetivos de los algoritmos representativos\relax }}{153}{table.caption.344}
+\contentsline {table}{\numberline {B.8}{\ignorespaces Estad\IeC {\'\i }sticas del IGD+ con dos objetivos de los algoritmos representativos\relax }}{153}{table.caption.345}
+\contentsline {table}{\numberline {B.9}{\ignorespaces Estad\IeC {\'\i }sticas del hipervolumen con tres objetivos de los algoritmos representativos\relax }}{153}{table.caption.346}
+\contentsline {table}{\numberline {B.10}{\ignorespaces Estad\IeC {\'\i }sticas del IGD+ con tres objetivos de los algoritmos representativos\relax }}{154}{table.caption.347}
+\contentsline {table}{\numberline {B.11}{\ignorespaces Pruebas efectivas del hipervolumen con dos objetivos de los algoritmos representativos\relax }}{154}{table.caption.348}
+\contentsline {table}{\numberline {B.12}{\ignorespaces Pruebas efectivas de IGD+ con dos objetivos de los algoritmos representativos\relax }}{154}{table.caption.349}
+\contentsline {table}{\numberline {B.13}{\ignorespaces Pruebas efectivas del hipervolumen con tres objetivos de los algoritmos representativos\relax }}{155}{table.caption.350}
+\contentsline {table}{\numberline {B.14}{\ignorespaces Pruebas efectivas de IGD+ con tres objetivos de los algoritmos representativos\relax }}{155}{table.caption.351}
