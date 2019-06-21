@@ -1,0 +1,7954 @@
+%!PS-Adobe-2.0
+%%Title: WFG9.eps
+%%Creator: gnuplot 5.0 patchlevel 4
+%%CreationDate: Tue Nov 21 14:55:48 2017
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 554 770
+%%Orientation: Landscape
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color true def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape true def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -60 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 554 50 lineto 554 770 lineto 50 770 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.1 (Oct 2015)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
+     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (WFG9.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.0 patchlevel 4)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Tue Nov 21 14:55:48 2017)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt May 2005
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { Boxing
+    { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if } def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox 1 1 1 setrgbcolor fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+% redundant definitions for compatibility with prologue.ps older than 5.0.2
+/LTB {BL [] LCb DL} def
+/LTb {PL [] LCb DL} def
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.100 0.100 scale
+90 rotate
+0 -5040 translate
+0 setgray
+newpath
+(Helvetica) findfont 180 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1402 1738 M
+3737 140 V
+stroke
+LTb
+LCb setrgbcolor
+5798 1082 M
+-659 796 V
+stroke
+LTb
+LCb setrgbcolor
+1402 1738 M
+0 2220 V
+stroke
+LTb
+LCb setrgbcolor
+1402 1738 M
+100 3 V
+stroke
+LTb
+LCb setrgbcolor
+5139 1878 M
+-100 -4 V
+stroke
+1232 1727 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 0)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1534 1578 M
+100 4 V
+stroke
+LTb
+LCb setrgbcolor
+5270 1719 M
+-99 -4 V
+stroke
+1363 1568 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 0.5)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1666 1419 M
+100 4 V
+stroke
+LTb
+LCb setrgbcolor
+5402 1560 M
+-99 -4 V
+stroke
+1495 1409 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 1)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1798 1260 M
+99 4 V
+stroke
+LTb
+LCb setrgbcolor
+5534 1400 M
+-100 -3 V
+stroke
+1627 1249 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 1.5)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1930 1101 M
+99 3 V
+stroke
+LTb
+LCb setrgbcolor
+5666 1241 M
+-100 -4 V
+stroke
+1759 1090 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 2)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+2061 941 M
+100 4 V
+stroke
+LTb
+LCb setrgbcolor
+5798 1082 M
+-100 -4 V
+stroke
+1891 931 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 2.5)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+2061 941 M
+-11 14 V
+stroke
+LTb
+LCb setrgbcolor
+1402 1738 M
+11 -14 V
+stroke
+2080 904 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 0)]
+] -60.0 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+2477 957 M
+-11 13 V
+stroke
+LTb
+LCb setrgbcolor
+1818 1753 M
+11 -13 V
+stroke
+2495 919 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 0.5)]
+] -60.0 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+2892 973 M
+-11 13 V
+stroke
+LTb
+LCb setrgbcolor
+2233 1769 M
+11 -13 V
+stroke
+2911 935 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 1)]
+] -60.0 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+3307 988 M
+-11 13 V
+stroke
+LTb
+LCb setrgbcolor
+2648 1785 M
+11 -14 V
+stroke
+3326 950 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 1.5)]
+] -60.0 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+3721 1004 M
+-11 13 V
+stroke
+LTb
+LCb setrgbcolor
+3063 1800 M
+11 -13 V
+stroke
+3740 966 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 2)]
+] -60.0 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+4137 1019 M
+-11 14 V
+stroke
+LTb
+LCb setrgbcolor
+3479 1816 M
+11 -14 V
+stroke
+4155 982 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 2.5)]
+] -60.0 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+4552 1035 M
+-11 13 V
+stroke
+LTb
+LCb setrgbcolor
+3893 1831 M
+11 -13 V
+stroke
+4571 997 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 3)]
+] -60.0 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+4967 1051 M
+-11 13 V
+stroke
+LTb
+LCb setrgbcolor
+4308 1847 M
+11 -13 V
+stroke
+4986 1013 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 3.5)]
+] -60.0 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+5382 1066 M
+-11 13 V
+stroke
+LTb
+LCb setrgbcolor
+4723 1863 M
+11 -14 V
+stroke
+5401 1028 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 4)]
+] -60.0 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+5798 1082 M
+-11 13 V
+stroke
+LTb
+LCb setrgbcolor
+5139 1878 M
+11 -13 V
+stroke
+5816 1044 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 4.5)]
+] -60.0 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1402 2478 M
+63 0 V
+stroke
+1276 2478 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 0)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1402 2689 M
+63 0 V
+stroke
+1276 2689 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 1)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1402 2900 M
+63 0 V
+stroke
+1276 2900 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 2)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1402 3112 M
+63 0 V
+stroke
+1276 3112 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 3)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1402 3323 M
+63 0 V
+stroke
+1276 3323 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 4)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1402 3535 M
+63 0 V
+stroke
+1276 3535 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 5)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1402 3747 M
+63 0 V
+stroke
+1276 3747 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 6)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1402 3958 M
+63 0 V
+stroke
+1276 3958 M
+[ [(Helvetica) 180.0 0.0 true true 0 ( 7)]
+] -60.0 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+646 3218 M
+[ [(Helvetica) 180.0 0.0 true true 0 (f3)]
+] -60.0 MCshow
+LTb
+LCb setrgbcolor
+3600 4697 M
+[ [(Helvetica) 180.0 0.0 true true 0 (WFG9)]
+] -60.0 MCshow
+1.000 UP
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+0.58 0.00 0.83 C 0.58 0.00 0.83 C 1583 3749 Pls
+3554 1987 Pls
+1440 3711 Pls
+1824 2831 Pls
+1924 2283 Pls
+2054 1878 Pls
+4268 3213 Pls
+4653 2873 Pls
+4770 2527 Pls
+3378 3454 Pls
+2792 3391 Pls
+3758 3182 Pls
+4238 2769 Pls
+4334 2598 Pls
+2264 3356 Pls
+4416 2453 Pls
+3732 2918 Pls
+4445 2309 Pls
+1747 3330 Pls
+3750 3447 Pls
+2874 3658 Pls
+3096 3202 Pls
+3848 2772 Pls
+3162 2817 Pls
+2609 3200 Pls
+3926 2652 Pls
+4392 2978 Pls
+4031 2553 Pls
+4115 2450 Pls
+4036 3157 Pls
+2185 3187 Pls
+2836 2792 Pls
+3220 2701 Pls
+2601 3601 Pls
+4165 2328 Pls
+4220 2176 Pls
+3380 3111 Pls
+1853 3175 Pls
+4477 2826 Pls
+3965 3341 Pls
+2545 2774 Pls
+3650 2661 Pls
+2348 3544 Pls
+2939 2700 Pls
+2868 3106 Pls
+3262 2608 Pls
+4388 3113 Pls
+4530 2740 Pls
+4630 2349 Pls
+2273 2761 Pls
+4140 3062 Pls
+3201 3597 Pls
+3789 2546 Pls
+3481 3530 Pls
+2010 2749 Pls
+2613 3081 Pls
+2051 3512 Pls
+3885 2458 Pls
+2689 2696 Pls
+3469 3017 Pls
+3018 2621 Pls
+2363 3091 Pls
+3297 2530 Pls
+3502 3275 Pls
+3296 2354 Pls
+3851 3091 Pls
+3947 2363 Pls
+4484 2977 Pls
+3169 3361 Pls
+2451 3711 Pls
+1815 3500 Pls
+2113 3086 Pls
+4012 2244 Pls
+2457 2690 Pls
+1790 3078 Pls
+3180 3062 Pls
+4025 2178 Pls
+3319 2289 Pls
+4091 3249 Pls
+2792 2628 Pls
+4003 2939 Pls
+4212 2988 Pls
+2219 2682 Pls
+1592 3498 Pls
+3063 2552 Pls
+2951 3023 Pls
+1913 2678 Pls
+3337 2229 Pls
+3631 3363 Pls
+4441 3095 Pls
+3086 3494 Pls
+2577 2629 Pls
+3540 2946 Pls
+3352 2174 Pls
+3105 2334 Pls
+4646 2665 Pls
+2861 2569 Pls
+4024 2119 Pls
+2679 3006 Pls
+3363 2121 Pls
+0.58 0.00 0.83 C 4761 2553 Pls
+1583 3749 Pls
+1440 3711 Pls
+1983 2328 Pls
+2054 1847 Pls
+3599 3384 Pls
+4016 3043 Pls
+2863 3304 Pls
+4218 2797 Pls
+2176 3260 Pls
+4293 2561 Pls
+4356 2373 Pls
+4378 2199 Pls
+3465 3006 Pls
+2994 3638 Pls
+3953 3370 Pls
+2926 3048 Pls
+1783 3096 Pls
+4229 3218 Pls
+3760 2788 Pls
+3898 2469 Pls
+3973 2348 Pls
+3090 2894 Pls
+2527 2971 Pls
+4396 3021 Pls
+4011 2232 Pls
+4024 2116 Pls
+3381 2788 Pls
+2137 2951 Pls
+2675 3569 Pls
+4488 2835 Pls
+1790 3411 Pls
+2754 2857 Pls
+3481 2677 Pls
+4553 2728 Pls
+3594 2420 Pls
+4585 2618 Pls
+1859 2875 Pls
+3674 2333 Pls
+3070 2766 Pls
+3344 3565 Pls
+3722 2247 Pls
+3687 3199 Pls
+4617 2529 Pls
+4434 3100 Pls
+3746 2154 Pls
+4630 2443 Pls
+3380 3275 Pls
+3756 2074 Pls
+4640 2361 Pls
+3203 2681 Pls
+2483 2806 Pls
+2402 3571 Pls
+2529 3703 Pls
+3669 3474 Pls
+2805 2740 Pls
+2217 2793 Pls
+4530 2961 Pls
+3349 2389 Pls
+3153 3236 Pls
+1952 2782 Pls
+3436 2323 Pls
+3490 2257 Pls
+4010 2774 Pls
+2967 2671 Pls
+3523 2184 Pls
+4069 3179 Pls
+3207 3446 Pls
+2570 2726 Pls
+4585 2870 Pls
+3785 3111 Pls
+1697 3303 Pls
+3535 2119 Pls
+2181 3556 Pls
+2898 3453 Pls
+4225 2999 Pls
+3815 3298 Pls
+3547 2059 Pls
+3109 2600 Pls
+2348 2721 Pls
+3492 3189 Pls
+4077 2698 Pls
+3789 3005 Pls
+3145 2369 Pls
+4638 2754 Pls
+2760 2662 Pls
+3235 2315 Pls
+2138 2715 Pls
+1588 3504 Pls
+1907 2708 Pls
+4541 3006 Pls
+3296 2261 Pls
+4344 2779 Pls
+2648 3419 Pls
+2969 3221 Pls
+2364 3671 Pls
+3267 3165 Pls
+3335 2203 Pls
+2712 3236 Pls
+4112 2639 Pls
+0.58 0.00 0.83 C 1580 3749 Pls
+1492 3628 Pls
+3767 2029 Pls
+1837 2700 Pls
+1929 2071 Pls
+4370 3161 Pls
+4695 2801 Pls
+3482 3420 Pls
+2126 1883 Pls
+4672 2379 Pls
+2847 3349 Pls
+3808 3127 Pls
+4019 2931 Pls
+2258 3311 Pls
+4753 2600 Pls
+1708 3283 Pls
+3833 3413 Pls
+2921 3650 Pls
+4199 2756 Pls
+3342 3106 Pls
+4295 2607 Pls
+2893 3135 Pls
+3326 2706 Pls
+2500 3144 Pls
+4382 2362 Pls
+4400 2256 Pls
+2126 3134 Pls
+4119 3162 Pls
+3386 2592 Pls
+1747 3117 Pls
+3007 2679 Pls
+2656 3565 Pls
+4052 3327 Pls
+3677 2964 Pls
+3436 2491 Pls
+3299 3575 Pls
+2670 3033 Pls
+4491 2959 Pls
+2401 3508 Pls
+3108 2589 Pls
+4040 2571 Pls
+2728 2661 Pls
+2552 3701 Pls
+3479 2408 Pls
+2372 3032 Pls
+4142 2451 Pls
+3171 2511 Pls
+2056 3022 Pls
+2472 2645 Pls
+3508 2332 Pls
+2850 2586 Pls
+4244 3001 Pls
+2039 3473 Pls
+4165 2359 Pls
+3067 2986 Pls
+3534 2194 Pls
+4564 2866 Pls
+3730 2878 Pls
+3168 3451 Pls
+2230 2633 Pls
+3323 3305 Pls
+1824 3001 Pls
+1806 3461 Pls
+3418 2964 Pls
+3225 2439 Pls
+4474 3065 Pls
+3546 2127 Pls
+3673 3365 Pls
+4208 2193 Pls
+4405 2791 Pls
+2945 2519 Pls
+2785 2949 Pls
+1997 2622 Pls
+3555 2060 Pls
+2618 2580 Pls
+3281 2371 Pls
+3086 3286 Pls
+3790 2736 Pls
+2485 2955 Pls
+4471 2656 Pls
+4614 2792 Pls
+2393 2571 Pls
+3004 2453 Pls
+2745 2518 Pls
+3313 2312 Pls
+2375 3680 Pls
+3506 2896 Pls
+4267 3130 Pls
+3943 2472 Pls
+4535 2991 Pls
+3097 2911 Pls
+4513 2579 Pls
+2098 2563 Pls
+2235 2945 Pls
+3354 2256 Pls
+3353 2169 Pls
+2855 3467 Pls
+3573 3250 Pls
+3082 2383 Pls
+4535 2484 Pls
+0.58 0.00 0.83 C 1584 3749 Pls
+4002 2077 Pls
+1441 3711 Pls
+1912 2685 Pls
+2016 2043 Pls
+3600 3495 Pls
+4274 3209 Pls
+4622 2917 Pls
+4750 2619 Pls
+2978 3376 Pls
+2229 1853 Pls
+2390 3333 Pls
+3839 3112 Pls
+1825 3304 Pls
+3290 3156 Pls
+4287 2823 Pls
+2924 3650 Pls
+4495 2549 Pls
+3507 2711 Pls
+2741 3159 Pls
+4531 2426 Pls
+4550 2302 Pls
+3902 3331 Pls
+3582 2584 Pls
+2262 3147 Pls
+1770 3130 Pls
+2602 3556 Pls
+3927 2964 Pls
+3166 2677 Pls
+3638 2476 Pls
+3314 3497 Pls
+3551 3068 Pls
+4196 2663 Pls
+2857 3029 Pls
+3679 2380 Pls
+3275 2580 Pls
+4393 3001 Pls
+3712 2184 Pls
+2549 3042 Pls
+2589 3697 Pls
+2873 2655 Pls
+3723 2102 Pls
+4057 3205 Pls
+4242 2573 Pls
+2325 3535 Pls
+3356 2495 Pls
+3456 3323 Pls
+4471 2873 Pls
+3671 2976 Pls
+2156 3033 Pls
+3009 2576 Pls
+4276 2493 Pls
+2067 3501 Pls
+2611 2639 Pls
+4314 2422 Pls
+3402 2415 Pls
+1889 3021 Pls
+3241 2985 Pls
+1611 3467 Pls
+4009 3346 Pls
+3927 2853 Pls
+4629 2684 Pls
+4346 2321 Pls
+4383 3121 Pls
+3953 2760 Pls
+4147 3097 Pls
+3115 2499 Pls
+3450 2345 Pls
+4354 2254 Pls
+4652 2606 Pls
+2369 2626 Pls
+3565 2028 Pls
+2771 2570 Pls
+2669 2957 Pls
+2138 2616 Pls
+4672 2540 Pls
+3730 3297 Pls
+3176 2432 Pls
+4683 2477 Pls
+4003 2643 Pls
+4695 2397 Pls
+2413 2962 Pls
+2407 3659 Pls
+2900 2503 Pls
+2554 2563 Pls
+3241 3329 Pls
+3719 2896 Pls
+3133 3477 Pls
+1936 2585 Pls
+4471 3000 Pls
+2968 2914 Pls
+3214 2371 Pls
+4060 2577 Pls
+3572 3242 Pls
+2208 2952 Pls
+3174 3603 Pls
+3070 3279 Pls
+3359 2277 Pls
+2760 3441 Pls
+3393 3553 Pls
+0.58 0.00 0.83 C 4722 2389 Pls
+1580 3749 Pls
+1437 3712 Pls
+1912 2351 Pls
+2770 1889 Pls
+3520 3372 Pls
+3911 3047 Pls
+2788 3299 Pls
+1941 2093 Pls
+2018 1892 Pls
+2104 3257 Pls
+4110 2814 Pls
+4200 2584 Pls
+4149 3277 Pls
+3140 3069 Pls
+4267 2412 Pls
+4299 2255 Pls
+2963 3643 Pls
+3466 2911 Pls
+2556 3063 Pls
+1789 3075 Pls
+4359 3152 Pls
+3686 2773 Pls
+4505 3037 Pls
+4613 2923 Pls
+4688 2807 Pls
+4733 2692 Pls
+3829 2500 Pls
+3068 2886 Pls
+3908 2388 Pls
+3736 3451 Pls
+2673 2914 Pls
+3956 2280 Pls
+2653 3562 Pls
+2268 2943 Pls
+4010 2120 Pls
+1704 3401 Pls
+3340 2756 Pls
+1889 2926 Pls
+4761 2583 Pls
+3344 3564 Pls
+3495 2644 Pls
+3032 2761 Pls
+3542 2454 Pls
+4364 2835 Pls
+3925 3251 Pls
+2416 2835 Pls
+3628 2373 Pls
+4448 2753 Pls
+3685 2293 Pls
+3294 3281 Pls
+3597 3204 Pls
+4480 2651 Pls
+2122 2826 Pls
+3747 2188 Pls
+2546 3701 Pls
+2754 2763 Pls
+3758 2111 Pls
+4531 2295 Pls
+2369 3565 Pls
+3228 2650 Pls
+1828 2814 Pls
+3666 3093 Pls
+2508 2749 Pls
+3910 3368 Pls
+3311 2424 Pls
+3194 3454 Pls
+2985 2668 Pls
+3403 2362 Pls
+4105 3034 Pls
+2269 2748 Pls
+3466 2299 Pls
+2878 3446 Pls
+2148 3550 Pls
+2035 2743 Pls
+3533 2221 Pls
+1861 3286 Pls
+3621 2039 Pls
+2754 2681 Pls
+3884 2936 Pls
+4239 3094 Pls
+3549 3469 Pls
+3931 2765 Pls
+3403 3196 Pls
+2922 3215 Pls
+3035 2601 Pls
+2375 3667 Pls
+2550 2679 Pls
+4412 2958 Pls
+1948 3539 Pls
+3120 2404 Pls
+3999 2709 Pls
+4375 2228 Pls
+4035 3195 Pls
+3215 2354 Pls
+1853 2706 Pls
+2819 2620 Pls
+3658 3311 Pls
+2592 3403 Pls
+3282 2301 Pls
+0.58 0.00 0.83 C 1582 3749 Pls
+2395 1863 Pls
+1439 3711 Pls
+3862 3406 Pls
+4523 3022 Pls
+4747 2628 Pls
+3077 3290 Pls
+1750 3177 Pls
+3955 2897 Pls
+4303 2542 Pls
+3296 3008 Pls
+4361 2357 Pls
+3048 3628 Pls
+1843 2922 Pls
+4325 2170 Pls
+3469 2819 Pls
+3794 2662 Pls
+1897 2735 Pls
+4126 3175 Pls
+3875 2518 Pls
+2602 3488 Pls
+1935 2582 Pls
+3926 2391 Pls
+3487 3451 Pls
+3960 2275 Pls
+1962 2449 Pls
+3978 2167 Pls
+1983 2327 Pls
+1998 2214 Pls
+4265 3039 Pls
+2248 3463 Pls
+2009 2106 Pls
+2017 2002 Pls
+2021 1898 Pls
+2692 3661 Pls
+3648 3247 Pls
+4544 2741 Pls
+4581 2628 Pls
+4625 2346 Pls
+1921 3445 Pls
+4197 3253 Pls
+4005 2080 Pls
+3506 2683 Pls
+3589 2554 Pls
+2881 3164 Pls
+3657 2349 Pls
+1619 3450 Pls
+3716 2149 Pls
+4280 2894 Pls
+3912 3143 Pls
+3425 3207 Pls
+3268 3423 Pls
+3066 2953 Pls
+2467 3635 Pls
+3690 3017 Pls
+3234 2796 Pls
+2807 3370 Pls
+3681 3377 Pls
+3621 2060 Pls
+2646 3147 Pls
+4317 3135 Pls
+4047 2830 Pls
+4336 2817 Pls
+2490 3357 Pls
+4592 2861 Pls
+3594 3497 Pls
+3301 3575 Pls
+3282 2647 Pls
+2277 3593 Pls
+4631 2768 Pls
+4383 3017 Pls
+3379 2408 Pls
+4002 3323 Pls
+2438 3134 Pls
+3993 3067 Pls
+4666 2642 Pls
+4093 2696 Pls
+2867 2935 Pls
+4378 2752 Pls
+2178 3351 Pls
+3756 2946 Pls
+3039 2775 Pls
+3415 2206 Pls
+1841 3347 Pls
+3729 3166 Pls
+2966 3472 Pls
+4685 2585 Pls
+4080 3012 Pls
+2096 3572 Pls
+3439 2086 Pls
+4723 2427 Pls
+2249 3124 Pls
+2348 3721 Pls
+3490 3130 Pls
+4128 2639 Pls
+4491 2361 Pls
+4578 2957 Pls
+3537 2992 Pls
+4385 3097 Pls
+4493 2313 Pls
+0.58 0.00 0.83 C 4754 2568 Pls
+1413 3746 Pls
+1440 3711 Pls
+1982 2326 Pls
+2063 1846 Pls
+3600 3385 Pls
+4019 3042 Pls
+2863 3304 Pls
+4222 2796 Pls
+4294 2558 Pls
+2176 3260 Pls
+4356 2369 Pls
+4378 2196 Pls
+3207 3069 Pls
+2992 3638 Pls
+3953 3369 Pls
+3558 2909 Pls
+1781 3096 Pls
+4230 3218 Pls
+3779 2765 Pls
+2777 2986 Pls
+3897 2466 Pls
+3967 2344 Pls
+4396 3021 Pls
+3162 2872 Pls
+4007 2225 Pls
+2372 2963 Pls
+4004 2113 Pls
+4490 2834 Pls
+2673 3570 Pls
+1981 2945 Pls
+3424 2747 Pls
+1789 3412 Pls
+2821 2849 Pls
+4555 2726 Pls
+3549 2638 Pls
+3590 2417 Pls
+4587 2616 Pls
+3666 2329 Pls
+2498 2847 Pls
+3113 2746 Pls
+3343 3565 Pls
+3708 2242 Pls
+3688 3197 Pls
+4626 2453 Pls
+4438 3096 Pls
+3726 2157 Pls
+2195 2840 Pls
+3381 3275 Pls
+4639 2372 Pls
+1869 2835 Pls
+3735 2076 Pls
+2400 3572 Pls
+3275 2642 Pls
+2839 2746 Pls
+2518 3705 Pls
+3671 3473 Pls
+4534 2958 Pls
+3342 2386 Pls
+3772 3087 Pls
+2575 2757 Pls
+3421 2318 Pls
+3477 2252 Pls
+2325 2757 Pls
+3031 2655 Pls
+4071 3179 Pls
+2082 2757 Pls
+3205 3446 Pls
+4024 2754 Pls
+4588 2867 Pls
+3502 2182 Pls
+1693 3303 Pls
+2180 3556 Pls
+4226 2998 Pls
+2897 3454 Pls
+3522 2106 Pls
+3815 3296 Pls
+3529 2032 Pls
+3178 3262 Pls
+2813 2665 Pls
+3491 3189 Pls
+2982 3214 Pls
+4081 2690 Pls
+3137 2365 Pls
+4639 2754 Pls
+2599 2682 Pls
+3220 2311 Pls
+1903 2712 Pls
+3843 3013 Pls
+1587 3504 Pls
+3275 2256 Pls
+4345 2778 Pls
+4544 3001 Pls
+4674 2647 Pls
+2649 3419 Pls
+3568 3097 Pls
+2354 3671 Pls
+3316 2199 Pls
+2712 3236 Pls
+4406 2716 Pls
+0.58 0.00 0.83 C 1579 3749 Pls
+1437 3712 Pls
+3524 1979 Pls
+1855 2840 Pls
+1978 2342 Pls
+2018 1903 Pls
+4248 3223 Pls
+4647 2876 Pls
+4754 2480 Pls
+3366 3446 Pls
+2774 3384 Pls
+3741 3175 Pls
+4217 2771 Pls
+4316 2595 Pls
+2239 3349 Pls
+3704 2908 Pls
+4378 2443 Pls
+1717 3324 Pls
+4409 2300 Pls
+3733 3452 Pls
+2869 3658 Pls
+3079 3194 Pls
+3821 2760 Pls
+3324 2888 Pls
+3970 2599 Pls
+2585 3193 Pls
+4377 2985 Pls
+2989 2833 Pls
+4069 2452 Pls
+2147 3180 Pls
+3493 2765 Pls
+4023 3152 Pls
+4186 2168 Pls
+2595 3597 Pls
+1810 3165 Pls
+4465 2830 Pls
+3189 2741 Pls
+3950 3340 Pls
+3679 2633 Pls
+2694 2812 Pls
+4692 2798 Pls
+4724 2720 Pls
+4743 2641 Pls
+2340 3540 Pls
+4372 3124 Pls
+4520 2741 Pls
+3412 3142 Pls
+3273 2654 Pls
+4587 2324 Pls
+3208 3595 Pls
+3814 2494 Pls
+2424 2796 Pls
+2925 2728 Pls
+4126 3059 Pls
+3466 3530 Pls
+3942 2353 Pls
+2754 3096 Pls
+2433 3091 Pls
+2030 3508 Pls
+2170 2784 Pls
+3962 2283 Pls
+1920 2773 Pls
+3838 3083 Pls
+3261 2393 Pls
+2194 3074 Pls
+3167 3357 Pls
+4472 2984 Pls
+2688 2722 Pls
+2456 3711 Pls
+3976 2216 Pls
+1793 3497 Pls
+3010 2655 Pls
+1948 3068 Pls
+3984 2150 Pls
+3496 3290 Pls
+4075 3248 Pls
+3285 2327 Pls
+3983 2928 Pls
+4201 2985 Pls
+2454 2718 Pls
+3097 3057 Pls
+4432 3096 Pls
+2802 2657 Pls
+3482 3059 Pls
+4584 2707 Pls
+3088 3493 Pls
+3304 2267 Pls
+2231 2713 Pls
+4526 2917 Pls
+3069 2375 Pls
+3615 3375 Pls
+1581 3510 Pls
+2030 2706 Pls
+2529 3018 Pls
+2316 3644 Pls
+4613 2652 Pls
+3319 2212 Pls
+4442 2260 Pls
+2577 2660 Pls
+2800 3498 Pls
+0.58 0.00 0.83 C 1441 3711 Pls
+1584 3749 Pls
+4756 2425 Pls
+1979 2361 Pls
+2132 1849 Pls
+3551 3381 Pls
+3953 3052 Pls
+2824 3305 Pls
+4153 2816 Pls
+2147 3263 Pls
+4229 2571 Pls
+4295 2391 Pls
+3170 3076 Pls
+4322 2226 Pls
+4164 3271 Pls
+2974 3641 Pls
+3507 2919 Pls
+1785 3095 Pls
+3727 2781 Pls
+4356 3157 Pls
+2758 2988 Pls
+3841 2487 Pls
+3920 2369 Pls
+3964 2256 Pls
+3127 2877 Pls
+2365 2966 Pls
+3980 2147 Pls
+4486 3057 Pls
+2663 3567 Pls
+3764 3442 Pls
+1988 2948 Pls
+3383 2763 Pls
+1756 3409 Pls
+4582 2964 Pls
+4657 2867 Pls
+4713 2761 Pls
+4742 2668 Pls
+2798 2856 Pls
+3539 2441 Pls
+3337 3567 Pls
+3626 2355 Pls
+2487 2853 Pls
+4516 2644 Pls
+3680 2272 Pls
+3087 2756 Pls
+3948 3252 Pls
+3633 3207 Pls
+3709 2179 Pls
+3330 3282 Pls
+3742 2062 Pls
+2191 2846 Pls
+1870 2842 Pls
+4551 2560 Pls
+4567 2478 Pls
+2536 3703 Pls
+4219 3020 Pls
+3249 2660 Pls
+2363 3567 Pls
+2823 2756 Pls
+4582 2404 Pls
+4588 2323 Pls
+3297 2411 Pls
+3709 3096 Pls
+3388 2345 Pls
+2570 2766 Pls
+3449 2279 Pls
+4754 2603 Pls
+3929 3364 Pls
+3196 3453 Pls
+2330 2767 Pls
+3489 2207 Pls
+3020 2666 Pls
+4197 2134 Pls
+2081 2766 Pls
+3963 2764 Pls
+2884 3452 Pls
+3529 2114 Pls
+3552 3485 Pls
+2146 3553 Pls
+1700 3296 Pls
+3536 2052 Pls
+4302 2799 Pls
+4395 2945 Pls
+3441 3198 Pls
+3092 2392 Pls
+2804 2678 Pls
+2950 3219 Pls
+3186 2339 Pls
+2597 2694 Pls
+1903 2725 Pls
+3255 2282 Pls
+3783 3024 Pls
+4506 2850 Pls
+4009 2702 Pls
+2369 3667 Pls
+1950 3542 Pls
+2625 3414 Pls
+1585 3512 Pls
+4058 3201 Pls
+3530 3100 Pls
+0.58 0.00 0.83 C 4853 2561 Pls
+1539 3704 Pls
+1682 3742 Pls
+2082 2320 Pls
+3226 1923 Pls
+3700 3378 Pls
+2116 1994 Pls
+4119 3036 Pls
+2965 3298 Pls
+4322 2790 Pls
+2278 3253 Pls
+4436 2590 Pls
+3568 2999 Pls
+4500 2414 Pls
+4526 2254 Pls
+3094 3631 Pls
+2526 1859 Pls
+4052 3363 Pls
+3030 3042 Pls
+1881 3089 Pls
+4329 3212 Pls
+3865 2781 Pls
+4042 2594 Pls
+3194 2888 Pls
+4495 3016 Pls
+2632 2964 Pls
+4147 2430 Pls
+3480 2782 Pls
+2120 1886 Pls
+2239 2945 Pls
+2775 3563 Pls
+4589 2858 Pls
+4182 2322 Pls
+4214 2221 Pls
+1888 3405 Pls
+3704 2636 Pls
+2857 2850 Pls
+4656 2754 Pls
+1957 2869 Pls
+3170 2760 Pls
+4691 2646 Pls
+3761 2538 Pls
+4127 2117 Pls
+3444 3558 Pls
+3788 3193 Pls
+4537 3090 Pls
+3411 2663 Pls
+3482 3268 Pls
+3832 2455 Pls
+4724 2561 Pls
+2582 2800 Pls
+4741 2477 Pls
+2500 3564 Pls
+4753 2401 Pls
+2626 3697 Pls
+3770 3466 Pls
+2909 2734 Pls
+3864 2376 Pls
+2305 2787 Pls
+3469 2579 Pls
+4723 2307 Pls
+4631 2967 Pls
+3161 2665 Pls
+2032 2775 Pls
+3254 3230 Pls
+3889 2302 Pls
+3910 3015 Pls
+3540 2510 Pls
+3907 2234 Pls
+4169 3173 Pls
+2674 2721 Pls
+3307 3439 Pls
+1794 3296 Pls
+3919 2169 Pls
+2280 3549 Pls
+2998 3448 Pls
+4326 2992 Pls
+3618 2449 Pls
+4688 2877 Pls
+3915 3291 Pls
+3233 2596 Pls
+3926 2107 Pls
+2935 2657 Pls
+4092 2920 Pls
+2446 2715 Pls
+3592 3182 Pls
+3663 2386 Pls
+4733 2777 Pls
+2230 2709 Pls
+1687 3497 Pls
+2013 2700 Pls
+2734 2655 Pls
+4144 2804 Pls
+2756 3411 Pls
+3293 2532 Pls
+3038 2598 Pls
+3702 2318 Pls
+3066 3214 Pls
+2460 3664 Pls
+3370 3158 Pls
+0.58 0.00 0.83 C 1440 3711 Pls
+1583 3749 Pls
+3399 1965 Pls
+1808 2888 Pls
+1912 2376 Pls
+4276 3234 Pls
+2030 1943 Pls
+4671 2845 Pls
+4785 2574 Pls
+3396 3473 Pls
+3846 2986 Pls
+4248 2757 Pls
+2830 3409 Pls
+4451 2417 Pls
+4482 2266 Pls
+3824 3346 Pls
+2321 3372 Pls
+2886 3656 Pls
+1739 3342 Pls
+3829 2784 Pls
+3126 3224 Pls
+3388 2909 Pls
+4074 2565 Pls
+4019 3196 Pls
+4129 2439 Pls
+3040 2860 Pls
+4408 2969 Pls
+2645 3225 Pls
+3489 2786 Pls
+4180 2288 Pls
+4201 2186 Pls
+3762 2637 Pls
+2608 3606 Pls
+2231 3214 Pls
+2706 2837 Pls
+3966 3365 Pls
+3505 3172 Pls
+4492 2841 Pls
+3134 2752 Pls
+1812 3197 Pls
+4133 3084 Pls
+4537 2740 Pls
+3816 2551 Pls
+4658 2501 Pls
+2422 2821 Pls
+2361 3552 Pls
+4406 3111 Pls
+3569 3506 Pls
+3488 2681 Pls
+4672 2421 Pls
+2867 2751 Pls
+3880 2468 Pls
+2142 2808 Pls
+2800 3120 Pls
+3155 1968 Pls
+3948 2334 Pls
+3215 3381 Pls
+3162 2664 Pls
+1893 2798 Pls
+3186 3601 Pls
+2120 1881 Pls
+2615 2747 Pls
+2505 3128 Pls
+3547 2602 Pls
+3987 2205 Pls
+3597 3080 Pls
+4494 2987 Pls
+3997 2128 Pls
+2058 3519 Pls
+4212 3000 Pls
+2447 3712 Pls
+4106 3257 Pls
+3152 3083 Pls
+4007 2945 Pls
+3836 3173 Pls
+2393 2737 Pls
+3620 2520 Pls
+3206 2595 Pls
+2177 3117 Pls
+2956 2661 Pls
+3491 3326 Pls
+2737 2682 Pls
+3733 3454 Pls
+1660 3488 Pls
+2120 2730 Pls
+3751 2398 Pls
+4458 3083 Pls
+1912 2724 Pls
+1976 3115 Pls
+4266 2935 Pls
+2857 3043 Pls
+4573 2866 Pls
+2948 2401 Pls
+3085 3503 Pls
+3382 3555 Pls
+4072 2811 Pls
+3819 2272 Pls
+2623 3059 Pls
+3654 3257 Pls
+3206 3020 Pls
+0.58 0.00 0.83 C 1582 3749 Pls
+3357 1960 Pls
+1439 3711 Pls
+1808 2903 Pls
+1916 2409 Pls
+4251 3222 Pls
+4652 2872 Pls
+2016 2015 Pls
+4765 2566 Pls
+3369 3473 Pls
+3801 2989 Pls
+4217 2765 Pls
+2809 3411 Pls
+4316 2587 Pls
+4413 2438 Pls
+4441 2287 Pls
+2309 3376 Pls
+3789 3345 Pls
+2097 1881 Pls
+1831 3352 Pls
+2863 3659 Pls
+3790 2788 Pls
+3335 2917 Pls
+3877 2658 Pls
+2933 3214 Pls
+3984 2551 Pls
+2983 2873 Pls
+4380 2982 Pls
+4093 2432 Pls
+3984 3197 Pls
+3443 2792 Pls
+2579 3225 Pls
+4141 2309 Pls
+4173 2162 Pls
+3448 3193 Pls
+4470 2825 Pls
+2593 3608 Pls
+2207 3218 Pls
+2671 2853 Pls
+3120 2772 Pls
+3530 2690 Pls
+3929 3379 Pls
+1738 3208 Pls
+4097 3086 Pls
+3619 2606 Pls
+4376 3122 Pls
+4524 2735 Pls
+2387 2837 Pls
+4611 2605 Pls
+3544 3512 Pls
+3730 2533 Pls
+2351 3555 Pls
+4631 2521 Pls
+2851 2769 Pls
+3842 2446 Pls
+4649 2363 Pls
+2117 2824 Pls
+3274 2697 Pls
+3184 3365 Pls
+2734 3125 Pls
+3908 2341 Pls
+2096 3523 Pls
+3172 3603 Pls
+1603 3478 Pls
+3954 2227 Pls
+1871 2811 Pls
+2605 2759 Pls
+3545 3098 Pls
+4477 2981 Pls
+3043 2680 Pls
+3964 2162 Pls
+2435 3131 Pls
+4178 3005 Pls
+3402 2604 Pls
+3111 2452 Pls
+3971 2951 Pls
+2434 3713 Pls
+2381 2753 Pls
+3102 3089 Pls
+4070 3265 Pls
+2099 3128 Pls
+3803 3179 Pls
+2828 2688 Pls
+2166 2748 Pls
+3710 3457 Pls
+3644 2454 Pls
+4440 3089 Pls
+3465 3334 Pls
+1886 3118 Pls
+1945 2745 Pls
+3910 2096 Pls
+3136 2390 Pls
+4531 2913 Pls
+3708 2377 Pls
+2630 2690 Pls
+4238 2941 Pls
+3066 3495 Pls
+2924 2436 Pls
+3010 3348 Pls
+2801 3050 Pls
+0.58 0.00 0.83 C 1582 3749 Pls
+1786 2918 Pls
+2307 1861 Pls
+4485 3075 Pls
+4747 2651 Pls
+3478 3500 Pls
+3906 2942 Pls
+4304 2564 Pls
+2913 3426 Pls
+4364 2380 Pls
+3933 3334 Pls
+3374 2872 Pls
+3800 2693 Pls
+4313 2195 Pls
+2423 3390 Pls
+3858 2536 Pls
+1844 2680 Pls
+2848 3662 Pls
+1733 3355 Pls
+4151 3155 Pls
+3337 2688 Pls
+3867 2377 Pls
+1895 2533 Pls
+3234 3281 Pls
+4262 2997 Pls
+1910 2283 Pls
+1922 2171 Pls
+1937 1950 Pls
+3944 2209 Pls
+2917 3216 Pls
+4540 2762 Pls
+3541 3168 Pls
+4628 2366 Pls
+2584 3216 Pls
+2595 3601 Pls
+2267 3240 Pls
+4788 2492 Pls
+3687 3322 Pls
+4090 3309 Pls
+1836 3218 Pls
+3084 3115 Pls
+3589 2401 Pls
+3195 3540 Pls
+4236 3226 Pls
+3056 2936 Pls
+3673 2178 Pls
+3773 2067 Pls
+4291 2881 Pls
+2191 3532 Pls
+3260 2576 Pls
+3670 3475 Pls
+4027 2875 Pls
+2069 1874 Pls
+3960 3124 Pls
+3656 3070 Pls
+1593 3514 Pls
+2484 3708 Pls
+2836 2914 Pls
+4340 3116 Pls
+3410 2249 Pls
+2622 3117 Pls
+4612 2745 Pls
+2203 3140 Pls
+3353 3403 Pls
+3470 2182 Pls
+3080 2850 Pls
+4094 2724 Pls
+3069 2558 Pls
+4372 2817 Pls
+1811 3134 Pls
+3473 3054 Pls
+2632 2905 Pls
+4563 2979 Pls
+3451 2057 Pls
+3770 3190 Pls
+3524 3318 Pls
+4398 3042 Pls
+3734 2991 Pls
+3607 2843 Pls
+4520 2282 Pls
+4135 2154 Pls
+2286 3644 Pls
+3049 3340 Pls
+4110 3011 Pls
+4632 2645 Pls
+3786 3435 Pls
+4413 2763 Pls
+3047 3502 Pls
+2466 2891 Pls
+3268 2207 Pls
+2801 3345 Pls
+2315 3715 Pls
+1534 3608 Pls
+2337 3083 Pls
+2944 2516 Pls
+2651 3335 Pls
+4144 2859 Pls
+4667 2744 Pls
+2834 2837 Pls
+3320 3093 Pls
+0.58 0.00 0.83 C 1441 3710 Pls
+1582 3749 Pls
+2534 1873 Pls
+3856 3408 Pls
+4524 3022 Pls
+4751 2609 Pls
+3075 3294 Pls
+1758 3155 Pls
+3955 2902 Pls
+4311 2537 Pls
+1857 2878 Pls
+4374 2351 Pls
+3041 3629 Pls
+1915 2665 Pls
+1955 2484 Pls
+1983 2320 Pls
+2003 2166 Pls
+2015 2019 Pls
+2021 1879 Pls
+4228 2177 Pls
+4122 3178 Pls
+3461 3159 Pls
+2588 3479 Pls
+3551 2965 Pls
+3482 3454 Pls
+3805 2629 Pls
+3845 2479 Pls
+3883 2337 Pls
+2225 3454 Pls
+4265 3041 Pls
+3904 2233 Pls
+2691 3654 Pls
+4600 2388 Pls
+3921 2104 Pls
+3147 3131 Pls
+1887 3436 Pls
+3478 2750 Pls
+4196 3255 Pls
+3533 2583 Pls
+3669 3311 Pls
+2862 3134 Pls
+3581 2433 Pls
+3169 2914 Pls
+3624 2294 Pls
+4300 2902 Pls
+3656 2220 Pls
+3912 3146 Pls
+4595 2795 Pls
+3678 2148 Pls
+1660 3373 Pls
+2801 3355 Pls
+3263 3426 Pls
+2463 3628 Pls
+3687 2056 Pls
+3241 2721 Pls
+4045 2827 Pls
+4316 3139 Pls
+2624 3117 Pls
+3605 3494 Pls
+3706 3126 Pls
+4343 2822 Pls
+2539 3335 Pls
+3315 2554 Pls
+2950 2893 Pls
+4650 2665 Pls
+4513 2283 Pls
+3295 3576 Pls
+3372 2405 Pls
+2269 3586 Pls
+4689 2399 Pls
+3746 2930 Pls
+3422 2264 Pls
+2401 3106 Pls
+3459 2208 Pls
+4088 2759 Pls
+3993 3071 Pls
+4003 3327 Pls
+3487 2149 Pls
+3050 2701 Pls
+4380 3002 Pls
+2337 3322 Pls
+1674 3513 Pls
+3500 2088 Pls
+2965 3459 Pls
+2363 3719 Pls
+4093 3017 Pls
+3507 2033 Pls
+4599 2908 Pls
+3505 3291 Pls
+2198 3095 Pls
+2763 2878 Pls
+3339 3073 Pls
+3132 2535 Pls
+4397 2771 Pls
+3799 2866 Pls
+1986 3085 Pls
+2902 3278 Pls
+3198 2382 Pls
+1796 3077 Pls
+4425 2919 Pls
+0.58 0.00 0.83 C 2543 1872 Pls
+1581 3749 Pls
+1438 3711 Pls
+3905 3411 Pls
+4530 3015 Pls
+4747 2619 Pls
+3112 3293 Pls
+1759 3152 Pls
+3961 2893 Pls
+4307 2535 Pls
+1857 2872 Pls
+4365 2349 Pls
+1872 2631 Pls
+3032 3631 Pls
+1909 2431 Pls
+1935 2236 Pls
+2011 2077 Pls
+2018 1935 Pls
+4185 2166 Pls
+4138 3167 Pls
+2613 3479 Pls
+3469 3153 Pls
+3503 3465 Pls
+3543 2946 Pls
+3732 2710 Pls
+3770 2569 Pls
+2247 3454 Pls
+3826 2404 Pls
+4273 3033 Pls
+4589 2367 Pls
+3856 2252 Pls
+2685 3656 Pls
+3871 2156 Pls
+1897 3435 Pls
+3148 3124 Pls
+3424 2713 Pls
+4190 3282 Pls
+3704 3305 Pls
+3487 2526 Pls
+2858 3131 Pls
+3106 2890 Pls
+4372 2948 Pls
+4578 2789 Pls
+3554 2446 Pls
+3727 2064 Pls
+3921 3142 Pls
+2827 3354 Pls
+3280 3434 Pls
+1611 3463 Pls
+2459 3628 Pls
+3184 2684 Pls
+4301 3160 Pls
+4621 2713 Pls
+3655 3478 Pls
+2619 3115 Pls
+3480 2345 Pls
+2493 3343 Pls
+3708 3116 Pls
+4337 2810 Pls
+3235 2495 Pls
+3508 2192 Pls
+4651 2643 Pls
+4058 2831 Pls
+2884 2876 Pls
+3285 3579 Pls
+3520 2131 Pls
+1774 3341 Pls
+2398 3101 Pls
+4696 2399 Pls
+2264 3591 Pls
+4467 2265 Pls
+3528 2070 Pls
+4078 2750 Pls
+4002 3064 Pls
+3316 3063 Pls
+2024 1878 Pls
+2982 2664 Pls
+4109 3009 Pls
+3265 2431 Pls
+3528 3288 Pls
+4013 3317 Pls
+4385 3067 Pls
+4597 2891 Pls
+2663 2856 Pls
+2366 3719 Pls
+2200 3091 Pls
+3774 2930 Pls
+3297 2318 Pls
+2963 3458 Pls
+4385 2754 Pls
+3030 2477 Pls
+2002 3082 Pls
+4116 2690 Pls
+2939 3274 Pls
+3328 2267 Pls
+2083 3578 Pls
+2698 3278 Pls
+4635 2824 Pls
+1802 3074 Pls
+3337 2148 Pls
+0.58 0.00 0.83 C 3484 1974 Pls
+1445 3711 Pls
+1588 3749 Pls
+1832 2859 Pls
+1932 2330 Pls
+2038 1896 Pls
+4258 3217 Pls
+4653 2869 Pls
+4767 2576 Pls
+3372 3458 Pls
+2789 3397 Pls
+3753 3188 Pls
+4225 2764 Pls
+4420 2456 Pls
+4452 2304 Pls
+2267 3361 Pls
+3704 2913 Pls
+1762 3336 Pls
+3740 3449 Pls
+2865 3659 Pls
+3091 3208 Pls
+3821 2763 Pls
+3119 2843 Pls
+4044 2576 Pls
+2601 3208 Pls
+4094 2465 Pls
+4386 2978 Pls
+3482 2770 Pls
+4154 2324 Pls
+4028 3154 Pls
+4203 2171 Pls
+2787 2818 Pls
+2178 3195 Pls
+3172 2725 Pls
+2591 3604 Pls
+3736 2629 Pls
+4473 2822 Pls
+1769 3179 Pls
+3959 3338 Pls
+3372 3126 Pls
+2487 2800 Pls
+3787 2539 Pls
+2890 2723 Pls
+2343 3547 Pls
+4382 3117 Pls
+2201 2786 Pls
+2859 3116 Pls
+4640 2356 Pls
+3215 2631 Pls
+1920 2774 Pls
+3850 2464 Pls
+4130 3059 Pls
+3191 3599 Pls
+3916 2371 Pls
+2635 2719 Pls
+3474 3531 Pls
+2449 3105 Pls
+2055 3515 Pls
+2972 2644 Pls
+3839 3089 Pls
+3982 2235 Pls
+3515 2598 Pls
+3498 3278 Pls
+4482 2976 Pls
+3224 2388 Pls
+3995 2166 Pls
+2398 2712 Pls
+1596 3488 Pls
+2437 3713 Pls
+3456 3037 Pls
+2115 3095 Pls
+3158 3365 Pls
+3985 2933 Pls
+3176 3074 Pls
+2141 2704 Pls
+4085 3246 Pls
+4206 2984 Pls
+2750 2649 Pls
+1893 3085 Pls
+1911 2695 Pls
+4445 3085 Pls
+4570 2807 Pls
+3167 1931 Pls
+2617 3037 Pls
+2525 2650 Pls
+3623 3366 Pls
+3078 3496 Pls
+3932 2100 Pls
+4668 2662 Pls
+3731 2388 Pls
+2821 2589 Pls
+4442 2718 Pls
+2319 2646 Pls
+2299 3649 Pls
+2966 2358 Pls
+4692 2609 Pls
+3294 3013 Pls
+3523 2971 Pls
+3324 3304 Pls
+2089 2639 Pls
+0.58 0.00 0.83 C 2651 1882 Pls
+1440 3711 Pls
+1581 3749 Pls
+3848 3411 Pls
+4512 3032 Pls
+4744 2644 Pls
+3074 3296 Pls
+1768 3132 Pls
+3952 2908 Pls
+1872 2832 Pls
+4307 2555 Pls
+1933 2594 Pls
+4367 2373 Pls
+1974 2386 Pls
+4430 2209 Pls
+2001 2194 Pls
+2017 2015 Pls
+3038 3630 Pls
+2044 1848 Pls
+3442 3148 Pls
+4115 3183 Pls
+3866 2704 Pls
+2577 3469 Pls
+3908 2549 Pls
+3983 2393 Pls
+4064 2215 Pls
+3477 3455 Pls
+4102 2106 Pls
+3460 2900 Pls
+2204 3444 Pls
+4256 3048 Pls
+2693 3647 Pls
+3080 3117 Pls
+1852 3426 Pls
+4539 2753 Pls
+3547 2687 Pls
+4578 2640 Pls
+3615 2498 Pls
+3772 2283 Pls
+4710 2372 Pls
+4188 3257 Pls
+3658 3303 Pls
+3822 2123 Pls
+3188 2867 Pls
+2801 3103 Pls
+2786 3338 Pls
+4276 2905 Pls
+3904 3151 Pls
+3299 2654 Pls
+3667 3091 Pls
+2460 3622 Pls
+3260 3428 Pls
+4769 2566 Pls
+3519 2406 Pls
+3533 2311 Pls
+3757 2028 Pls
+2460 3333 Pls
+2558 3088 Pls
+1677 3342 Pls
+3600 3495 Pls
+4309 3141 Pls
+2962 2845 Pls
+4333 2827 Pls
+4584 2874 Pls
+3529 2242 Pls
+3292 3577 Pls
+2262 3580 Pls
+3291 2455 Pls
+4074 2859 Pls
+2342 3075 Pls
+3544 2180 Pls
+1594 3496 Pls
+4536 2539 Pls
+4375 3025 Pls
+3990 3329 Pls
+4623 2798 Pls
+3555 2122 Pls
+3065 2629 Pls
+3561 2065 Pls
+2387 3717 Pls
+3987 3078 Pls
+2967 3449 Pls
+3737 3016 Pls
+3319 2394 Pls
+4554 2482 Pls
+2140 3065 Pls
+3486 3286 Pls
+2768 2830 Pls
+4104 2716 Pls
+3254 3063 Pls
+3338 2285 Pls
+4564 2426 Pls
+1942 3056 Pls
+2894 3256 Pls
+4572 2373 Pls
+4077 3026 Pls
+2291 3293 Pls
+4577 2321 Pls
+3242 3242 Pls
+4571 2961 Pls
+0.58 0.00 0.83 C 1579 3749 Pls
+1437 3712 Pls
+4775 2496 Pls
+1978 2338 Pls
+3140 1931 Pls
+3582 3384 Pls
+2014 2008 Pls
+3995 3046 Pls
+2848 3305 Pls
+4197 2803 Pls
+2165 3261 Pls
+4309 2603 Pls
+3192 3071 Pls
+4375 2431 Pls
+4404 2273 Pls
+3943 3373 Pls
+2984 3639 Pls
+3539 2913 Pls
+1779 3096 Pls
+4213 3243 Pls
+3760 2770 Pls
+2020 1878 Pls
+2768 2987 Pls
+3918 2611 Pls
+3147 2875 Pls
+4379 3019 Pls
+2367 2964 Pls
+4023 2446 Pls
+2669 3569 Pls
+1980 2946 Pls
+4159 2122 Pls
+3408 2752 Pls
+4468 2865 Pls
+1771 3411 Pls
+2809 2852 Pls
+3596 2630 Pls
+4433 3098 Pls
+4533 2764 Pls
+2492 2850 Pls
+3338 3566 Pls
+3104 2750 Pls
+3730 2493 Pls
+4568 2659 Pls
+3667 3201 Pls
+2190 2842 Pls
+3879 2334 Pls
+3363 3277 Pls
+1866 2838 Pls
+4601 2575 Pls
+3323 2642 Pls
+3900 2253 Pls
+3651 3479 Pls
+2397 3571 Pls
+4618 2493 Pls
+4629 2350 Pls
+2833 2750 Pls
+2528 3703 Pls
+3913 2178 Pls
+4515 3028 Pls
+3921 2106 Pls
+3747 3090 Pls
+2574 2760 Pls
+3482 2534 Pls
+3079 2658 Pls
+4064 3181 Pls
+3643 2404 Pls
+2328 2761 Pls
+3200 3449 Pls
+2079 2760 Pls
+4574 2968 Pls
+3800 3302 Pls
+2176 3556 Pls
+2890 3454 Pls
+4205 3003 Pls
+1693 3301 Pls
+3965 2928 Pls
+3665 2336 Pls
+2856 2671 Pls
+3264 2560 Pls
+3161 3264 Pls
+3473 3192 Pls
+3699 2273 Pls
+2969 3216 Pls
+2639 2689 Pls
+3431 2459 Pls
+4620 2914 Pls
+1900 2717 Pls
+3714 2215 Pls
+3064 2586 Pls
+1583 3508 Pls
+2643 3418 Pls
+3731 2160 Pls
+4656 2863 Pls
+2361 3672 Pls
+3553 3098 Pls
+3743 2101 Pls
+2446 2681 Pls
+2699 3237 Pls
+3458 2401 Pls
+4685 2813 Pls
+0.58 0.00 0.83 C 1640 3341 Pls
+4408 2201 Pls
+1582 3749 Pls
+1934 2260 Pls
+2836 1934 Pls
+3658 3477 Pls
+4197 3253 Pls
+4519 3026 Pls
+4695 2797 Pls
+2023 1895 Pls
+4768 2551 Pls
+3138 3164 Pls
+3665 2979 Pls
+3054 3601 Pls
+2564 3119 Pls
+3828 2789 Pls
+2013 3094 Pls
+3185 2938 Pls
+3934 2625 Pls
+3997 2489 Pls
+3414 2791 Pls
+2749 2937 Pls
+3892 3220 Pls
+2240 2938 Pls
+4047 2356 Pls
+2698 3566 Pls
+4072 2220 Pls
+4281 2951 Pls
+3373 3390 Pls
+1847 2937 Pls
+3549 2651 Pls
+2891 2820 Pls
+4512 2721 Pls
+3642 2542 Pls
+2527 2827 Pls
+3084 2724 Pls
+3991 2111 Pls
+3887 3381 Pls
+4560 2619 Pls
+2389 3539 Pls
+1889 2806 Pls
+4608 2520 Pls
+3691 2449 Pls
+3374 3532 Pls
+3275 2632 Pls
+4016 3003 Pls
+2841 3337 Pls
+4628 2435 Pls
+2749 2719 Pls
+2539 3702 Pls
+3711 2343 Pls
+4640 2355 Pls
+3663 3206 Pls
+1712 3206 Pls
+3383 2547 Pls
+4321 3091 Pls
+2135 3522 Pls
+4284 2824 Pls
+3762 2180 Pls
+2965 2629 Pls
+2332 2723 Pls
+1590 3510 Pls
+3448 2452 Pls
+3775 2077 Pls
+4058 3185 Pls
+3406 3115 Pls
+1948 2700 Pls
+3201 3322 Pls
+4331 2750 Pls
+4298 3189 Pls
+4576 2842 Pls
+4070 2921 Pls
+3080 2553 Pls
+2936 3465 Pls
+3443 3268 Pls
+4097 2806 Pls
+2732 2617 Pls
+3519 2326 Pls
+2376 3651 Pls
+3568 2253 Pls
+4028 3297 Pls
+3207 2485 Pls
+4608 2768 Pls
+2640 3338 Pls
+2410 2639 Pls
+3761 3124 Pls
+3570 3359 Pls
+2932 3255 Pls
+4198 2648 Pls
+2853 3661 Pls
+2206 2627 Pls
+4388 2993 Pls
+3334 2378 Pls
+3594 2150 Pls
+2987 3091 Pls
+3596 2087 Pls
+3870 2967 Pls
+4420 2621 Pls
+3180 3447 Pls
+4646 2680 Pls
+0.58 0.00 0.83 C 1580 3749 Pls
+1438 3711 Pls
+3704 2016 Pls
+1866 2608 Pls
+2014 2041 Pls
+3689 3466 Pls
+4366 3147 Pls
+4682 2818 Pls
+4769 2572 Pls
+3022 3361 Pls
+3890 3040 Pls
+2399 3315 Pls
+1794 3285 Pls
+2180 1887 Pls
+4313 2725 Pls
+3329 3127 Pls
+2942 3646 Pls
+4479 2431 Pls
+4504 2288 Pls
+2765 3132 Pls
+3888 2838 Pls
+3450 2959 Pls
+3985 3279 Pls
+2260 3119 Pls
+1859 3101 Pls
+2628 3553 Pls
+3981 2713 Pls
+3023 3003 Pls
+4153 2557 Pls
+3369 3491 Pls
+3303 2633 Pls
+4195 2459 Pls
+4461 2913 Pls
+2555 3006 Pls
+4222 2367 Pls
+3364 2527 Pls
+4127 3147 Pls
+4250 2281 Pls
+2340 3529 Pls
+2590 3696 Pls
+3524 3303 Pls
+4261 2190 Pls
+4526 2781 Pls
+2236 2992 Pls
+3019 2606 Pls
+1942 2983 Pls
+2071 3493 Pls
+4078 3312 Pls
+3406 2438 Pls
+3628 2885 Pls
+2763 2917 Pls
+4653 2567 Pls
+4211 3033 Pls
+4664 2491 Pls
+3113 2522 Pls
+1618 3469 Pls
+3442 2362 Pls
+4678 2419 Pls
+2757 2588 Pls
+4465 3038 Pls
+3927 2594 Pls
+3800 3244 Pls
+2454 2912 Pls
+3175 2451 Pls
+3951 2518 Pls
+3463 2291 Pls
+3650 3123 Pls
+3994 2443 Pls
+3176 3472 Pls
+4032 2994 Pls
+3306 3305 Pls
+2403 3646 Pls
+3686 2808 Pls
+2876 2520 Pls
+2530 2575 Pls
+2193 2904 Pls
+3491 2160 Pls
+3841 3413 Pls
+4023 2382 Pls
+4277 2959 Pls
+1873 2900 Pls
+3231 2377 Pls
+2788 3431 Pls
+4535 2931 Pls
+3549 3415 Pls
+3502 2089 Pls
+3096 2880 Pls
+3116 3265 Pls
+4070 2283 Pls
+4197 3204 Pls
+3197 3598 Pls
+3474 3531 Pls
+3507 2034 Pls
+2974 2455 Pls
+2862 3289 Pls
+2251 2563 Pls
+2675 2517 Pls
+3432 2864 Pls
+4080 2211 Pls
+3725 2744 Pls
+0.58 0.00 0.83 C 1583 3749 Pls
+2830 1898 Pls
+1439 3711 Pls
+3833 3417 Pls
+4499 3045 Pls
+4744 2654 Pls
+1785 3090 Pls
+1868 2725 Pls
+1925 2428 Pls
+2001 2193 Pls
+2019 1955 Pls
+3159 3512 Pls
+4015 2898 Pls
+4320 2572 Pls
+4377 2392 Pls
+4355 2219 Pls
+3462 3107 Pls
+2697 3464 Pls
+3891 2604 Pls
+4106 3194 Pls
+3957 2475 Pls
+2291 3435 Pls
+3470 2793 Pls
+3524 3375 Pls
+3998 2356 Pls
+2748 3676 Pls
+3052 3060 Pls
+4023 2247 Pls
+1917 3415 Pls
+4039 2136 Pls
+4248 3063 Pls
+4538 2770 Pls
+3583 2547 Pls
+3419 3546 Pls
+4658 2367 Pls
+2747 3039 Pls
+3669 2456 Pls
+3176 2757 Pls
+2972 3333 Pls
+4184 3262 Pls
+3700 3038 Pls
+3720 2363 Pls
+2392 1898 Pls
+2046 1879 Pls
+3683 3257 Pls
+1677 3341 Pls
+3763 2274 Pls
+3293 2672 Pls
+2516 3627 Pls
+2479 3022 Pls
+2718 3297 Pls
+4280 2920 Pls
+3792 2173 Pls
+3337 2516 Pls
+3798 2101 Pls
+2923 2735 Pls
+3905 3165 Pls
+3193 3252 Pls
+3430 2448 Pls
+2221 3009 Pls
+3781 2952 Pls
+2309 3581 Pls
+2476 3290 Pls
+1966 2997 Pls
+3057 2668 Pls
+3497 2379 Pls
+4070 2816 Pls
+4336 2843 Pls
+4304 3150 Pls
+3628 3449 Pls
+4621 2767 Pls
+3063 3625 Pls
+4750 2462 Pls
+2699 2719 Pls
+3542 2297 Pls
+3239 2999 Pls
+1683 3499 Pls
+3319 3393 Pls
+4370 3036 Pls
+3980 3341 Pls
+3594 2204 Pls
+2262 3277 Pls
+3141 2491 Pls
+4577 2938 Pls
+2511 2938 Pls
+3236 2439 Pls
+3606 2133 Pls
+2376 3718 Pls
+2863 3221 Pls
+4111 2749 Pls
+2845 2661 Pls
+4770 2553 Pls
+4380 2777 Pls
+2501 2707 Pls
+3840 2885 Pls
+4072 3043 Pls
+3619 2062 Pls
+3533 2989 Pls
+3312 2383 Pls
+2320 2938 Pls
+0.58 0.00 0.83 C 2058 1846 Pls
+1582 3749 Pls
+1439 3711 Pls
+3865 3405 Pls
+4526 3020 Pls
+4748 2624 Pls
+3077 3289 Pls
+3956 2895 Pls
+2322 3236 Pls
+4303 2538 Pls
+3296 3006 Pls
+4361 2353 Pls
+1786 3084 Pls
+3050 3627 Pls
+4318 2172 Pls
+3469 2817 Pls
+2792 2948 Pls
+3791 2659 Pls
+2324 2922 Pls
+4128 3173 Pls
+3870 2516 Pls
+1850 2900 Pls
+3037 2805 Pls
+3923 2388 Pls
+2641 3516 Pls
+3489 3451 Pls
+3403 2654 Pls
+3956 2272 Pls
+3974 2163 Pls
+2629 2796 Pls
+1925 3414 Pls
+4267 3037 Pls
+3513 2535 Pls
+2245 2783 Pls
+3050 2674 Pls
+3649 3246 Pls
+2682 3682 Pls
+1889 2768 Pls
+4545 2738 Pls
+4650 2329 Pls
+3573 2436 Pls
+3847 2053 Pls
+2726 2687 Pls
+4200 3251 Pls
+3132 2576 Pls
+2419 2686 Pls
+3558 2341 Pls
+3243 2496 Pls
+1678 3339 Pls
+2131 2676 Pls
+3396 3229 Pls
+2823 2598 Pls
+4281 2892 Pls
+3583 2262 Pls
+3914 3142 Pls
+2355 3569 Pls
+3299 2418 Pls
+3601 2188 Pls
+3270 3424 Pls
+2553 2606 Pls
+3690 3015 Pls
+3613 2119 Pls
+1927 2616 Pls
+2909 2521 Pls
+3619 2051 Pls
+3683 3377 Pls
+4321 3132 Pls
+3329 2347 Pls
+2819 3376 Pls
+3040 3148 Pls
+4046 2828 Pls
+4337 2815 Pls
+2460 3678 Pls
+4754 2434 Pls
+3024 2459 Pls
+3597 3496 Pls
+3303 3574 Pls
+2645 2537 Pls
+3368 2282 Pls
+2349 2564 Pls
+1696 3499 Pls
+4390 3017 Pls
+3092 2398 Pls
+4005 3321 Pls
+3995 3065 Pls
+3388 2221 Pls
+4770 2520 Pls
+2135 2554 Pls
+4093 2694 Pls
+4379 2750 Pls
+3757 2944 Pls
+2729 2478 Pls
+3411 2165 Pls
+3473 3146 Pls
+3484 1982 Pls
+3136 2341 Pls
+2828 3216 Pls
+2458 2506 Pls
+3731 3165 Pls
+2963 3480 Pls
+0.58 0.00 0.83 C 1536 3704 Pls
+1682 3742 Pls
+2139 1838 Pls
+3964 3398 Pls
+4625 3014 Pls
+4847 2618 Pls
+3176 3282 Pls
+4055 2888 Pls
+2423 3229 Pls
+4403 2532 Pls
+3394 3000 Pls
+4493 2195 Pls
+1826 3102 Pls
+3148 3621 Pls
+3569 2810 Pls
+2871 2959 Pls
+3904 2651 Pls
+2387 2932 Pls
+3984 2506 Pls
+1885 2907 Pls
+4227 3166 Pls
+3125 2812 Pls
+4092 2357 Pls
+4122 2235 Pls
+2741 3509 Pls
+3588 3444 Pls
+4135 2121 Pls
+3514 2647 Pls
+2727 2801 Pls
+3633 2523 Pls
+4366 3030 Pls
+2352 2788 Pls
+2048 3416 Pls
+3152 2679 Pls
+1920 2768 Pls
+3749 3239 Pls
+2781 3675 Pls
+4644 2731 Pls
+3772 2382 Pls
+1716 3386 Pls
+4682 2619 Pls
+2818 2688 Pls
+3804 2289 Pls
+3228 2578 Pls
+4297 3245 Pls
+3841 2204 Pls
+4714 2529 Pls
+2511 2688 Pls
+3861 2121 Pls
+1944 2661 Pls
+3355 2498 Pls
+4734 2448 Pls
+4749 2356 Pls
+3843 2039 Pls
+3495 2421 Pls
+2928 2599 Pls
+3496 3223 Pls
+4381 2884 Pls
+4013 3135 Pls
+3529 2343 Pls
+2648 2606 Pls
+2459 3567 Pls
+3369 3417 Pls
+3790 3008 Pls
+3004 2522 Pls
+3572 2273 Pls
+1962 2575 Pls
+2908 3377 Pls
+3783 3370 Pls
+4418 3127 Pls
+3611 2208 Pls
+3137 3154 Pls
+3266 2415 Pls
+4841 2413 Pls
+4437 2807 Pls
+2558 3674 Pls
+4148 2822 Pls
+3624 2142 Pls
+2745 2536 Pls
+3693 3490 Pls
+3402 3568 Pls
+3634 2076 Pls
+4488 3012 Pls
+3044 2454 Pls
+3315 2352 Pls
+2249 3552 Pls
+2187 3299 Pls
+2530 2535 Pls
+3615 2014 Pls
+1975 2504 Pls
+4104 3314 Pls
+4094 3058 Pls
+4694 2885 Pls
+3373 2282 Pls
+4479 2742 Pls
+2825 2475 Pls
+4197 2684 Pls
+3856 2936 Pls
+1979 3289 Pls
+3575 3137 Pls
+0.58 0.00 0.83 C 1582 3749 Pls
+1439 3711 Pls
+2961 1911 Pls
+4206 3273 Pls
+4655 2868 Pls
+1797 3054 Pls
+1860 2655 Pls
+4731 2430 Pls
+1916 2323 Pls
+1944 2026 Pls
+3351 3533 Pls
+4155 2772 Pls
+4243 2579 Pls
+2863 3464 Pls
+3554 3085 Pls
+2157 1884 Pls
+4326 2349 Pls
+3761 3377 Pls
+3717 2754 Pls
+4330 2212 Pls
+2427 3430 Pls
+4724 2730 Pls
+3835 2621 Pls
+2802 3669 Pls
+4764 2616 Pls
+3190 3027 Pls
+3891 2505 Pls
+1971 3406 Pls
+3954 3203 Pls
+3943 2392 Pls
+4344 2988 Pls
+4012 2286 Pls
+3395 2706 Pls
+4016 2179 Pls
+3148 3322 Pls
+2866 3011 Pls
+4446 2816 Pls
+3552 2602 Pls
+1673 3365 Pls
+2541 3601 Pls
+2820 3282 Pls
+3934 3367 Pls
+3531 3330 Pls
+4368 3139 Pls
+4072 3075 Pls
+3662 2419 Pls
+4507 2617 Pls
+2555 2989 Pls
+3123 2679 Pls
+3858 3019 Pls
+2503 3284 Pls
+4466 2984 Pls
+3702 2336 Pls
+3856 2090 Pls
+3285 2597 Pls
+2275 2976 Pls
+3292 3228 Pls
+4564 2415 Pls
+3459 2968 Pls
+2851 2909 Pls
+1871 2957 Pls
+2470 3709 Pls
+3542 3510 Pls
+2184 3275 Pls
+3105 3617 Pls
+2859 2653 Pls
+4146 2991 Pls
+3370 2520 Pls
+3916 2930 Pls
+4590 2344 Pls
+2337 3585 Pls
+3413 2452 Pls
+4437 3103 Pls
+4524 2915 Pls
+1761 3256 Pls
+2980 3188 Pls
+4061 3268 Pls
+2645 2911 Pls
+3509 2351 Pls
+3668 3223 Pls
+2065 3543 Pls
+3095 2598 Pls
+2605 2641 Pls
+1600 3511 Pls
+2687 3207 Pls
+3608 2180 Pls
+4214 2914 Pls
+2333 2903 Pls
+3677 2055 Pls
+3514 2896 Pls
+3991 2772 Pls
+3250 3432 Pls
+4536 2783 Pls
+3215 2895 Pls
+3066 2523 Pls
+2017 2891 Pls
+3368 3151 Pls
+2432 2627 Pls
+3805 3184 Pls
+3298 2396 Pls
+0.58 0.00 0.83 C 4491 2236 Pls
+1440 3710 Pls
+1582 3749 Pls
+1953 2488 Pls
+2059 1880 Pls
+3516 3519 Pls
+4071 3316 Pls
+4415 3112 Pls
+4634 2895 Pls
+4742 2656 Pls
+2888 3330 Pls
+2242 3287 Pls
+3632 3058 Pls
+3890 2884 Pls
+3960 2615 Pls
+3099 3093 Pls
+2967 3622 Pls
+1747 3179 Pls
+4033 2462 Pls
+4077 2324 Pls
+4100 2197 Pls
+2666 3058 Pls
+3266 2938 Pls
+3598 2555 Pls
+2271 3036 Pls
+3778 3288 Pls
+1883 3019 Pls
+3689 2449 Pls
+2647 3576 Pls
+2909 2937 Pls
+3750 2349 Pls
+4191 3048 Pls
+3797 2227 Pls
+3855 2087 Pls
+1910 3446 Pls
+4457 2831 Pls
+3253 2809 Pls
+2596 2924 Pls
+3284 3454 Pls
+3304 2521 Pls
+4164 2872 Pls
+3760 3438 Pls
+3410 2441 Pls
+2301 2917 Pls
+4605 2626 Pls
+2968 2832 Pls
+4686 2396 Pls
+1615 3455 Pls
+3487 2360 Pls
+1848 2906 Pls
+3353 3272 Pls
+3907 3175 Pls
+2510 3705 Pls
+3547 2269 Pls
+2713 2836 Pls
+3615 2147 Pls
+4215 2784 Pls
+3059 2499 Pls
+3261 3574 Pls
+4283 2160 Pls
+3624 2079 Pls
+4213 3180 Pls
+3174 2435 Pls
+2352 3592 Pls
+2465 2838 Pls
+3264 2366 Pls
+3659 2950 Pls
+3695 2834 Pls
+2170 2836 Pls
+3601 3243 Pls
+3142 3271 Pls
+3335 2291 Pls
+2845 2483 Pls
+4254 2714 Pls
+1922 2826 Pls
+3934 3062 Pls
+4500 2943 Pls
+3412 2202 Pls
+2659 3414 Pls
+3909 3323 Pls
+4762 2490 Pls
+3101 3435 Pls
+2971 2428 Pls
+3489 2017 Pls
+2883 3219 Pls
+2160 3579 Pls
+4305 3062 Pls
+1818 3349 Pls
+3070 2369 Pls
+4431 2726 Pls
+3437 3091 Pls
+2574 2773 Pls
+3751 2772 Pls
+4759 2589 Pls
+4285 2644 Pls
+2655 2471 Pls
+3433 3379 Pls
+3141 2308 Pls
+2324 2777 Pls
+4227 3235 Pls
+0.58 0.00 0.83 C 1585 3749 Pls
+1440 3711 Pls
+2043 1845 Pls
+3866 3404 Pls
+4527 3019 Pls
+4749 2623 Pls
+3078 3288 Pls
+3957 2894 Pls
+2324 3236 Pls
+4304 2538 Pls
+3296 3006 Pls
+4361 2352 Pls
+1786 3086 Pls
+3051 3627 Pls
+4434 2216 Pls
+3470 2816 Pls
+3804 2658 Pls
+2788 2948 Pls
+3885 2512 Pls
+2319 2922 Pls
+4130 3172 Pls
+1851 2901 Pls
+3036 2805 Pls
+3967 2375 Pls
+4059 2187 Pls
+2643 3516 Pls
+3490 3450 Pls
+3413 2653 Pls
+2648 2794 Pls
+1929 3414 Pls
+3533 2529 Pls
+4268 3037 Pls
+2281 2782 Pls
+3058 2674 Pls
+3651 3246 Pls
+2683 3682 Pls
+3930 2064 Pls
+1890 2768 Pls
+4546 2736 Pls
+3588 2428 Pls
+2735 2683 Pls
+4589 2636 Pls
+4200 3252 Pls
+3139 2575 Pls
+3624 2337 Pls
+4682 2350 Pls
+2432 2683 Pls
+3650 2253 Pls
+3259 2495 Pls
+1676 3343 Pls
+2140 2677 Pls
+3399 3229 Pls
+2836 2595 Pls
+3667 2174 Pls
+4282 2891 Pls
+3678 2099 Pls
+3916 3141 Pls
+3331 2418 Pls
+3682 2027 Pls
+2357 3569 Pls
+3271 3424 Pls
+2561 2603 Pls
+3691 3014 Pls
+1927 2621 Pls
+3385 2346 Pls
+2917 2520 Pls
+3685 3377 Pls
+4321 3133 Pls
+2818 3378 Pls
+3040 3148 Pls
+4338 2814 Pls
+2461 3677 Pls
+3424 2275 Pls
+4049 2828 Pls
+3038 2457 Pls
+4595 2856 Pls
+3595 3497 Pls
+3305 3574 Pls
+2657 2534 Pls
+2347 2567 Pls
+3444 2211 Pls
+2143 3554 Pls
+3120 2397 Pls
+1705 3501 Pls
+3466 2152 Pls
+4385 3014 Pls
+2127 2557 Pls
+4632 2776 Pls
+3996 3064 Pls
+4006 3319 Pls
+3481 2095 Pls
+3185 2339 Pls
+3490 2038 Pls
+4380 2749 Pls
+4098 2690 Pls
+3758 2943 Pls
+2838 2451 Pls
+4265 2198 Pls
+3475 3145 Pls
+2462 2509 Pls
+0.58 0.00 0.83 C 1442 3711 Pls
+4443 2211 Pls
+1582 3749 Pls
+1891 2483 Pls
+2340 1894 Pls
+3521 3518 Pls
+4129 3308 Pls
+4494 3068 Pls
+4681 2824 Pls
+4750 2601 Pls
+2889 3327 Pls
+3683 3055 Pls
+2239 3284 Pls
+3143 3091 Pls
+1710 3194 Pls
+3856 2868 Pls
+2970 3621 Pls
+3925 2615 Pls
+3993 2470 Pls
+2685 3072 Pls
+4040 2337 Pls
+3306 2932 Pls
+4067 2215 Pls
+2268 3048 Pls
+3816 3297 Pls
+1911 2354 Pls
+1853 3029 Pls
+3507 2815 Pls
+1926 2233 Pls
+4254 3009 Pls
+1939 2114 Pls
+2910 2942 Pls
+2650 3575 Pls
+1947 2015 Pls
+3907 2095 Pls
+4501 2753 Pls
+2554 2934 Pls
+2360 3512 Pls
+1910 3449 Pls
+3560 2704 Pls
+3365 3296 Pls
+3574 2592 Pls
+3213 2799 Pls
+2023 1910 Pls
+4547 2661 Pls
+4617 2541 Pls
+2178 2924 Pls
+3593 2480 Pls
+3752 3446 Pls
+3290 3483 Pls
+3617 2365 Pls
+1856 2910 Pls
+4638 2456 Pls
+2925 2829 Pls
+3989 3076 Pls
+3640 2262 Pls
+4156 2836 Pls
+1618 3457 Pls
+4653 2372 Pls
+4276 3153 Pls
+2518 3704 Pls
+3658 2183 Pls
+3301 2714 Pls
+2657 2840 Pls
+3668 2108 Pls
+3979 3243 Pls
+2405 2845 Pls
+3343 2568 Pls
+3624 3259 Pls
+3916 3371 Pls
+2993 2749 Pls
+3378 2447 Pls
+2172 2834 Pls
+3226 3592 Pls
+4377 3018 Pls
+3404 2335 Pls
+4201 2751 Pls
+1939 2827 Pls
+3162 3272 Pls
+3583 2037 Pls
+2747 2767 Pls
+4209 2657 Pls
+2362 3630 Pls
+3122 3433 Pls
+3450 3201 Pls
+2624 3416 Pls
+4566 2866 Pls
+3097 2687 Pls
+4268 2223 Pls
+2527 2773 Pls
+2934 3224 Pls
+3486 3089 Pls
+2152 3578 Pls
+4310 3188 Pls
+3160 2546 Pls
+3387 2269 Pls
+1819 3354 Pls
+4604 2798 Pls
+3396 2202 Pls
+4320 2878 Pls
+0.58 0.00 0.83 C 1587 3749 Pls
+2168 1849 Pls
+1441 3711 Pls
+3883 3398 Pls
+4541 3007 Pls
+4752 2606 Pls
+3082 3281 Pls
+3962 2881 Pls
+2313 3227 Pls
+4299 2522 Pls
+3291 2993 Pls
+4354 2333 Pls
+1800 3052 Pls
+3064 3625 Pls
+3464 2800 Pls
+3792 2642 Pls
+2792 2918 Pls
+4122 2147 Pls
+4142 3162 Pls
+2324 2891 Pls
+1869 2844 Pls
+3033 2775 Pls
+2643 3512 Pls
+3503 3445 Pls
+3393 2635 Pls
+3707 2484 Pls
+1897 3402 Pls
+2651 2755 Pls
+3755 2369 Pls
+4581 2341 Pls
+4283 3035 Pls
+3787 2265 Pls
+1906 2710 Pls
+3039 2644 Pls
+2692 3680 Pls
+3665 3242 Pls
+3806 2168 Pls
+3372 2513 Pls
+3815 2075 Pls
+2719 2645 Pls
+4210 3247 Pls
+3422 2418 Pls
+3069 2541 Pls
+1932 2604 Pls
+3481 2335 Pls
+4377 2943 Pls
+3409 3220 Pls
+4584 2775 Pls
+3525 2257 Pls
+2792 2556 Pls
+1694 3307 Pls
+3924 3132 Pls
+3122 2458 Pls
+2352 3562 Pls
+3554 2183 Pls
+3572 2108 Pls
+3282 3419 Pls
+1951 2518 Pls
+3578 2038 Pls
+4625 2697 Pls
+3694 3002 Pls
+3184 2386 Pls
+3698 3374 Pls
+2860 2482 Pls
+4329 3133 Pls
+2468 3673 Pls
+1644 3483 Pls
+3254 2321 Pls
+4654 2627 Pls
+4045 2813 Pls
+4329 2805 Pls
+3318 3571 Pls
+2839 3400 Pls
+3043 3116 Pls
+3307 2259 Pls
+3600 3495 Pls
+1965 2443 Pls
+2917 2416 Pls
+3344 2199 Pls
+4676 2564 Pls
+4428 2247 Pls
+4005 3054 Pls
+3370 2132 Pls
+4021 3310 Pls
+4690 2506 Pls
+2818 3199 Pls
+4699 2401 Pls
+3760 2931 Pls
+2985 2358 Pls
+4106 3000 Pls
+3383 2066 Pls
+1977 2378 Pls
+4094 2680 Pls
+3477 3134 Pls
+4402 3046 Pls
+3388 2012 Pls
+4606 2877 Pls
+4367 2742 Pls
+3740 3154 Pls
+3063 2305 Pls
+0.58 0.00 0.83 C 4752 2568 Pls
+1438 3711 Pls
+1581 3749 Pls
+1981 2327 Pls
+2915 1909 Pls
+3599 3384 Pls
+2012 2060 Pls
+4017 3042 Pls
+2863 3304 Pls
+4220 2796 Pls
+2177 3260 Pls
+2203 1887 Pls
+4325 2586 Pls
+3465 3005 Pls
+4388 2409 Pls
+4417 2244 Pls
+2993 3638 Pls
+3953 3369 Pls
+2928 3047 Pls
+1780 3097 Pls
+4229 3218 Pls
+3762 2787 Pls
+3861 2646 Pls
+3954 2520 Pls
+3091 2894 Pls
+4395 3022 Pls
+2526 2972 Pls
+4031 2406 Pls
+3384 2788 Pls
+4081 2272 Pls
+2133 2952 Pls
+2674 3570 Pls
+4490 2856 Pls
+4095 2167 Pls
+1791 3412 Pls
+2754 2857 Pls
+3536 2654 Pls
+4557 2751 Pls
+1857 2874 Pls
+3073 2766 Pls
+4590 2643 Pls
+3343 3565 Pls
+3667 2529 Pls
+3687 3199 Pls
+3751 2410 Pls
+4436 3097 Pls
+3381 3275 Pls
+4622 2557 Pls
+3250 2675 Pls
+4637 2471 Pls
+3813 2310 Pls
+2484 2806 Pls
+4650 2385 Pls
+2402 3572 Pls
+3835 2232 Pls
+2526 3704 Pls
+3670 3473 Pls
+2812 2740 Pls
+3854 2158 Pls
+3868 2087 Pls
+2216 2793 Pls
+4531 2969 Pls
+3417 2557 Pls
+3156 3236 Pls
+1919 2780 Pls
+3001 2671 Pls
+3513 2443 Pls
+3808 3022 Pls
+3204 3445 Pls
+2576 2726 Pls
+4072 3179 Pls
+1693 3304 Pls
+4588 2879 Pls
+2180 3556 Pls
+3190 2589 Pls
+4225 2998 Pls
+2898 3454 Pls
+3543 2375 Pls
+3815 3298 Pls
+3603 2317 Pls
+3990 2926 Pls
+2347 2721 Pls
+3492 3189 Pls
+2790 2661 Pls
+3636 2251 Pls
+4633 2777 Pls
+2135 2714 Pls
+1587 3503 Pls
+3666 2175 Pls
+4038 2812 Pls
+1905 2705 Pls
+2991 2599 Pls
+3227 2526 Pls
+2654 3418 Pls
+2969 3221 Pls
+3686 2092 Pls
+4547 2998 Pls
+2360 3671 Pls
+3266 3164 Pls
+3329 2420 Pls
+0.58 0.00 0.83 C 4768 2452 Pls
+1671 3752 Pls
+1446 3701 Pls
+1907 2316 Pls
+2094 1848 Pls
+3571 3375 Pls
+3977 3042 Pls
+2842 3296 Pls
+4179 2801 Pls
+2142 3253 Pls
+4267 2547 Pls
+3988 3374 Pls
+4321 2365 Pls
+3415 3010 Pls
+2993 3636 Pls
+4373 2227 Pls
+2886 3043 Pls
+4253 3240 Pls
+1758 3082 Pls
+3709 2799 Pls
+3824 2655 Pls
+4434 3115 Pls
+3046 2892 Pls
+3904 2386 Pls
+2459 2957 Pls
+4036 2156 Pls
+2676 3561 Pls
+4556 3002 Pls
+3302 2782 Pls
+2043 2935 Pls
+4719 2714 Pls
+1624 3400 Pls
+3398 3569 Pls
+3456 2674 Pls
+2689 2840 Pls
+3674 3479 Pls
+2645 3701 Pls
+1813 2848 Pls
+4424 2795 Pls
+4549 2626 Pls
+3720 2232 Pls
+2948 2749 Pls
+3343 3276 Pls
+4741 2625 Pls
+3631 3194 Pls
+2404 3564 Pls
+3127 2671 Pls
+2459 2775 Pls
+3646 2137 Pls
+3844 3282 Pls
+4609 2422 Pls
+3250 3453 Pls
+3124 3229 Pls
+3621 2059 Pls
+2090 2765 Pls
+2694 2709 Pls
+3274 2570 Pls
+3324 2386 Pls
+1828 2762 Pls
+3379 2294 Pls
+3774 3028 Pls
+2906 3443 Pls
+4131 3180 Pls
+2454 3671 Pls
+2185 3549 Pls
+2910 2650 Pls
+1795 3288 Pls
+3422 2178 Pls
+2486 2687 Pls
+4067 2655 Pls
+4212 3021 Pls
+3450 3187 Pls
+2058 2694 Pls
+2630 3405 Pls
+1992 3536 Pls
+3844 3375 Pls
+3431 2102 Pls
+3225 3563 Pls
+2682 3227 Pls
+3425 2037 Pls
+3945 3196 Pls
+4610 2747 Pls
+3076 2559 Pls
+3087 2326 Pls
+3857 2949 Pls
+1787 3530 Pls
+3230 3161 Pls
+3517 2937 Pls
+1605 3521 Pls
+3101 3380 Pls
+4118 3269 Pls
+2674 2621 Pls
+4597 2360 Pls
+3190 2235 Pls
+4347 3058 Pls
+2280 2644 Pls
+3261 2170 Pls
+2284 3647 Pls
+2795 2563 Pls
+4451 2918 Pls
+0.58 0.00 0.83 C 1471 3660 Pls
+4762 2545 Pls
+1751 3752 Pls
+1914 2216 Pls
+1941 1843 Pls
+3610 3358 Pls
+4013 3019 Pls
+2863 3281 Pls
+4202 2773 Pls
+2133 3237 Pls
+4330 2476 Pls
+4009 3363 Pls
+4362 2291 Pls
+3223 3041 Pls
+3020 3646 Pls
+2691 3029 Pls
+3712 2772 Pls
+1792 3054 Pls
+4276 3162 Pls
+3913 2558 Pls
+3945 2392 Pls
+3273 2818 Pls
+4038 2137 Pls
+4434 2959 Pls
+2856 2860 Pls
+2225 2903 Pls
+2721 3552 Pls
+4496 2803 Pls
+1724 3386 Pls
+3425 3561 Pls
+4371 3160 Pls
+3360 2691 Pls
+4531 2273 Pls
+3600 2605 Pls
+2991 2730 Pls
+2671 3698 Pls
+3715 2268 Pls
+3694 3467 Pls
+3761 2178 Pls
+2046 2792 Pls
+3379 3257 Pls
+3758 2086 Pls
+3686 3178 Pls
+4589 2735 Pls
+3329 2576 Pls
+2440 3551 Pls
+2677 2714 Pls
+3756 3056 Pls
+4470 3080 Pls
+4636 2620 Pls
+3474 2309 Pls
+3270 3443 Pls
+2414 2709 Pls
+2834 2633 Pls
+3494 2240 Pls
+3887 3261 Pls
+1939 2693 Pls
+3531 2175 Pls
+3040 2578 Pls
+2948 3432 Pls
+2220 3537 Pls
+1685 3264 Pls
+2480 3667 Pls
+3592 2020 Pls
+4681 2463 Pls
+4539 3017 Pls
+3237 2494 Pls
+4174 2997 Pls
+2526 2638 Pls
+3982 2908 Pls
+3490 3165 Pls
+4366 2207 Pls
+4136 3300 Pls
+4275 2947 Pls
+2970 3184 Pls
+4696 2401 Pls
+3526 3031 Pls
+3283 2266 Pls
+2638 3390 Pls
+2016 3524 Pls
+3266 3547 Pls
+1444 3747 Pls
+2255 2642 Pls
+3847 3395 Pls
+3340 2181 Pls
+2665 3208 Pls
+4036 2773 Pls
+3405 2067 Pls
+4588 2965 Pls
+1808 3514 Pls
+1607 3504 Pls
+4339 2734 Pls
+3127 3365 Pls
+2076 2601 Pls
+4091 3152 Pls
+2721 2538 Pls
+3071 2444 Pls
+2488 2554 Pls
+4329 2901 Pls
+1903 2948 Pls
+0.58 0.00 0.83 C 4774 2450 Pls
+1437 3711 Pls
+1580 3749 Pls
+1976 2350 Pls
+3189 1935 Pls
+2014 2005 Pls
+3565 3383 Pls
+3971 3050 Pls
+2834 3305 Pls
+4173 2810 Pls
+2155 3262 Pls
+4283 2610 Pls
+3180 3074 Pls
+4349 2440 Pls
+4171 3266 Pls
+2978 3640 Pls
+4381 2284 Pls
+3521 2916 Pls
+1780 3096 Pls
+3742 2775 Pls
+2715 1923 Pls
+2056 1880 Pls
+2761 2988 Pls
+4355 3155 Pls
+3893 2623 Pls
+3134 2876 Pls
+2361 2965 Pls
+3947 2500 Pls
+2665 3569 Pls
+4019 2395 Pls
+3774 3437 Pls
+1978 2947 Pls
+3394 2757 Pls
+4114 2147 Pls
+1768 3411 Pls
+4476 3063 Pls
+2801 2854 Pls
+3577 2638 Pls
+4564 2979 Pls
+3337 3566 Pls
+2487 2852 Pls
+3094 2753 Pls
+4631 2899 Pls
+4686 2811 Pls
+4729 2705 Pls
+3665 2505 Pls
+3644 3204 Pls
+3956 3250 Pls
+2184 2844 Pls
+3342 3280 Pls
+1867 2840 Pls
+4559 2629 Pls
+4594 2329 Pls
+3760 2398 Pls
+3855 2293 Pls
+3308 2648 Pls
+2392 3571 Pls
+2529 3703 Pls
+2826 2753 Pls
+4223 3017 Pls
+3872 2218 Pls
+3883 2147 Pls
+3724 3095 Pls
+4757 2582 Pls
+2569 2764 Pls
+3368 2571 Pls
+3068 2662 Pls
+2326 2764 Pls
+3936 3363 Pls
+3197 3452 Pls
+2082 2763 Pls
+3554 3489 Pls
+2172 3555 Pls
+3456 2470 Pls
+2885 3453 Pls
+1695 3299 Pls
+3548 2413 Pls
+3942 2933 Pls
+4320 2923 Pls
+2847 2675 Pls
+3801 2075 Pls
+4346 2819 Pls
+3451 3195 Pls
+2959 3218 Pls
+3122 2595 Pls
+2634 2693 Pls
+3585 2342 Pls
+1899 2722 Pls
+1582 3509 Pls
+2634 3417 Pls
+2362 3671 Pls
+3542 3099 Pls
+3608 2285 Pls
+4064 3199 Pls
+4448 2258 Pls
+2442 2686 Pls
+2687 3237 Pls
+3189 2539 Pls
+2905 2615 Pls
+3623 2214 Pls
+0.58 0.00 0.83 C 1438 3711 Pls
+4760 2562 Pls
+1581 3749 Pls
+1913 2299 Pls
+3152 1930 Pls
+3601 3380 Pls
+2017 1974 Pls
+4019 3037 Pls
+2860 3300 Pls
+4222 2790 Pls
+2167 3255 Pls
+4338 2588 Pls
+3463 3001 Pls
+4397 2413 Pls
+4426 2252 Pls
+2996 3637 Pls
+3962 3365 Pls
+2920 3041 Pls
+1788 3084 Pls
+3759 2781 Pls
+4239 3212 Pls
+3938 2593 Pls
+2713 1891 Pls
+3083 2887 Pls
+4398 3016 Pls
+2524 2958 Pls
+4040 2430 Pls
+3377 2780 Pls
+2292 1875 Pls
+2130 2938 Pls
+2676 3568 Pls
+4074 2319 Pls
+4493 2858 Pls
+4107 2217 Pls
+1774 3407 Pls
+3595 2634 Pls
+2744 2843 Pls
+4559 2753 Pls
+3059 2758 Pls
+1868 2855 Pls
+3350 3563 Pls
+3655 2533 Pls
+4594 2647 Pls
+3688 3195 Pls
+3756 2453 Pls
+4438 3096 Pls
+3299 2660 Pls
+3982 2112 Pls
+3379 3272 Pls
+4624 2561 Pls
+4640 2475 Pls
+2470 2786 Pls
+2401 3569 Pls
+4653 2396 Pls
+3670 3473 Pls
+2533 3703 Pls
+2804 2720 Pls
+2200 2774 Pls
+3356 2576 Pls
+2022 1900 Pls
+3726 2365 Pls
+4533 2971 Pls
+3151 3232 Pls
+3051 2658 Pls
+1938 2761 Pls
+3811 3016 Pls
+3751 2289 Pls
+3432 2507 Pls
+3210 3445 Pls
+2569 2708 Pls
+4082 3172 Pls
+2178 3553 Pls
+1699 3293 Pls
+4590 2880 Pls
+2900 3451 Pls
+3768 2220 Pls
+4228 2994 Pls
+3130 2589 Pls
+3504 2442 Pls
+3824 3293 Pls
+3779 2156 Pls
+3993 2921 Pls
+3490 3186 Pls
+2833 2643 Pls
+2351 2701 Pls
+3792 2093 Pls
+4636 2781 Pls
+2136 2696 Pls
+3532 2378 Pls
+4039 2808 Pls
+1586 3506 Pls
+2654 3413 Pls
+3187 2523 Pls
+1924 2687 Pls
+2633 2642 Pls
+2934 2586 Pls
+2967 3216 Pls
+4550 2996 Pls
+2367 3670 Pls
+2710 3229 Pls
+0.58 0.00 0.83 C 1580 3749 Pls
+4771 2516 Pls
+1437 3712 Pls
+1979 2334 Pls
+3382 1963 Pls
+2017 1935 Pls
+3589 3397 Pls
+4008 3060 Pls
+2860 3305 Pls
+4213 2819 Pls
+2175 3261 Pls
+4328 2624 Pls
+3475 3022 Pls
+4396 2454 Pls
+2984 3639 Pls
+4427 2301 Pls
+2941 3050 Pls
+4180 3261 Pls
+1779 3098 Pls
+3771 2808 Pls
+3948 2627 Pls
+2540 2975 Pls
+4366 3049 Pls
+3085 2881 Pls
+2149 2955 Pls
+4058 2467 Pls
+2671 3569 Pls
+3420 2793 Pls
+4471 2883 Pls
+3799 3429 Pls
+1790 3412 Pls
+4094 2363 Pls
+4170 2164 Pls
+2746 2858 Pls
+3624 2665 Pls
+1853 2885 Pls
+3113 2759 Pls
+4427 3103 Pls
+4539 2781 Pls
+3287 3434 Pls
+4576 2675 Pls
+3327 3568 Pls
+3682 2571 Pls
+3664 3210 Pls
+3787 2496 Pls
+2468 2814 Pls
+3353 2681 Pls
+3974 3253 Pls
+4635 2359 Pls
+2842 2749 Pls
+3384 3273 Pls
+2396 3572 Pls
+2528 3703 Pls
+2193 2801 Pls
+3821 2416 Pls
+3937 2267 Pls
+3105 2664 Pls
+1892 2788 Pls
+4505 3038 Pls
+3156 3239 Pls
+3947 2198 Pls
+3409 2603 Pls
+3956 2126 Pls
+3547 3511 Pls
+2601 2736 Pls
+3140 1968 Pls
+3805 3037 Pls
+1691 3305 Pls
+3951 3361 Pls
+2878 2670 Pls
+2174 3556 Pls
+2890 3455 Pls
+4200 3024 Pls
+2366 2730 Pls
+3578 2488 Pls
+2913 1942 Pls
+3196 2600 Pls
+3987 2944 Pls
+4560 2983 Pls
+2479 1904 Pls
+2063 1880 Pls
+2145 2722 Pls
+3625 2429 Pls
+3733 2341 Pls
+1587 3503 Pls
+1902 2712 Pls
+2672 2669 Pls
+4615 2801 Pls
+3487 3192 Pls
+4035 2833 Pls
+2644 3420 Pls
+3000 2595 Pls
+3383 2532 Pls
+2361 3672 Pls
+2972 3224 Pls
+4652 2682 Pls
+3121 3400 Pls
+3752 2285 Pls
+3272 3168 Pls
+4074 3195 Pls
+0.58 0.00 0.83 C 1438 3711 Pls
+1581 3749 Pls
+2792 1895 Pls
+3956 3390 Pls
+4555 2990 Pls
+4755 2599 Pls
+1748 3084 Pls
+1841 2738 Pls
+1898 2446 Pls
+1934 2141 Pls
+3235 3516 Pls
+2019 1918 Pls
+4061 2905 Pls
+4336 2519 Pls
+4388 2330 Pls
+3500 3126 Pls
+2760 3464 Pls
+3895 2596 Pls
+4166 2160 Pls
+3614 3380 Pls
+2324 3429 Pls
+4201 3153 Pls
+2789 3671 Pls
+3485 2802 Pls
+1816 3405 Pls
+3076 3070 Pls
+3811 2451 Pls
+4590 2326 Pls
+4317 3026 Pls
+3844 2352 Pls
+3867 2256 Pls
+3498 2528 Pls
+3886 2159 Pls
+3039 3335 Pls
+3741 3051 Pls
+3787 3253 Pls
+2779 3048 Pls
+4248 3226 Pls
+3160 2766 Pls
+2542 3637 Pls
+2618 3309 Pls
+4397 2933 Pls
+3531 2441 Pls
+3442 3540 Pls
+3684 3469 Pls
+4595 2760 Pls
+3570 2365 Pls
+2501 3028 Pls
+3769 2069 Pls
+3816 2960 Pls
+3259 2501 Pls
+4640 2682 Pls
+2211 3305 Pls
+2340 3580 Pls
+4013 3125 Pls
+3231 3247 Pls
+2909 2963 Pls
+2926 2747 Pls
+1705 3291 Pls
+4355 3119 Pls
+4080 2811 Pls
+4660 2616 Pls
+2244 3014 Pls
+1901 3003 Pls
+2114 3547 Pls
+2872 3240 Pls
+4348 2799 Pls
+3318 2412 Pls
+4680 2553 Pls
+3072 3624 Pls
+3569 2242 Pls
+3354 3360 Pls
+1598 3501 Pls
+3545 3027 Pls
+2718 2731 Pls
+3015 2678 Pls
+4695 2477 Pls
+4123 2746 Pls
+4436 2287 Pls
+3566 2173 Pls
+3886 2869 Pls
+3048 2479 Pls
+3569 2111 Pls
+2367 3718 Pls
+4424 3035 Pls
+3835 3350 Pls
+4712 2411 Pls
+4625 2856 Pls
+2577 2958 Pls
+3618 3236 Pls
+3633 2760 Pls
+4088 3055 Pls
+4077 3294 Pls
+3840 3153 Pls
+2535 2717 Pls
+4397 2737 Pls
+2663 3216 Pls
+3355 2299 Pls
+3270 3582 Pls
+3313 2945 Pls
+0.58 0.00 0.83 C 3363 2121 Pls
+4112 2639 Pls
+4535 2484 Pls
+3393 3553 Pls
+3282 2301 Pls
+4493 2313 Pls
+4406 2716 Pls
+2800 3498 Pls
+3530 3100 Pls
+3370 3158 Pls
+3206 3020 Pls
+2801 3050 Pls
+3320 3093 Pls
+4425 2919 Pls
+3337 2148 Pls
+2089 2639 Pls
+4571 2961 Pls
+4685 2813 Pls
+4646 2680 Pls
+3725 2744 Pls
+2320 2938 Pls
+2963 3480 Pls
+3575 3137 Pls
+3298 2396 Pls
+4227 3235 Pls
+2462 2509 Pls
+4320 2878 Pls
+3063 2305 Pls
+3329 2420 Pls
+4451 2918 Pls
+1903 2948 Pls
+3623 2214 Pls
+2710 3229 Pls
+4074 3195 Pls
+3313 2945 Pls
+0.58 0.00 0.83 C 2679 3006 Pls
+2712 3236 Pls
+3082 2383 Pls
+2760 3441 Pls
+2592 3403 Pls
+4385 3097 Pls
+2712 3236 Pls
+2577 2660 Pls
+4058 3201 Pls
+2460 3664 Pls
+3654 3257 Pls
+3010 3348 Pls
+2834 2837 Pls
+1796 3077 Pls
+1802 3074 Pls
+3324 3304 Pls
+3242 3242 Pls
+3458 2401 Pls
+3180 3447 Pls
+4080 2211 Pls
+3312 2383 Pls
+3731 3165 Pls
+1979 3289 Pls
+3805 3184 Pls
+2324 2777 Pls
+3475 3145 Pls
+3396 2202 Pls
+3740 3154 Pls
+3266 3164 Pls
+2795 2563 Pls
+4329 2901 Pls
+2905 2615 Pls
+2367 3670 Pls
+3272 3168 Pls
+3270 3582 Pls
+0.58 0.00 0.83 C 4024 2119 Pls
+3335 2203 Pls
+3573 3250 Pls
+3359 2277 Pls
+3658 3311 Pls
+3537 2992 Pls
+3316 2199 Pls
+4442 2260 Pls
+1585 3512 Pls
+3066 3214 Pls
+2623 3059 Pls
+2924 2436 Pls
+4667 2744 Pls
+3198 2382 Pls
+4635 2824 Pls
+3523 2971 Pls
+4577 2321 Pls
+2699 3237 Pls
+4420 2621 Pls
+3432 2864 Pls
+3533 2989 Pls
+2458 2506 Pls
+3856 2936 Pls
+2432 2627 Pls
+3141 2308 Pls
+4265 2198 Pls
+4604 2798 Pls
+4367 2742 Pls
+2360 3671 Pls
+2284 3647 Pls
+2488 2554 Pls
+3189 2539 Pls
+4550 2996 Pls
+3752 2285 Pls
+3355 2299 Pls
+0.58 0.00 0.83 C 2861 2569 Pls
+3267 3165 Pls
+2855 3467 Pls
+3070 3279 Pls
+2819 2620 Pls
+4578 2957 Pls
+2354 3671 Pls
+3319 2212 Pls
+2625 3414 Pls
+3702 2318 Pls
+3819 2272 Pls
+3066 3495 Pls
+4144 2859 Pls
+2902 3278 Pls
+2698 3278 Pls
+3294 3013 Pls
+2291 3293 Pls
+2446 2681 Pls
+3870 2967 Pls
+2675 2517 Pls
+3619 2062 Pls
+2828 3216 Pls
+4197 2684 Pls
+3368 3151 Pls
+3433 3379 Pls
+2838 2451 Pls
+1819 3354 Pls
+4606 2877 Pls
+4547 2998 Pls
+3261 2170 Pls
+3071 2444 Pls
+2687 3237 Pls
+2967 3216 Pls
+3121 3400 Pls
+2663 3216 Pls
+0.58 0.00 0.83 C 4646 2665 Pls
+2364 3671 Pls
+3353 2169 Pls
+3174 3603 Pls
+1853 2706 Pls
+4491 2361 Pls
+3568 3097 Pls
+4613 2652 Pls
+1950 3542 Pls
+3038 2598 Pls
+4072 2811 Pls
+4238 2941 Pls
+2651 3335 Pls
+1986 3085 Pls
+2083 3578 Pls
+4692 2609 Pls
+4077 3026 Pls
+3743 2101 Pls
+3596 2087 Pls
+2251 2563 Pls
+4072 3043 Pls
+3136 2341 Pls
+2825 2475 Pls
+2017 2891 Pls
+2655 2471 Pls
+3758 2943 Pls
+3387 2269 Pls
+3388 2012 Pls
+3686 2092 Pls
+2280 2644 Pls
+2721 2538 Pls
+2442 2686 Pls
+2934 2586 Pls
+4652 2682 Pls
+4397 2737 Pls
+0.58 0.00 0.83 C 3105 2334 Pls
+2969 3221 Pls
+3354 2256 Pls
+2208 2952 Pls
+3215 2354 Pls
+4128 2639 Pls
+2649 3419 Pls
+2316 3644 Pls
+2369 3667 Pls
+3293 2532 Pls
+3382 3555 Pls
+2630 2690 Pls
+2944 2516 Pls
+3799 2866 Pls
+3328 2267 Pls
+2966 2358 Pls
+4572 2373 Pls
+3553 3098 Pls
+2987 3091 Pls
+2862 3289 Pls
+3840 2885 Pls
+3484 1982 Pls
+4479 2742 Pls
+3066 2523 Pls
+4285 2644 Pls
+4098 2690 Pls
+3160 2546 Pls
+4402 3046 Pls
+2969 3221 Pls
+4347 3058 Pls
+4091 3152 Pls
+4448 2258 Pls
+2633 2642 Pls
+2972 3224 Pls
+2535 2717 Pls
+0.58 0.00 0.83 C 3352 2174 Pls
+2648 3419 Pls
+2235 2945 Pls
+3572 3242 Pls
+4035 3195 Pls
+3490 3130 Pls
+4674 2647 Pls
+2529 3018 Pls
+4009 2702 Pls
+2756 3411 Pls
+3085 3503 Pls
+3708 2377 Pls
+2337 3083 Pls
+4397 2771 Pls
+2939 3274 Pls
+2299 3649 Pls
+2894 3256 Pls
+2361 3672 Pls
+3594 2150 Pls
+2974 2455 Pls
+2501 2707 Pls
+3473 3146 Pls
+3373 2282 Pls
+3215 2895 Pls
+4759 2589 Pls
+4380 2749 Pls
+4310 3188 Pls
+3477 3134 Pls
+2654 3418 Pls
+3190 2235 Pls
+2076 2601 Pls
+4064 3199 Pls
+1924 2687 Pls
+2361 3672 Pls
+3840 3153 Pls
+0.58 0.00 0.83 C 3540 2946 Pls
+4344 2779 Pls
+2098 2563 Pls
+4060 2577 Pls
+4375 2228 Pls
+2348 3721 Pls
+4544 3001 Pls
+2030 2706 Pls
+4506 2850 Pls
+4144 2804 Pls
+2948 2401 Pls
+4531 2913 Pls
+1534 3608 Pls
+3132 2535 Pls
+4116 2690 Pls
+2319 2646 Pls
+1942 3056 Pls
+4656 2863 Pls
+3334 2378 Pls
+3507 2034 Pls
+4380 2777 Pls
+3411 2165 Pls
+4694 2885 Pls
+4536 2783 Pls
+3751 2772 Pls
+3490 2038 Pls
+2152 3578 Pls
+4094 2680 Pls
+3227 2526 Pls
+4597 2360 Pls
+3127 3365 Pls
+3608 2285 Pls
+3187 2523 Pls
+3383 2532 Pls
+4077 3294 Pls
+0.58 0.00 0.83 C 2577 2629 Pls
+3296 2261 Pls
+4513 2579 Pls
+3214 2371 Pls
+3999 2709 Pls
+2249 3124 Pls
+4345 2778 Pls
+1581 3510 Pls
+3783 3024 Pls
+2734 2655 Pls
+4573 2866 Pls
+3136 2390 Pls
+2315 3715 Pls
+3339 3073 Pls
+2002 3082 Pls
+4442 2718 Pls
+4564 2426 Pls
+3731 2160 Pls
+4388 2993 Pls
+3474 3531 Pls
+4770 2553 Pls
+2729 2478 Pls
+4094 3058 Pls
+3250 3432 Pls
+2574 2773 Pls
+3185 2339 Pls
+3486 3089 Pls
+1977 2378 Pls
+2991 2599 Pls
+2674 2621 Pls
+4339 2734 Pls
+3542 3099 Pls
+2654 3413 Pls
+3000 2595 Pls
+4088 3055 Pls
+0.58 0.00 0.83 C 3086 3494 Pls
+4541 3006 Pls
+3097 2911 Pls
+2968 2914 Pls
+3120 2404 Pls
+4723 2427 Pls
+3275 2256 Pls
+3615 3375 Pls
+3255 2282 Pls
+2013 2700 Pls
+2857 3043 Pls
+3910 2096 Pls
+2801 3345 Pls
+2763 2878 Pls
+3030 2477 Pls
+2821 2589 Pls
+3338 2285 Pls
+2643 3418 Pls
+2206 2627 Pls
+3197 3598 Pls
+2845 2661 Pls
+3757 2944 Pls
+4104 3314 Pls
+3991 2772 Pls
+3437 3091 Pls
+3481 2095 Pls
+2934 3224 Pls
+3383 2066 Pls
+1905 2705 Pls
+4118 3269 Pls
+1607 3504 Pls
+2362 3671 Pls
+1586 3506 Pls
+2644 3420 Pls
+3633 2760 Pls
+0.58 0.00 0.83 C 4441 3095 Pls
+1907 2708 Pls
+4535 2991 Pls
+4471 3000 Pls
+1948 3539 Pls
+3439 2086 Pls
+1587 3504 Pls
+3069 2375 Pls
+1903 2725 Pls
+1687 3497 Pls
+4266 2935 Pls
+1945 2745 Pls
+3268 2207 Pls
+2198 3095 Pls
+4385 2754 Pls
+3731 2388 Pls
+3254 3063 Pls
+1583 3508 Pls
+2853 3661 Pls
+4197 3204 Pls
+4111 2749 Pls
+4379 2750 Pls
+1975 2504 Pls
+3514 2896 Pls
+4431 2726 Pls
+4006 3319 Pls
+2527 2773 Pls
+4106 3000 Pls
+4038 2812 Pls
+3101 3380 Pls
+1808 3514 Pls
+2634 3417 Pls
+4039 2808 Pls
+4035 2833 Pls
+3618 3236 Pls
+0.58 0.00 0.83 C 3631 3363 Pls
+1588 3504 Pls
+3943 2472 Pls
+1936 2585 Pls
+4412 2958 Pls
+2096 3572 Pls
+3843 3013 Pls
+4526 2917 Pls
+2597 2694 Pls
+2230 2709 Pls
+1976 3115 Pls
+1886 3118 Pls
+2466 2891 Pls
+3505 3291 Pls
+2963 3458 Pls
+4668 2662 Pls
+4104 2716 Pls
+3064 2586 Pls
+4198 2648 Pls
+4070 2283 Pls
+2863 3221 Pls
+4093 2694 Pls
+3615 2014 Pls
+3677 2055 Pls
+3070 2369 Pls
+3996 3064 Pls
+4268 2223 Pls
+2985 2358 Pls
+3666 2175 Pls
+1605 3521 Pls
+4588 2965 Pls
+1582 3509 Pls
+3532 2378 Pls
+3487 3192 Pls
+2577 2958 Pls
+0.58 0.00 0.83 C 3337 2229 Pls
+2138 2715 Pls
+4267 3130 Pls
+3133 3477 Pls
+2550 2679 Pls
+4080 3012 Pls
+1903 2712 Pls
+2231 2713 Pls
+3186 2339 Pls
+4733 2777 Pls
+1912 2724 Pls
+3465 3334 Pls
+3047 3502 Pls
+4599 2908 Pls
+3297 2318 Pls
+3932 2100 Pls
+2768 2830 Pls
+3714 2215 Pls
+2932 3255 Pls
+3116 3265 Pls
+2376 3718 Pls
+2135 2554 Pls
+2530 2535 Pls
+2333 2903 Pls
+1818 3349 Pls
+4632 2776 Pls
+3097 2687 Pls
+3760 2931 Pls
+1587 3503 Pls
+3517 2937 Pls
+3405 2067 Pls
+1899 2722 Pls
+2136 2696 Pls
+4615 2801 Pls
+4625 2856 Pls
+0.58 0.00 0.83 C 1913 2678 Pls
+3235 2315 Pls
+3506 2896 Pls
+3719 2896 Pls
+2375 3667 Pls
+4685 2585 Pls
+3220 2311 Pls
+3304 2267 Pls
+2950 3219 Pls
+3663 2386 Pls
+4458 3083 Pls
+4440 3089 Pls
+4413 2763 Pls
+3507 2033 Pls
+3774 2930 Pls
+3078 3496 Pls
+3486 3286 Pls
+1900 2717 Pls
+3570 3359 Pls
+3096 2880 Pls
+3606 2133 Pls
+4770 2520 Pls
+2187 3299 Pls
+4214 2914 Pls
+4305 3062 Pls
+2127 2557 Pls
+4566 2866 Pls
+4699 2401 Pls
+2135 2714 Pls
+3230 3161 Pls
+4036 2773 Pls
+3585 2342 Pls
+4636 2781 Pls
+2672 2669 Pls
+4712 2411 Pls
+0.58 0.00 0.83 C 2951 3023 Pls
+2760 2662 Pls
+2375 3680 Pls
+3241 3329 Pls
+3035 2601 Pls
+2966 3472 Pls
+2599 2682 Pls
+3088 3493 Pls
+2804 2678 Pls
+3592 3182 Pls
+3751 2398 Pls
+3644 2454 Pls
+3786 3435 Pls
+4093 3017 Pls
+2200 3091 Pls
+3623 3366 Pls
+2140 3065 Pls
+4620 2914 Pls
+3761 3124 Pls
+3502 2089 Pls
+3236 2439 Pls
+3388 2221 Pls
+2249 3552 Pls
+3608 2180 Pls
+2160 3579 Pls
+4385 3014 Pls
+2624 3416 Pls
+2818 3199 Pls
+4633 2777 Pls
+1787 3530 Pls
+2665 3208 Pls
+2634 2693 Pls
+3792 2093 Pls
+1902 2712 Pls
+3835 3350 Pls
+0.58 0.00 0.83 C 3063 2552 Pls
+4638 2754 Pls
+3313 2312 Pls
+2554 2563 Pls
+2922 3215 Pls
+3729 3166 Pls
+4639 2754 Pls
+4584 2707 Pls
+3092 2392 Pls
+2446 2715 Pls
+2120 2730 Pls
+3710 3457 Pls
+4632 2645 Pls
+2363 3719 Pls
+2366 3719 Pls
+2525 2650 Pls
+4554 2482 Pls
+3431 2459 Pls
+2410 2639 Pls
+3549 3415 Pls
+2511 2938 Pls
+3995 3065 Pls
+3315 2352 Pls
+2687 3207 Pls
+2883 3219 Pls
+3466 2152 Pls
+3450 3201 Pls
+4690 2506 Pls
+3636 2251 Pls
+3857 2949 Pls
+3340 2181 Pls
+3122 2595 Pls
+2351 2701 Pls
+1587 3503 Pls
+4424 3035 Pls
+0.58 0.00 0.83 C 1592 3498 Pls
+3145 2369 Pls
+2745 2518 Pls
+2900 2503 Pls
+3403 3196 Pls
+1841 3347 Pls
+3137 2365 Pls
+3482 3059 Pls
+3441 3198 Pls
+4092 2920 Pls
+1660 3488 Pls
+2166 2748 Pls
+4110 3011 Pls
+2965 3459 Pls
+2663 2856 Pls
+2617 3037 Pls
+3319 2394 Pls
+2639 2689 Pls
+2640 3338 Pls
+4535 2931 Pls
+4577 2938 Pls
+4005 3321 Pls
+3044 2454 Pls
+1600 3511 Pls
+3489 2017 Pls
+1705 3501 Pls
+3122 3433 Pls
+4021 3310 Pls
+2790 2661 Pls
+3087 2326 Pls
+3847 3395 Pls
+2959 3218 Pls
+2833 2643 Pls
+3733 2341 Pls
+2367 3718 Pls
+0.58 0.00 0.83 C 2219 2682 Pls
+3789 3005 Pls
+3004 2453 Pls
+2407 3659 Pls
+3931 2765 Pls
+3415 2206 Pls
+4081 2690 Pls
+2802 2657 Pls
+4395 2945 Pls
+2935 2657 Pls
+3733 3454 Pls
+2828 2688 Pls
+3049 3340 Pls
+3500 2088 Pls
+4597 2891 Pls
+3167 1931 Pls
+3737 3016 Pls
+2969 3216 Pls
+4608 2768 Pls
+2788 3431 Pls
+3141 2491 Pls
+3092 2398 Pls
+4488 3012 Pls
+2605 2641 Pls
+2971 2428 Pls
+3120 2397 Pls
+2362 3630 Pls
+3370 2132 Pls
+3492 3189 Pls
+3076 2559 Pls
+2255 2642 Pls
+3451 3195 Pls
+3490 3186 Pls
+3625 2429 Pls
+3569 2111 Pls
+0.58 0.00 0.83 C 4212 2988 Pls
+4077 2698 Pls
+2393 2571 Pls
+2413 2962 Pls
+3549 3469 Pls
+3039 2775 Pls
+2982 3214 Pls
+4432 3096 Pls
+4302 2799 Pls
+3926 2107 Pls
+2737 2682 Pls
+3803 3179 Pls
+2286 3644 Pls
+1674 3513 Pls
+4385 3067 Pls
+4570 2807 Pls
+2967 3449 Pls
+3699 2273 Pls
+3207 2485 Pls
+3231 2377 Pls
+2262 3277 Pls
+4390 3017 Pls
+3634 2076 Pls
+3095 2598 Pls
+3101 3435 Pls
+2143 3554 Pls
+4209 2657 Pls
+4005 3054 Pls
+2347 2721 Pls
+4610 2747 Pls
+1444 3747 Pls
+4346 2819 Pls
+3993 2921 Pls
+2145 2722 Pls
+3048 2479 Pls
+0.58 0.00 0.83 C 4003 2939 Pls
+3492 3189 Pls
+4614 2792 Pls
+4695 2397 Pls
+4239 3094 Pls
+3756 2946 Pls
+3491 3189 Pls
+3097 3057 Pls
+3536 2052 Pls
+3233 2596 Pls
+3491 3326 Pls
+2099 3128 Pls
+4135 2154 Pls
+2337 3322 Pls
+4013 3317 Pls
+4445 3085 Pls
+3987 3078 Pls
+3473 3192 Pls
+4028 3297 Pls
+1873 2900 Pls
+3594 2204 Pls
+1696 3499 Pls
+3402 3568 Pls
+2065 3543 Pls
+4762 2490 Pls
+3444 2211 Pls
+2747 2767 Pls
+4428 2247 Pls
+3990 2926 Pls
+3945 3196 Pls
+3266 3547 Pls
+3801 2075 Pls
+3779 2156 Pls
+2063 1880 Pls
+3886 2869 Pls
+0.58 0.00 0.83 C 2792 2628 Pls
+2348 2721 Pls
+4471 2656 Pls
+4003 2643 Pls
+3884 2936 Pls
+2178 3351 Pls
+2813 2665 Pls
+2454 2718 Pls
+1700 3296 Pls
+3915 3291 Pls
+2956 2661 Pls
+4070 3265 Pls
+4520 2282 Pls
+4380 3002 Pls
+3528 3288 Pls
+1911 2695 Pls
+2387 3717 Pls
+3161 3264 Pls
+3568 2253 Pls
+4277 2959 Pls
+3980 3341 Pls
+2349 2564 Pls
+3693 3490 Pls
+3668 3223 Pls
+3909 3323 Pls
+2347 2567 Pls
+3583 2037 Pls
+4676 2564 Pls
+3603 2317 Pls
+3425 2037 Pls
+2016 3524 Pls
+2847 2675 Pls
+3824 3293 Pls
+2479 1904 Pls
+3566 2173 Pls
+0.58 0.00 0.83 C 4091 3249 Pls
+3109 2600 Pls
+2485 2955 Pls
+4683 2477 Pls
+2754 2681 Pls
+4378 2752 Pls
+3178 3262 Pls
+4201 2985 Pls
+2146 3553 Pls
+4688 2877 Pls
+2177 3117 Pls
+3102 3089 Pls
+3607 2843 Pls
+3050 2701 Pls
+3265 2431 Pls
+1893 3085 Pls
+3561 2065 Pls
+3264 2560 Pls
+2376 3651 Pls
+4023 2382 Pls
+4370 3036 Pls
+3368 2282 Pls
+2745 2536 Pls
+3509 2351 Pls
+2659 3414 Pls
+2657 2534 Pls
+3162 3272 Pls
+3344 2199 Pls
+3815 3298 Pls
+2682 3227 Pls
+2638 3390 Pls
+4320 2923 Pls
+3504 2442 Pls
+4560 2983 Pls
+4436 2287 Pls
+0.58 0.00 0.83 C 3319 2289 Pls
+3547 2059 Pls
+3790 2736 Pls
+3176 2432 Pls
+3621 2039 Pls
+2867 2935 Pls
+3529 2032 Pls
+3983 2928 Pls
+3552 3485 Pls
+3618 2449 Pls
+3206 2595 Pls
+2381 2753 Pls
+3734 2991 Pls
+3487 2149 Pls
+4109 3009 Pls
+2750 2649 Pls
+3065 2629 Pls
+2856 2671 Pls
+3519 2326 Pls
+3841 3413 Pls
+3319 3393 Pls
+2645 2537 Pls
+3624 2142 Pls
+2645 2911 Pls
+3412 2202 Pls
+3305 3574 Pls
+1939 2827 Pls
+2917 2416 Pls
+3543 2375 Pls
+3225 3563 Pls
+3283 2266 Pls
+3942 2933 Pls
+3130 2589 Pls
+3987 2944 Pls
+4123 2746 Pls
+0.58 0.00 0.83 C 4025 2178 Pls
+3815 3298 Pls
+3086 3286 Pls
+3730 3297 Pls
+1861 3286 Pls
+4093 2696 Pls
+3815 3296 Pls
+3285 2327 Pls
+3529 2114 Pls
+4326 2992 Pls
+3620 2520 Pls
+2434 3713 Pls
+4398 3042 Pls
+4003 3327 Pls
+2982 2664 Pls
+4206 2984 Pls
+3555 2122 Pls
+3665 2336 Pls
+2732 2617 Pls
+3491 2160 Pls
+1683 3499 Pls
+3303 3574 Pls
+4148 2822 Pls
+4061 3268 Pls
+4500 2943 Pls
+3595 3497 Pls
+4201 2751 Pls
+1965 2443 Pls
+2898 3454 Pls
+3431 2102 Pls
+3526 3031 Pls
+3548 2413 Pls
+4228 2994 Pls
+3196 2600 Pls
+4695 2477 Pls
+0.58 0.00 0.83 C 3180 3062 Pls
+4225 2999 Pls
+3281 2371 Pls
+4672 2540 Pls
+3533 2221 Pls
+4666 2642 Pls
+3522 2106 Pls
+4075 3248 Pls
+2884 3452 Pls
+2998 3448 Pls
+2393 2737 Pls
+3971 2951 Pls
+3524 3318 Pls
+3993 3071 Pls
+2024 1878 Pls
+4085 3246 Pls
+4623 2798 Pls
+3965 2928 Pls
+4097 2806 Pls
+2193 2904 Pls
+3239 2999 Pls
+3597 3496 Pls
+2558 3674 Pls
+2980 3188 Pls
+3934 3062 Pls
+4595 2856 Pls
+3404 2335 Pls
+3600 3495 Pls
+4225 2998 Pls
+3844 3375 Pls
+4696 2401 Pls
+1695 3299 Pls
+3768 2220 Pls
+2913 1942 Pls
+3015 2678 Pls
+0.58 0.00 0.83 C 1790 3078 Pls
+2898 3453 Pls
+2618 2580 Pls
+2138 2616 Pls
+2035 2743 Pls
+3993 3067 Pls
+2897 3454 Pls
+3496 3290 Pls
+3963 2764 Pls
+2280 3549 Pls
+3836 3173 Pls
+3111 2452 Pls
+3770 3190 Pls
+4088 2759 Pls
+3316 3063 Pls
+2141 2704 Pls
+3990 3329 Pls
+1693 3301 Pls
+3443 3268 Pls
+2530 2575 Pls
+3542 2297 Pls
+3024 2459 Pls
+4437 2807 Pls
+1761 3256 Pls
+1922 2826 Pls
+3038 2457 Pls
+4377 3018 Pls
+3307 2259 Pls
+3190 2589 Pls
+1992 3536 Pls
+2970 3184 Pls
+2885 3453 Pls
+2900 3451 Pls
+3578 2488 Pls
+2718 2731 Pls
+0.58 0.00 0.83 C 2457 2690 Pls
+2181 3556 Pls
+3555 2060 Pls
+2669 2957 Pls
+2148 3550 Pls
+2438 3134 Pls
+4226 2998 Pls
+3984 2150 Pls
+2081 2766 Pls
+3919 2169 Pls
+4007 2945 Pls
+3402 2604 Pls
+3451 2057 Pls
+3459 2208 Pls
+4002 3064 Pls
+3176 3074 Pls
+4375 3025 Pls
+4205 3003 Pls
+2936 3465 Pls
+2876 2520 Pls
+2699 2719 Pls
+4754 2434 Pls
+4841 2413 Pls
+4524 2915 Pls
+4254 2714 Pls
+4049 2828 Pls
+3226 3592 Pls
+3043 3116 Pls
+2180 3556 Pls
+2630 3405 Pls
+4275 2947 Pls
+3456 2470 Pls
+4590 2880 Pls
+2366 2730 Pls
+3545 3027 Pls
+0.58 0.00 0.83 C 4012 2244 Pls
+3535 2119 Pls
+1997 2622 Pls
+2771 2570 Pls
+2878 3446 Pls
+4002 3323 Pls
+2180 3556 Pls
+1948 3068 Pls
+4197 2134 Pls
+1794 3296 Pls
+3152 3083 Pls
+4178 3005 Pls
+4563 2979 Pls
+2401 3106 Pls
+4078 2750 Pls
+3985 2933 Pls
+4536 2539 Pls
+2890 3454 Pls
+3080 2553 Pls
+3686 2808 Pls
+4750 2462 Pls
+2460 3678 Pls
+3266 2415 Pls
+4437 3103 Pls
+2845 2483 Pls
+3424 2275 Pls
+2172 2834 Pls
+2839 3400 Pls
+4588 2879 Pls
+2058 2694 Pls
+4136 3300 Pls
+2172 3555 Pls
+1699 3293 Pls
+4200 3024 Pls
+1598 3501 Pls
+0.58 0.00 0.83 C 2113 3086 Pls
+1697 3303 Pls
+2785 2949 Pls
+3565 2028 Pls
+3466 2299 Pls
+3379 2408 Pls
+1693 3303 Pls
+3010 2655 Pls
+3020 2666 Pls
+3307 3439 Pls
+4106 3257 Pls
+2435 3131 Pls
+2632 2905 Pls
+3422 2264 Pls
+3528 2070 Pls
+3158 3365 Pls
+1594 3496 Pls
+2176 3556 Pls
+4070 2921 Pls
+2403 3646 Pls
+3063 3625 Pls
+4337 2815 Pls
+3137 3154 Pls
+3413 2452 Pls
+3335 2291 Pls
+2461 3677 Pls
+3378 2447 Pls
+3318 3571 Pls
+1693 3304 Pls
+3450 3187 Pls
+4366 2207 Pls
+3554 3489 Pls
+2178 3553 Pls
+2890 3455 Pls
+3354 3360 Pls
+0.58 0.00 0.83 C 1815 3500 Pls
+3785 3111 Pls
+2945 2519 Pls
+2369 2626 Pls
+2269 2748 Pls
+4383 3017 Pls
+3502 2182 Pls
+1793 3497 Pls
+3489 2207 Pls
+2674 2721 Pls
+2447 3712 Pls
+3964 2162 Pls
+3473 3054 Pls
+3746 2930 Pls
+4467 2265 Pls
+2115 3095 Pls
+3544 2180 Pls
+3800 3302 Pls
+4576 2842 Pls
+3306 3305 Pls
+4621 2767 Pls
+4046 2828 Pls
+3611 2208 Pls
+2337 3585 Pls
+3142 3271 Pls
+4338 2814 Pls
+2993 2749 Pls
+4329 2805 Pls
+4072 3179 Pls
+4212 3021 Pls
+3490 3165 Pls
+2082 2763 Pls
+4082 3172 Pls
+2174 3556 Pls
+3569 2242 Pls
+0.58 0.00 0.83 C 2451 3711 Pls
+4585 2870 Pls
+4405 2791 Pls
+4652 2606 Pls
+4105 3034 Pls
+4631 2768 Pls
+4588 2867 Pls
+3976 2216 Pls
+2330 2767 Pls
+4169 3173 Pls
+4212 3000 Pls
+3043 2680 Pls
+1811 3134 Pls
+4689 2399 Pls
+2264 3591 Pls
+3456 3037 Pls
+2342 3075 Pls
+4574 2968 Pls
+4298 3189 Pls
+4032 2994 Pls
+3628 3449 Pls
+3040 3148 Pls
+4418 3127 Pls
+4590 2344 Pls
+3601 3243 Pls
+3040 3148 Pls
+3916 3371 Pls
+4045 2813 Pls
+2576 2726 Pls
+4067 2655 Pls
+3982 2908 Pls
+3197 3452 Pls
+2569 2708 Pls
+2878 2670 Pls
+3072 3624 Pls
+0.58 0.00 0.83 C 3169 3361 Pls
+2570 2726 Pls
+4208 2193 Pls
+4354 2254 Pls
+3403 2362 Pls
+2277 3593 Pls
+4024 2754 Pls
+2456 3711 Pls
+3196 3453 Pls
+3907 2234 Pls
+2058 3519 Pls
+4477 2981 Pls
+4372 2817 Pls
+2269 3586 Pls
+4696 2399 Pls
+2437 3713 Pls
+4074 2859 Pls
+2079 2760 Pls
+4331 2750 Pls
+3176 3472 Pls
+4304 3150 Pls
+2819 3376 Pls
+3783 3370 Pls
+3916 2930 Pls
+2170 2836 Pls
+2818 3378 Pls
+3624 3259 Pls
+4654 2627 Pls
+3204 3445 Pls
+2486 2687 Pls
+2526 2638 Pls
+3936 3363 Pls
+3210 3445 Pls
+3951 3361 Pls
+4680 2553 Pls
+0.58 0.00 0.83 C 4484 2977 Pls
+3207 3446 Pls
+3673 3365 Pls
+3450 2345 Pls
+2985 2668 Pls
+3282 2647 Pls
+3205 3446 Pls
+2688 2722 Pls
+3929 3364 Pls
+3540 2510 Pls
+3997 2128 Pls
+3545 3098 Pls
+3069 2558 Pls
+3372 2405 Pls
+2398 3101 Pls
+1596 3488 Pls
+3291 2455 Pls
+3200 3449 Pls
+3201 3322 Pls
+3994 2443 Pls
+4336 2843 Pls
+3329 2347 Pls
+2908 3377 Pls
+3370 2520 Pls
+3695 2834 Pls
+4321 3133 Pls
+3343 2568 Pls
+3254 2321 Pls
+3808 3022 Pls
+3422 2178 Pls
+4174 2997 Pls
+2326 2764 Pls
+3432 2507 Pls
+1691 3305 Pls
+3318 2412 Pls
+0.58 0.00 0.83 C 3947 2363 Pls
+4069 3179 Pls
+3546 2127 Pls
+3115 2499 Pls
+3194 3454 Pls
+3301 3575 Pls
+2082 2757 Pls
+4472 2984 Pls
+4754 2603 Pls
+3910 3015 Pls
+4494 2987 Pls
+2605 2759 Pls
+4094 2724 Pls
+3295 3576 Pls
+1774 3341 Pls
+2398 2712 Pls
+2262 3580 Pls
+2328 2761 Pls
+1948 2700 Pls
+3650 3123 Pls
+4070 2816 Pls
+4321 3132 Pls
+1962 2575 Pls
+4146 2991 Pls
+3659 2950 Pls
+3685 3377 Pls
+2405 2845 Pls
+1644 3483 Pls
+3513 2443 Pls
+1795 3288 Pls
+3237 2494 Pls
+3068 2662 Pls
+3751 2289 Pls
+3805 3037 Pls
+4348 2799 Pls
+0.58 0.00 0.83 C 3851 3091 Pls
+3523 2184 Pls
+4474 3065 Pls
+4147 3097 Pls
+3311 2424 Pls
+3594 3497 Pls
+4071 3179 Pls
+3167 3357 Pls
+3449 2279 Pls
+3889 2302 Pls
+3597 3080 Pls
+1871 2811 Pls
+3080 2850 Pls
+4513 2283 Pls
+3520 2131 Pls
+3995 2166 Pls
+3292 3577 Pls
+3643 2404 Pls
+3406 3115 Pls
+3463 2291 Pls
+3497 2379 Pls
+3683 3377 Pls
+3572 2273 Pls
+2859 2653 Pls
+3264 2366 Pls
+2917 2520 Pls
+3979 3243 Pls
+2468 3673 Pls
+3001 2671 Pls
+2910 2650 Pls
+4539 3017 Pls
+3368 2571 Pls
+3811 3016 Pls
+3140 1968 Pls
+2872 3240 Pls
+0.58 0.00 0.83 C 3296 2354 Pls
+2967 2671 Pls
+3225 2439 Pls
+3953 2760 Pls
+3910 3368 Pls
+4592 2861 Pls
+3031 2655 Pls
+2194 3074 Pls
+2570 2766 Pls
+3254 3230 Pls
+3987 2205 Pls
+3954 2227 Pls
+3470 2182 Pls
+4650 2665 Pls
+3285 3579 Pls
+3224 2388 Pls
+3529 2242 Pls
+4064 3181 Pls
+4058 3185 Pls
+3951 2518 Pls
+3057 2668 Pls
+3619 2051 Pls
+3004 2522 Pls
+3105 3617 Pls
+2465 2838 Pls
+3385 2346 Pls
+3668 2108 Pls
+4329 3133 Pls
+1919 2780 Pls
+2185 3549 Pls
+4681 2463 Pls
+2569 2764 Pls
+1938 2761 Pls
+2601 2736 Pls
+2114 3547 Pls
+0.58 0.00 0.83 C 3502 3275 Pls
+4010 2774 Pls
+3418 2964 Pls
+4383 3121 Pls
+2508 2749 Pls
+2490 3357 Pls
+2325 2757 Pls
+3261 2393 Pls
+3388 2345 Pls
+2032 2775 Pls
+3547 2602 Pls
+1603 3478 Pls
+3353 3403 Pls
+2950 2893 Pls
+2884 2876 Pls
+4482 2976 Pls
+4584 2874 Pls
+3079 2658 Pls
+3775 2077 Pls
+3175 2451 Pls
+1966 2997 Pls
+2909 2521 Pls
+3790 3008 Pls
+2184 3275 Pls
+2352 3592 Pls
+1927 2621 Pls
+2657 2840 Pls
+2860 2482 Pls
+3156 3236 Pls
+2454 3671 Pls
+3592 2020 Pls
+4757 2582 Pls
+3051 2658 Pls
+3547 3511 Pls
+1901 3003 Pls
+0.58 0.00 0.83 C 3297 2530 Pls
+3490 2257 Pls
+1806 3461 Pls
+4346 2321 Pls
+3666 3093 Pls
+4336 2817 Pls
+3477 2252 Pls
+3838 3083 Pls
+3709 3096 Pls
+3161 2665 Pls
+2505 3128 Pls
+3172 3603 Pls
+2203 3140 Pls
+3315 2554 Pls
+4058 2831 Pls
+3498 3278 Pls
+4333 2827 Pls
+3482 2534 Pls
+3448 2452 Pls
+2454 2912 Pls
+2476 3290 Pls
+1927 2616 Pls
+3369 3417 Pls
+3542 3510 Pls
+3174 2435 Pls
+3691 3014 Pls
+3301 2714 Pls
+3698 3374 Pls
+3417 2557 Pls
+4131 3180 Pls
+2480 3667 Pls
+3724 3095 Pls
+3151 3232 Pls
+3956 2126 Pls
+2244 3014 Pls
+0.58 0.00 0.83 C 2363 3091 Pls
+3436 2323 Pls
+1824 3001 Pls
+4629 2684 Pls
+1828 2814 Pls
+4047 2830 Pls
+3421 2318 Pls
+1920 2773 Pls
+3297 2411 Pls
+4631 2967 Pls
+2615 2747 Pls
+2096 3523 Pls
+4612 2745 Pls
+2539 3335 Pls
+4651 2643 Pls
+3515 2598 Pls
+2962 2845 Pls
+2574 2760 Pls
+1590 3510 Pls
+3800 3244 Pls
+2309 3581 Pls
+3613 2119 Pls
+2459 3567 Pls
+2470 3709 Pls
+4213 3180 Pls
+2561 2603 Pls
+3658 2183 Pls
+3184 2386 Pls
+4531 2969 Pls
+2906 3443 Pls
+1685 3264 Pls
+3883 2147 Pls
+4533 2971 Pls
+3409 2603 Pls
+4660 2616 Pls
+0.58 0.00 0.83 C 3018 2621 Pls
+1952 2782 Pls
+3323 3305 Pls
+3927 2853 Pls
+3228 2650 Pls
+4317 3135 Pls
+2575 2757 Pls
+3962 2283 Pls
+4588 2323 Pls
+4723 2307 Pls
+2120 1881 Pls
+3908 2341 Pls
+2622 3117 Pls
+4343 2822 Pls
+3508 2192 Pls
+3982 2235 Pls
+4309 3141 Pls
+3747 3090 Pls
+2332 2723 Pls
+3927 2594 Pls
+3781 2952 Pls
+3690 3015 Pls
+2648 2606 Pls
+1871 2957 Pls
+3624 2079 Pls
+3271 3424 Pls
+2518 3704 Pls
+3694 3002 Pls
+2216 2793 Pls
+3774 3028 Pls
+2220 3537 Pls
+3872 2218 Pls
+3726 2365 Pls
+3947 2198 Pls
+4080 2811 Pls
+0.58 0.00 0.83 C 3469 3017 Pls
+3153 3236 Pls
+2230 2633 Pls
+4009 3346 Pls
+2369 3565 Pls
+2646 3147 Pls
+3772 3087 Pls
+2170 2784 Pls
+4582 2404 Pls
+3469 2579 Pls
+3186 3601 Pls
+2734 3125 Pls
+3410 2249 Pls
+3706 3126 Pls
+3235 2495 Pls
+3839 3089 Pls
+3600 3495 Pls
+3921 2106 Pls
+2965 2629 Pls
+4465 3038 Pls
+2221 3009 Pls
+2553 2606 Pls
+3529 2343 Pls
+2851 2909 Pls
+4283 2160 Pls
+2357 3569 Pls
+4276 3153 Pls
+4625 2697 Pls
+3868 2087 Pls
+3379 2294 Pls
+2948 3432 Pls
+4223 3017 Pls
+2022 1900 Pls
+3156 3239 Pls
+4355 3119 Pls
+0.58 0.00 0.83 C 2689 2696 Pls
+3349 2389 Pls
+3168 3451 Pls
+1611 3467 Pls
+4531 2295 Pls
+3621 2060 Pls
+3342 2386 Pls
+2030 3508 Pls
+2823 2756 Pls
+2305 2787 Pls
+1893 2798 Pls
+3184 3365 Pls
+4340 3116 Pls
+3605 3494 Pls
+4337 2810 Pls
+2972 2644 Pls
+1677 3342 Pls
+4515 3028 Pls
+3762 2180 Pls
+2757 2588 Pls
+3430 2448 Pls
+3270 3424 Pls
+4013 3135 Pls
+3459 2968 Pls
+3261 3574 Pls
+3682 2027 Pls
+4653 2372 Pls
+3578 2038 Pls
+3854 2158 Pls
+1828 2762 Pls
+3040 2578 Pls
+2826 2753 Pls
+3356 2576 Pls
+4505 3038 Pls
+1705 3291 Pls
+0.58 0.00 0.83 C 3885 2458 Pls
+4530 2961 Pls
+3730 2878 Pls
+3241 2985 Pls
+3758 2111 Pls
+3681 3377 Pls
+4534 2958 Pls
+2433 3091 Pls
+2363 3567 Pls
+3864 2376 Pls
+3162 2664 Pls
+3274 2697 Pls
+2836 2914 Pls
+2624 3117 Pls
+3708 3116 Pls
+2055 3515 Pls
+2558 3088 Pls
+3913 2178 Pls
+4284 2824 Pls
+4678 2419 Pls
+3193 3252 Pls
+3601 2188 Pls
+4381 2884 Pls
+4564 2415 Pls
+3059 2499 Pls
+3331 2418 Pls
+1618 3457 Pls
+1951 2518 Pls
+2812 2740 Pls
+3324 2386 Pls
+3531 2175 Pls
+2529 3703 Pls
+2200 2774 Pls
+1892 2788 Pls
+2926 2747 Pls
+0.58 0.00 0.83 C 2051 3512 Pls
+2217 2793 Pls
+4564 2866 Pls
+1889 3021 Pls
+2754 2763 Pls
+2807 3370 Pls
+3671 3473 Pls
+2754 3096 Pls
+3249 2660 Pls
+2909 2734 Pls
+3215 3381 Pls
+2117 2824 Pls
+2484 3708 Pls
+4316 3139 Pls
+2493 3343 Pls
+2449 3105 Pls
+2460 3333 Pls
+2528 3703 Pls
+2135 3522 Pls
+3442 2362 Pls
+3905 3165 Pls
+3299 2418 Pls
+3496 3223 Pls
+3292 3228 Pls
+4215 2784 Pls
+3916 3141 Pls
+4156 2836 Pls
+3282 3419 Pls
+3670 3473 Pls
+3274 2570 Pls
+1939 2693 Pls
+2392 3571 Pls
+2804 2720 Pls
+3105 2664 Pls
+2909 2963 Pls
+0.58 0.00 0.83 C 2613 3081 Pls
+2805 2740 Pls
+3534 2194 Pls
+3402 2415 Pls
+2546 3701 Pls
+3234 2796 Pls
+2518 3705 Pls
+3942 2353 Pls
+4219 3020 Pls
+3770 3466 Pls
+3948 2334 Pls
+4649 2363 Pls
+1593 3514 Pls
+4045 2827 Pls
+3480 2345 Pls
+3474 3531 Pls
+3757 2028 Pls
+2833 2750 Pls
+4321 3091 Pls
+1618 3469 Pls
+2923 2735 Pls
+2355 3569 Pls
+2928 2599 Pls
+2275 2976 Pls
+3615 2147 Pls
+3678 2099 Pls
+3640 2262 Pls
+3572 2108 Pls
+2526 3704 Pls
+2694 2709 Pls
+3887 3261 Pls
+3308 2648 Pls
+2533 3703 Pls
+3937 2267 Pls
+3231 3247 Pls
+0.58 0.00 0.83 C 2010 2749 Pls
+3669 3474 Pls
+3067 2986 Pls
+4314 2422 Pls
+3747 2188 Pls
+3690 3017 Pls
+2839 2746 Pls
+3466 3530 Pls
+2536 3703 Pls
+2626 3697 Pls
+3155 1968 Pls
+3842 2446 Pls
+3656 3070 Pls
+3241 2721 Pls
+2619 3115 Pls
+2635 2719 Pls
+3533 2311 Pls
+4629 2350 Pls
+3383 2547 Pls
+3113 2522 Pls
+3798 2101 Pls
+3914 3142 Pls
+3495 2421 Pls
+3285 2597 Pls
+2713 2836 Pls
+4282 2891 Pls
+3989 3076 Pls
+3554 2183 Pls
+3835 2232 Pls
+2090 2765 Pls
+3494 2240 Pls
+3855 2293 Pls
+3670 3473 Pls
+3821 2416 Pls
+4013 3125 Pls
+0.58 0.00 0.83 C 3481 3530 Pls
+2529 3703 Pls
+4165 2359 Pls
+2611 2639 Pls
+2122 2826 Pls
+2467 3635 Pls
+3275 2642 Pls
+4126 3059 Pls
+4567 2478 Pls
+4753 2401 Pls
+2800 3120 Pls
+2851 2769 Pls
+3960 3124 Pls
+3687 2056 Pls
+3655 3478 Pls
+3916 2371 Pls
+3519 2406 Pls
+4618 2493 Pls
+1712 3206 Pls
+4664 2491 Pls
+3337 2516 Pls
+3583 2262 Pls
+3843 2039 Pls
+3856 2090 Pls
+3547 2269 Pls
+3667 2174 Pls
+2925 2829 Pls
+2352 3562 Pls
+2402 3572 Pls
+3621 2059 Pls
+2834 2633 Pls
+3760 2398 Pls
+4653 2396 Pls
+2193 2801 Pls
+2340 3580 Pls
+0.58 0.00 0.83 C 3789 2546 Pls
+2402 3571 Pls
+2039 3473 Pls
+2067 3501 Pls
+4480 2651 Pls
+3066 2953 Pls
+2400 3572 Pls
+2925 2728 Pls
+4551 2560 Pls
+2500 3564 Pls
+2142 2808 Pls
+4631 2521 Pls
+2069 1874 Pls
+2463 3628 Pls
+4621 2713 Pls
+3191 3599 Pls
+4769 2566 Pls
+2397 3571 Pls
+3663 3206 Pls
+4211 3033 Pls
+3792 2173 Pls
+4281 2892 Pls
+4749 2356 Pls
+3702 2336 Pls
+2510 3705 Pls
+2836 2595 Pls
+4638 2456 Pls
+3122 2458 Pls
+4650 2385 Pls
+3124 3229 Pls
+2414 2709 Pls
+4594 2329 Pls
+2401 3569 Pls
+2528 3703 Pls
+2211 3305 Pls
+0.58 0.00 0.83 C 3201 3597 Pls
+2483 2806 Pls
+4244 3001 Pls
+4276 2493 Pls
+3597 3204 Pls
+3268 3423 Pls
+3735 2076 Pls
+2424 2796 Pls
+1870 2842 Pls
+4741 2477 Pls
+3880 2468 Pls
+2351 3555 Pls
+4027 2875 Pls
+3263 3426 Pls
+4301 3160 Pls
+4130 3059 Pls
+3260 3428 Pls
+3651 3479 Pls
+4640 2355 Pls
+4653 2567 Pls
+4280 2920 Pls
+2823 2598 Pls
+4734 2448 Pls
+4466 2984 Pls
+3907 3175 Pls
+3399 3229 Pls
+1856 2910 Pls
+3924 3132 Pls
+2484 2806 Pls
+3250 3453 Pls
+3270 3443 Pls
+4559 2629 Pls
+2470 2786 Pls
+2396 3572 Pls
+4640 2682 Pls
+0.58 0.00 0.83 C 4140 3062 Pls
+3203 2681 Pls
+2850 2586 Pls
+3009 2576 Pls
+3294 3281 Pls
+3425 3207 Pls
+1869 2835 Pls
+3814 2494 Pls
+2191 2846 Pls
+2582 2800 Pls
+2867 2751 Pls
+3730 2533 Pls
+3670 3475 Pls
+2801 3355 Pls
+3184 2684 Pls
+3850 2464 Pls
+2460 3622 Pls
+3900 2253 Pls
+3711 2343 Pls
+2763 2917 Pls
+2718 3297 Pls
+3396 3229 Pls
+3355 2498 Pls
+2503 3284 Pls
+3353 3272 Pls
+2140 2677 Pls
+3617 2365 Pls
+1694 3307 Pls
+3813 2310 Pls
+4609 2422 Pls
+3474 2309 Pls
+1867 2840 Pls
+4640 2475 Pls
+3384 3273 Pls
+3259 2501 Pls
+0.58 0.00 0.83 C 2273 2761 Pls
+4640 2361 Pls
+3508 2332 Pls
+2156 3033 Pls
+3685 2293 Pls
+3912 3143 Pls
+4639 2372 Pls
+3208 3595 Pls
+3742 2062 Pls
+4724 2561 Pls
+4672 2421 Pls
+3544 3512 Pls
+3260 2576 Pls
+1660 3373 Pls
+2459 3628 Pls
+1920 2774 Pls
+3667 3091 Pls
+3323 2642 Pls
+2539 3702 Pls
+3628 2885 Pls
+2479 3022 Pls
+2131 2676 Pls
+1944 2661 Pls
+3858 3019 Pls
+1848 2906 Pls
+1676 3343 Pls
+3290 3483 Pls
+2792 2556 Pls
+4637 2471 Pls
+3844 3282 Pls
+4636 2620 Pls
+3342 3280 Pls
+4624 2561 Pls
+2842 2749 Pls
+3816 2960 Pls
+0.58 0.00 0.83 C 4630 2349 Pls
+3756 2074 Pls
+2472 2645 Pls
+3671 2976 Pls
+4448 2753 Pls
+4280 2894 Pls
+3381 3275 Pls
+4587 2324 Pls
+3330 3282 Pls
+3832 2455 Pls
+3488 2681 Pls
+4611 2605 Pls
+2191 3532 Pls
+3678 2148 Pls
+1611 3463 Pls
+3215 2631 Pls
+3299 2654 Pls
+4601 2575 Pls
+2749 2719 Pls
+3406 2438 Pls
+2516 3627 Pls
+1678 3339 Pls
+3861 2121 Pls
+3123 2679 Pls
+3487 2360 Pls
+3259 2495 Pls
+3752 3446 Pls
+3525 2257 Pls
+3250 2675 Pls
+3646 2137 Pls
+4470 3080 Pls
+2184 2844 Pls
+3379 3272 Pls
+4635 2359 Pls
+3769 2069 Pls
+0.58 0.00 0.83 C 4530 2740 Pls
+3380 3275 Pls
+2056 3022 Pls
+4471 2873 Pls
+3628 2373 Pls
+3716 2149 Pls
+2195 2840 Pls
+3273 2654 Pls
+3709 2179 Pls
+3482 3268 Pls
+3569 3506 Pls
+2387 2837 Pls
+4291 2881 Pls
+4595 2795 Pls
+3280 3434 Pls
+4640 2356 Pls
+3904 3151 Pls
+1866 2838 Pls
+4628 2435 Pls
+4078 3312 Pls
+3293 2672 Pls
+3243 2496 Pls
+2511 2688 Pls
+2555 2989 Pls
+1615 3455 Pls
+3650 2253 Pls
+3593 2480 Pls
+4584 2775 Pls
+4622 2557 Pls
+2459 2775 Pls
+3756 3056 Pls
+3956 3250 Pls
+3982 2112 Pls
+3974 3253 Pls
+2501 3028 Pls
+0.58 0.00 0.83 C 4388 3113 Pls
+4630 2443 Pls
+3171 2511 Pls
+3456 3323 Pls
+2416 2835 Pls
+1619 3450 Pls
+3726 2157 Pls
+3412 3142 Pls
+3633 3207 Pls
+3411 2663 Pls
+4406 3111 Pls
+4524 2735 Pls
+3773 2067 Pls
+3912 3146 Pls
+2827 3354 Pls
+2859 3116 Pls
+4276 2905 Pls
+3363 3277 Pls
+2841 3337 Pls
+2071 3493 Pls
+3763 2274 Pls
+3558 2341 Pls
+4714 2529 Pls
+4507 2617 Pls
+4686 2396 Pls
+2432 2683 Pls
+2178 2924 Pls
+3409 3220 Pls
+3381 3275 Pls
+3127 2671 Pls
+2677 2714 Pls
+3644 3204 Pls
+3299 2660 Pls
+3353 2681 Pls
+3570 2365 Pls
+0.58 0.00 0.83 C 3262 2608 Pls
+3746 2154 Pls
+4142 2451 Pls
+3356 2495 Pls
+3925 3251 Pls
+3657 2349 Pls
+4438 3096 Pls
+4520 2741 Pls
+3948 3252 Pls
+4537 3090 Pls
+2361 3552 Pls
+4376 3122 Pls
+3673 2178 Pls
+3656 2220 Pls
+3921 3142 Pls
+2201 2786 Pls
+2786 3338 Pls
+3879 2334 Pls
+4016 3003 Pls
+1942 2983 Pls
+1677 3341 Pls
+2419 2686 Pls
+3841 2204 Pls
+3662 2419 Pls
+2968 2832 Pls
+4682 2350 Pls
+4617 2541 Pls
+4377 2943 Pls
+4436 3097 Pls
+2404 3564 Pls
+2440 3551 Pls
+3665 2505 Pls
+4438 3096 Pls
+2468 2814 Pls
+4595 2760 Pls
+0.58 0.00 0.83 C 2868 3106 Pls
+4434 3100 Pls
+2372 3032 Pls
+2325 3535 Pls
+4364 2835 Pls
+2881 3164 Pls
+4626 2453 Pls
+4372 3124 Pls
+3087 2756 Pls
+3788 3193 Pls
+2422 2821 Pls
+3619 2606 Pls
+3056 2936 Pls
+4300 2902 Pls
+3727 2064 Pls
+4382 3117 Pls
+2801 3103 Pls
+2190 2842 Pls
+3275 2632 Pls
+3019 2606 Pls
+3683 3257 Pls
+3132 2576 Pls
+4297 3245 Pls
+4072 3075 Pls
+4605 2626 Pls
+3624 2337 Pls
+4547 2661 Pls
+3481 2335 Pls
+3751 2410 Pls
+3631 3194 Pls
+3329 2576 Pls
+4729 2705 Pls
+3756 2453 Pls
+3787 2496 Pls
+3684 3469 Pls
+0.58 0.00 0.83 C 2939 2700 Pls
+4617 2529 Pls
+3479 2408 Pls
+4242 2573 Pls
+3542 2454 Pls
+3589 2554 Pls
+3688 3197 Pls
+2340 3540 Pls
+3680 2272 Pls
+3444 3558 Pls
+4658 2501 Pls
+4097 3086 Pls
+4236 3226 Pls
+3624 2294 Pls
+3554 2446 Pls
+2343 3547 Pls
+3188 2867 Pls
+3667 3201 Pls
+3374 3532 Pls
+2236 2992 Pls
+2046 1879 Pls
+4200 3251 Pls
+3228 2578 Pls
+4368 3139 Pls
+2301 2917 Pls
+3139 2575 Pls
+2023 1910 Pls
+1932 2604 Pls
+3687 3199 Pls
+4741 2625 Pls
+4589 2735 Pls
+4686 2811 Pls
+3688 3195 Pls
+3664 3210 Pls
+3442 3540 Pls
+0.58 0.00 0.83 C 2348 3544 Pls
+3687 3199 Pls
+2552 3701 Pls
+4057 3205 Pls
+3032 2761 Pls
+3506 2683 Pls
+3708 2242 Pls
+4743 2641 Pls
+4516 2644 Pls
+4127 2117 Pls
+3816 2551 Pls
+1738 3208 Pls
+3195 3540 Pls
+3169 2914 Pls
+4578 2789 Pls
+2890 2723 Pls
+3822 2123 Pls
+4568 2659 Pls
+3691 2449 Pls
+4526 2781 Pls
+2392 1898 Pls
+2726 2687 Pls
+3804 2289 Pls
+3531 3330 Pls
+3410 2441 Pls
+4200 3252 Pls
+3213 2799 Pls
+3069 2541 Pls
+3667 2529 Pls
+3343 3276 Pls
+3686 3178 Pls
+4631 2899 Pls
+4594 2647 Pls
+3682 2571 Pls
+3531 2441 Pls
+0.58 0.00 0.83 C 3650 2661 Pls
+3722 2247 Pls
+2728 2661 Pls
+3723 2102 Pls
+3495 2644 Pls
+4005 2080 Pls
+3343 3565 Pls
+4724 2720 Pls
+2487 2853 Pls
+3761 2538 Pls
+4537 2740 Pls
+3929 3379 Pls
+3589 2401 Pls
+3581 2433 Pls
+4372 2948 Pls
+3787 2539 Pls
+3658 3303 Pls
+3730 2493 Pls
+4608 2520 Pls
+4261 2190 Pls
+3720 2363 Pls
+3847 2053 Pls
+2818 2688 Pls
+3934 3367 Pls
+3760 3438 Pls
+4589 2636 Pls
+3574 2592 Pls
+3422 2418 Pls
+3343 3565 Pls
+2948 2749 Pls
+3758 2086 Pls
+3094 2753 Pls
+3655 2533 Pls
+3327 3568 Pls
+4397 2933 Pls
+0.58 0.00 0.83 C 2545 2774 Pls
+3344 3565 Pls
+4040 2571 Pls
+2873 2655 Pls
+3344 3564 Pls
+4197 3253 Pls
+3113 2746 Pls
+4692 2798 Pls
+3626 2355 Pls
+4691 2646 Pls
+4133 3084 Pls
+3530 2690 Pls
+3084 3115 Pls
+2862 3134 Pls
+3106 2890 Pls
+2487 2800 Pls
+4188 3257 Pls
+3104 2750 Pls
+1889 2806 Pls
+3524 3303 Pls
+3700 3038 Pls
+3573 2436 Pls
+4682 2619 Pls
+2820 3282 Pls
+4164 2872 Pls
+2735 2683 Pls
+3365 3296 Pls
+4210 3247 Pls
+4590 2643 Pls
+3720 2232 Pls
+3379 3257 Pls
+2487 2852 Pls
+3350 3563 Pls
+4576 2675 Pls
+2618 3309 Pls
+0.58 0.00 0.83 C 3965 3341 Pls
+3070 2766 Pls
+3108 2589 Pls
+2589 3697 Pls
+4761 2583 Pls
+1921 3445 Pls
+2498 2847 Pls
+2694 2812 Pls
+3337 3567 Pls
+3170 2760 Pls
+1812 3197 Pls
+3120 2772 Pls
+1836 3218 Pls
+3669 3311 Pls
+2858 3131 Pls
+3372 3126 Pls
+4710 2372 Pls
+3338 3566 Pls
+2389 3539 Pls
+2590 3696 Pls
+4184 3262 Pls
+4650 2329 Pls
+1716 3386 Pls
+2541 3601 Pls
+3304 2521 Pls
+3588 2428 Pls
+3560 2704 Pls
+2719 2645 Pls
+3073 2766 Pls
+4549 2626 Pls
+2046 2792 Pls
+3337 3566 Pls
+1868 2855 Pls
+3287 3434 Pls
+2542 3637 Pls
+0.58 0.00 0.83 C 4477 2826 Pls
+3674 2333 Pls
+2401 3508 Pls
+2549 3042 Pls
+1889 2926 Pls
+4625 2346 Pls
+3666 2329 Pls
+3679 2633 Pls
+3539 2441 Pls
+1957 2869 Pls
+3134 2752 Pls
+2671 2853 Pls
+4090 3309 Pls
+3533 2583 Pls
+3487 2526 Pls
+3959 3338 Pls
+3772 2283 Pls
+2492 2850 Pls
+4560 2619 Pls
+2340 3529 Pls
+2972 3333 Pls
+4545 2738 Pls
+3772 2382 Pls
+1673 3365 Pls
+3284 3454 Pls
+4546 2736 Pls
+1910 3449 Pls
+3815 2075 Pls
+1857 2874 Pls
+4424 2795 Pls
+3761 2178 Pls
+4564 2979 Pls
+3059 2758 Pls
+4539 2781 Pls
+3160 2766 Pls
+0.58 0.00 0.83 C 1853 3175 Pls
+1859 2875 Pls
+4491 2959 Pls
+3712 2184 Pls
+3340 2756 Pls
+4581 2628 Pls
+4587 2616 Pls
+3950 3340 Pls
+2798 2856 Pls
+4656 2754 Pls
+4492 2841 Pls
+2207 3218 Pls
+3687 3322 Pls
+4196 3255 Pls
+3704 3305 Pls
+1769 3179 Pls
+3615 2498 Pls
+4533 2764 Pls
+3887 3381 Pls
+4250 2281 Pls
+3176 2757 Pls
+1889 2768 Pls
+4644 2731 Pls
+3552 2602 Pls
+2596 2924 Pls
+1890 2768 Pls
+2360 3512 Pls
+3372 2513 Pls
+4557 2751 Pls
+1813 2848 Pls
+3694 3467 Pls
+3577 2638 Pls
+4559 2753 Pls
+4427 3103 Pls
+4248 3226 Pls
+0.58 0.00 0.83 C 3380 3111 Pls
+4585 2618 Pls
+2670 3033 Pls
+4393 3001 Pls
+1704 3401 Pls
+4544 2741 Pls
+3590 2417 Pls
+3189 2741 Pls
+4742 2668 Pls
+2857 2850 Pls
+3505 3172 Pls
+2593 3608 Pls
+4788 2492 Pls
+3478 2750 Pls
+4190 3282 Pls
+4473 2822 Pls
+4578 2640 Pls
+4433 3098 Pls
+3991 2111 Pls
+4127 3147 Pls
+3669 2456 Pls
+2682 3682 Pls
+2781 3675 Pls
+4446 2816 Pls
+3253 2809 Pls
+3930 2064 Pls
+2554 2934 Pls
+3806 2168 Pls
+3536 2654 Pls
+2645 3701 Pls
+3715 2268 Pls
+2801 2854 Pls
+2744 2843 Pls
+3113 2759 Pls
+2779 3048 Pls
+0.58 0.00 0.83 C 4220 2176 Pls
+3594 2420 Pls
+3299 3575 Pls
+3275 2580 Pls
+4010 2120 Pls
+3648 3247 Pls
+3549 2638 Pls
+4465 2830 Pls
+4713 2761 Pls
+3704 2636 Pls
+3966 3365 Pls
+4470 2825 Pls
+2267 3240 Pls
+1887 3436 Pls
+3424 2713 Pls
+3736 2629 Pls
+3547 2687 Pls
+3596 2630 Pls
+3084 2724 Pls
+3364 2527 Pls
+2747 3039 Pls
+3649 3246 Pls
+3749 3239 Pls
+2866 3011 Pls
+4457 2831 Pls
+2683 3682 Pls
+4501 2753 Pls
+3665 3242 Pls
+2754 2857 Pls
+3674 3479 Pls
+2671 3698 Pls
+4476 3063 Pls
+3595 2634 Pls
+1853 2885 Pls
+3787 3253 Pls
+0.58 0.00 0.83 C 4165 2328 Pls
+4553 2728 Pls
+3436 2491 Pls
+3679 2380 Pls
+2268 2943 Pls
+2692 3661 Pls
+4555 2726 Pls
+1810 3165 Pls
+4657 2867 Pls
+1888 3405 Pls
+2706 2837 Pls
+3448 3193 Pls
+2595 3601 Pls
+3147 3131 Pls
+3148 3124 Pls
+2591 3604 Pls
+4539 2753 Pls
+2809 2852 Pls
+2527 2827 Pls
+4222 2367 Pls
+4658 2367 Pls
+3050 2674 Pls
+1920 2768 Pls
+3148 3322 Pls
+1910 3446 Pls
+3651 3246 Pls
+3907 2095 Pls
+2692 3680 Pls
+1791 3412 Pls
+2689 2840 Pls
+2991 2730 Pls
+1768 3411 Pls
+1774 3407 Pls
+3624 2665 Pls
+3741 3051 Pls
+0.58 0.00 0.83 C 2601 3601 Pls
+3481 2677 Pls
+3677 2964 Pls
+2857 3029 Pls
+2653 3562 Pls
+2021 1898 Pls
+2821 2849 Pls
+2595 3597 Pls
+4582 2964 Pls
+4214 2221 Pls
+2231 3214 Pls
+4173 2162 Pls
+2584 3216 Pls
+3921 2104 Pls
+1897 3435 Pls
+3172 2725 Pls
+1852 3426 Pls
+1771 3411 Pls
+3642 2542 Pls
+2555 3006 Pls
+3419 3546 Pls
+2245 2783 Pls
+3152 2679 Pls
+4016 2179 Pls
+3855 2087 Pls
+3058 2674 Pls
+1947 2015 Pls
+3039 2644 Pls
+4095 2167 Pls
+3456 2674 Pls
+3600 2605 Pls
+4114 2147 Pls
+4107 2217 Pls
+2746 2858 Pls
+3039 3335 Pls
+0.58 0.00 0.83 C 3220 2701 Pls
+2754 2857 Pls
+4052 3327 Pls
+4196 2663 Pls
+3956 2280 Pls
+2017 2002 Pls
+1789 3412 Pls
+4186 2168 Pls
+1756 3409 Pls
+4182 2322 Pls
+2608 3606 Pls
+4141 2309 Pls
+4628 2366 Pls
+4600 2388 Pls
+3871 2156 Pls
+2178 3195 Pls
+3080 3117 Pls
+4468 2865 Pls
+4512 2721 Pls
+4461 2913 Pls
+3583 2547 Pls
+3513 2535 Pls
+2048 3416 Pls
+3395 2706 Pls
+3797 2227 Pls
+2281 2782 Pls
+2650 3575 Pls
+1906 2710 Pls
+4490 2856 Pls
+3398 3569 Pls
+4531 2273 Pls
+3394 2757 Pls
+4493 2858 Pls
+4170 2164 Pls
+3886 2159 Pls
+0.58 0.00 0.83 C 2836 2792 Pls
+1790 3411 Pls
+2656 3565 Pls
+3551 3068 Pls
+2673 2914 Pls
+2009 2106 Pls
+3424 2747 Pls
+4023 3152 Pls
+3383 2763 Pls
+4589 2858 Pls
+3762 2637 Pls
+2579 3225 Pls
+3541 3168 Pls
+2691 3654 Pls
+2685 3656 Pls
+2787 2818 Pls
+2693 3647 Pls
+3408 2752 Pls
+2891 2820 Pls
+4195 2459 Pls
+4538 2770 Pls
+4267 3037 Pls
+2352 2788 Pls
+4012 2286 Pls
+4191 3048 Pls
+4268 3037 Pls
+2910 2942 Pls
+3787 2265 Pls
+2674 3570 Pls
+1624 3400 Pls
+3360 2691 Pls
+1978 2947 Pls
+4074 2319 Pls
+4094 2363 Pls
+3498 2528 Pls
+0.58 0.00 0.83 C 2185 3187 Pls
+4488 2835 Pls
+3007 2679 Pls
+3314 3497 Pls
+3736 3451 Pls
+2248 3463 Pls
+1981 2945 Pls
+3493 2765 Pls
+1988 2948 Pls
+2775 3563 Pls
+4201 2186 Pls
+3443 2792 Pls
+4540 2762 Pls
+3904 2233 Pls
+3856 2252 Pls
+4203 2171 Pls
+4256 3048 Pls
+4159 2122 Pls
+3549 2651 Pls
+3303 2633 Pls
+4248 3063 Pls
+1925 3414 Pls
+4366 3030 Pls
+4344 2988 Pls
+3750 2349 Pls
+3533 2529 Pls
+1939 2114 Pls
+4283 3035 Pls
+2133 2952 Pls
+4719 2714 Pls
+4371 3160 Pls
+3774 3437 Pls
+2676 3568 Pls
+1790 3412 Pls
+3867 2256 Pls
+0.58 0.00 0.83 C 4036 3157 Pls
+2675 3569 Pls
+1747 3117 Pls
+3638 2476 Pls
+3908 2388 Pls
+4265 3039 Pls
+2673 3570 Pls
+2147 3180 Pls
+3764 3442 Pls
+2239 2945 Pls
+4180 2288 Pls
+3984 3197 Pls
+2917 3216 Pls
+4265 3041 Pls
+4589 2367 Pls
+4028 3154 Pls
+2204 3444 Pls
+1980 2946 Pls
+1847 2937 Pls
+3369 3491 Pls
+4039 2136 Pls
+2629 2796 Pls
+3633 2523 Pls
+3943 2392 Pls
+2909 2937 Pls
+1929 3414 Pls
+4254 3009 Pls
+4581 2341 Pls
+4081 2272 Pls
+2043 2935 Pls
+3425 3561 Pls
+4019 2395 Pls
+2130 2938 Pls
+3799 3429 Pls
+3844 2352 Pls
+0.58 0.00 0.83 C 4115 2450 Pls
+2137 2951 Pls
+3386 2592 Pls
+3166 2677 Pls
+3068 2886 Pls
+1998 2214 Pls
+4490 2834 Pls
+4069 2452 Pls
+2663 3567 Pls
+2120 1886 Pls
+3489 2786 Pls
+4093 2432 Pls
+3944 2209 Pls
+2225 3454 Pls
+4273 3033 Pls
+4154 2324 Pls
+3460 2900 Pls
+2669 3569 Pls
+3373 3390 Pls
+4153 2557 Pls
+1917 3415 Pls
+3974 2163 Pls
+2727 2801 Pls
+3954 3203 Pls
+2647 3576 Pls
+2648 2794 Pls
+1926 2233 Pls
+3755 2369 Pls
+3384 2788 Pls
+3302 2782 Pls
+1724 3386 Pls
+2665 3569 Pls
+2292 1875 Pls
+4471 2883 Pls
+4317 3026 Pls
+0.58 0.00 0.83 C 4031 2553 Pls
+3381 2788 Pls
+4119 3162 Pls
+3927 2964 Pls
+3829 2500 Pls
+1983 2327 Pls
+4004 2113 Pls
+2989 2833 Pls
+4486 3057 Pls
+3480 2782 Pls
+2645 3225 Pls
+4380 2982 Pls
+1937 1950 Pls
+3883 2337 Pls
+3826 2404 Pls
+3482 2770 Pls
+4102 2106 Pls
+4023 2446 Pls
+4281 2951 Pls
+3023 3003 Pls
+4023 2247 Pls
+3956 2272 Pls
+3514 2647 Pls
+1971 3406 Pls
+3689 2449 Pls
+3413 2653 Pls
+3507 2815 Pls
+2651 2755 Pls
+4031 2406 Pls
+4556 3002 Pls
+4496 2803 Pls
+3947 2500 Pls
+3377 2780 Pls
+3420 2793 Pls
+4590 2326 Pls
+0.58 0.00 0.83 C 4392 2978 Pls
+4024 2116 Pls
+2126 3134 Pls
+2602 3556 Pls
+4733 2692 Pls
+3978 2167 Pls
+2372 2963 Pls
+4377 2985 Pls
+3980 2147 Pls
+4147 2430 Pls
+4408 2969 Pls
+2983 2873 Pls
+1922 2171 Pls
+3845 2479 Pls
+2247 3454 Pls
+4386 2978 Pls
+3477 3455 Pls
+2367 2964 Pls
+4072 2220 Pls
+3981 2713 Pls
+3052 3060 Pls
+3403 2654 Pls
+4135 2121 Pls
+3891 2505 Pls
+1883 3019 Pls
+3490 3450 Pls
+1853 3029 Pls
+1897 3402 Pls
+2526 2972 Pls
+2676 3561 Pls
+2721 3552 Pls
+2361 2965 Pls
+4040 2430 Pls
+2671 3569 Pls
+3811 2451 Pls
+0.58 0.00 0.83 C 3926 2652 Pls
+4011 2232 Pls
+4400 2256 Pls
+1770 3130 Pls
+4688 2807 Pls
+1962 2449 Pls
+4007 2225 Pls
+2585 3193 Pls
+2365 2966 Pls
+2632 2964 Pls
+3040 2860 Pls
+3984 2551 Pls
+1910 2283 Pls
+3805 2629 Pls
+3770 2569 Pls
+4094 2465 Pls
+4064 2215 Pls
+4379 3019 Pls
+2698 3566 Pls
+2628 3553 Pls
+2748 3676 Pls
+3489 3451 Pls
+3588 3444 Pls
+3190 3027 Pls
+3778 3288 Pls
+2643 3516 Pls
+1911 2354 Pls
+3707 2484 Pls
+4395 3022 Pls
+4036 2156 Pls
+2225 2903 Pls
+3134 2876 Pls
+2524 2958 Pls
+4058 2467 Pls
+3076 3070 Pls
+0.58 0.00 0.83 C 2609 3200 Pls
+4396 3021 Pls
+4382 2362 Pls
+2262 3147 Pls
+4613 2923 Pls
+3960 2275 Pls
+3162 2872 Pls
+3970 2599 Pls
+3127 2877 Pls
+4495 3016 Pls
+4129 2439 Pls
+2933 3214 Pls
+4262 2997 Pls
+3482 3454 Pls
+3732 2710 Pls
+2601 3208 Pls
+3983 2393 Pls
+3147 2875 Pls
+4047 2356 Pls
+1859 3101 Pls
+3998 2356 Pls
+2641 3516 Pls
+2741 3509 Pls
+4764 2616 Pls
+2271 3036 Pls
+4059 2187 Pls
+3816 3297 Pls
+3393 2635 Pls
+3091 2894 Pls
+2459 2957 Pls
+2856 2860 Pls
+3893 2623 Pls
+4398 3016 Pls
+2149 2955 Pls
+1816 3405 Pls
+0.58 0.00 0.83 C 3162 2817 Pls
+2527 2971 Pls
+2500 3144 Pls
+3582 2584 Pls
+4505 3037 Pls
+3487 3451 Pls
+4396 3021 Pls
+3324 2888 Pls
+3964 2256 Pls
+3194 2888 Pls
+4019 3196 Pls
+3877 2658 Pls
+3234 3281 Pls
+3551 2965 Pls
+3543 2946 Pls
+4044 2576 Pls
+3908 2549 Pls
+3918 2611 Pls
+2240 2938 Pls
+2260 3119 Pls
+3524 3375 Pls
+3923 2388 Pls
+4122 2235 Pls
+2802 3669 Pls
+3598 2555 Pls
+3967 2375 Pls
+2268 3048 Pls
+3503 3445 Pls
+3954 2520 Pls
+3904 2386 Pls
+4434 2959 Pls
+4355 3155 Pls
+3083 2887 Pls
+3085 2881 Pls
+3485 2802 Pls
+0.58 0.00 0.83 C 3848 2772 Pls
+3090 2894 Pls
+3326 2706 Pls
+3902 3331 Pls
+3686 2773 Pls
+3926 2391 Pls
+3967 2344 Pls
+3821 2760 Pls
+3920 2369 Pls
+4042 2594 Pls
+4074 2565 Pls
+3335 2917 Pls
+1895 2533 Pls
+2588 3479 Pls
+3503 3465 Pls
+3119 2843 Pls
+2577 3469 Pls
+2768 2987 Pls
+3892 3220 Pls
+3985 3279 Pls
+3470 2793 Pls
+3037 2805 Pls
+4092 2357 Pls
+3835 2621 Pls
+3266 2938 Pls
+3036 2805 Pls
+4067 2215 Pls
+2643 3512 Pls
+3861 2646 Pls
+3046 2892 Pls
+4038 2137 Pls
+2761 2988 Pls
+2713 1891 Pls
+4366 3049 Pls
+2789 3671 Pls
+0.58 0.00 0.83 C 3096 3202 Pls
+3973 2348 Pls
+2893 3135 Pls
+4550 2302 Pls
+4359 3152 Pls
+1935 2582 Pls
+3897 2466 Pls
+3079 3194 Pls
+3841 2487 Pls
+3865 2781 Pls
+3388 2909 Pls
+3790 2788 Pls
+3867 2377 Pls
+3461 3159 Pls
+3469 3153 Pls
+3821 2763 Pls
+3866 2704 Pls
+2020 1878 Pls
+2749 2937 Pls
+3450 2959 Pls
+2291 3435 Pls
+1850 2900 Pls
+3125 2812 Pls
+4724 2730 Pls
+2666 3058 Pls
+1851 2901 Pls
+3306 2932 Pls
+3033 2775 Pls
+3762 2787 Pls
+4434 3115 Pls
+3273 2818 Pls
+2056 1880 Pls
+3938 2593 Pls
+2540 2975 Pls
+4201 3153 Pls
+0.58 0.00 0.83 C 2874 3658 Pls
+3898 2469 Pls
+4295 2607 Pls
+4531 2426 Pls
+1789 3075 Pls
+2602 3488 Pls
+2777 2986 Pls
+2869 3658 Pls
+2758 2988 Pls
+4329 3212 Pls
+3126 3224 Pls
+2863 3659 Pls
+3337 2688 Pls
+4122 3178 Pls
+2613 3479 Pls
+3091 3208 Pls
+4115 3183 Pls
+3760 2770 Pls
+3414 2791 Pls
+3888 2838 Pls
+3957 2475 Pls
+3870 2516 Pls
+4227 3166 Pls
+2427 3430 Pls
+4100 2197 Pls
+4130 3172 Pls
+4040 2337 Pls
+1869 2844 Pls
+4229 3218 Pls
+3824 2655 Pls
+3945 2392 Pls
+2715 1923 Pls
+4239 3212 Pls
+3948 2627 Pls
+2324 3429 Pls
+0.58 0.00 0.83 C 3750 3447 Pls
+3760 2788 Pls
+3342 3106 Pls
+2741 3159 Pls
+2556 3063 Pls
+3875 2518 Pls
+3779 2765 Pls
+3733 3452 Pls
+4356 3157 Pls
+1881 3089 Pls
+3829 2784 Pls
+1831 3352 Pls
+4151 3155 Pls
+4228 2177 Pls
+4138 3167 Pls
+2865 3659 Pls
+3442 3148 Pls
+4213 3243 Pls
+3997 2489 Pls
+2765 3132 Pls
+4106 3194 Pls
+4128 3173 Pls
+1885 2907 Pls
+4330 2212 Pls
+4077 2324 Pls
+2319 2922 Pls
+2685 3072 Pls
+2324 2891 Pls
+1780 3097 Pls
+3709 2799 Pls
+3913 2558 Pls
+3742 2775 Pls
+3759 2781 Pls
+3771 2808 Pls
+3614 3380 Pls
+0.58 0.00 0.83 C 1747 3330 Pls
+4229 3218 Pls
+4199 2756 Pls
+3507 2711 Pls
+3466 2911 Pls
+4126 3175 Pls
+4230 3218 Pls
+4409 2300 Pls
+3727 2781 Pls
+3030 3042 Pls
+1739 3342 Pls
+2097 1881 Pls
+1733 3355 Pls
+2021 1879 Pls
+4185 2166 Pls
+3740 3449 Pls
+2044 1848 Pls
+1779 3096 Pls
+3934 2625 Pls
+4504 2288 Pls
+3891 2604 Pls
+2324 2922 Pls
+3984 2506 Pls
+3717 2754 Pls
+4033 2462 Pls
+3885 2512 Pls
+3993 2470 Pls
+4142 3162 Pls
+2928 3047 Pls
+1758 3082 Pls
+4276 3162 Pls
+1780 3096 Pls
+1788 3084 Pls
+1779 3098 Pls
+4166 2160 Pls
+0.58 0.00 0.83 C 4445 2309 Pls
+1783 3096 Pls
+2921 3650 Pls
+4495 2549 Pls
+2963 3643 Pls
+1897 2735 Pls
+1781 3096 Pls
+1717 3324 Pls
+1785 3095 Pls
+4052 3363 Pls
+2886 3656 Pls
+3789 3345 Pls
+2848 3662 Pls
+2015 2019 Pls
+2018 1935 Pls
+1762 3336 Pls
+3038 3630 Pls
+3539 2913 Pls
+3185 2938 Pls
+4479 2431 Pls
+2697 3464 Pls
+3791 2659 Pls
+2387 2932 Pls
+3761 3377 Pls
+1747 3179 Pls
+2788 2948 Pls
+3925 2615 Pls
+4122 2147 Pls
+3953 3369 Pls
+4253 3240 Pls
+1792 3054 Pls
+3521 2916 Pls
+2920 3041 Pls
+4180 3261 Pls
+3895 2596 Pls
+0.58 0.00 0.83 C 3732 2918 Pls
+2926 3048 Pls
+3833 3413 Pls
+2924 3650 Pls
+4299 2255 Pls
+3794 2662 Pls
+3558 2909 Pls
+4378 2443 Pls
+3507 2919 Pls
+2526 1859 Pls
+2321 3372 Pls
+2309 3376 Pls
+1844 2680 Pls
+2003 2166 Pls
+2011 2077 Pls
+3704 2913 Pls
+2017 2015 Pls
+2984 3639 Pls
+2013 3094 Pls
+2942 3646 Pls
+3462 3107 Pls
+2792 2948 Pls
+3904 2651 Pls
+4326 2349 Pls
+2967 3622 Pls
+3804 2658 Pls
+2970 3621 Pls
+2792 2918 Pls
+2993 3638 Pls
+2886 3043 Pls
+3712 2772 Pls
+4381 2284 Pls
+3962 3365 Pls
+2941 3050 Pls
+2760 3464 Pls
+0.58 0.00 0.83 C 4416 2453 Pls
+3953 3370 Pls
+1708 3283 Pls
+4287 2823 Pls
+4267 2412 Pls
+3469 2819 Pls
+3953 3369 Pls
+3704 2908 Pls
+2974 3641 Pls
+3094 3631 Pls
+3824 3346 Pls
+4441 2287 Pls
+3858 2536 Pls
+1983 2320 Pls
+1935 2236 Pls
+2267 3361 Pls
+2001 2194 Pls
+3943 3373 Pls
+3828 2789 Pls
+3329 3127 Pls
+4355 2219 Pls
+3469 2817 Pls
+2871 2959 Pls
+2157 1884 Pls
+3099 3093 Pls
+3470 2816 Pls
+3856 2868 Pls
+3792 2642 Pls
+4417 2244 Pls
+4373 2227 Pls
+2691 3029 Pls
+2978 3640 Pls
+2996 3637 Pls
+4427 2301 Pls
+3500 3126 Pls
+0.58 0.00 0.83 C 2264 3356 Pls
+2994 3638 Pls
+4753 2600 Pls
+3290 3156 Pls
+3140 3069 Pls
+4325 2170 Pls
+2992 3638 Pls
+2239 3349 Pls
+4164 3271 Pls
+4526 2254 Pls
+4482 2266 Pls
+4413 2438 Pls
+2423 3390 Pls
+1955 2484 Pls
+1909 2431 Pls
+4452 2304 Pls
+4430 2209 Pls
+4404 2273 Pls
+2564 3119 Pls
+4313 2725 Pls
+4377 2392 Pls
+4318 2172 Pls
+3569 2810 Pls
+3554 3085 Pls
+3960 2615 Pls
+4434 2216 Pls
+1710 3194 Pls
+3464 2800 Pls
+4388 2409 Pls
+2993 3636 Pls
+3020 3646 Pls
+4171 3266 Pls
+4426 2252 Pls
+2984 3639 Pls
+4388 2330 Pls
+0.58 0.00 0.83 C 4334 2598 Pls
+3465 3006 Pls
+2258 3311 Pls
+1825 3304 Pls
+4149 3277 Pls
+1843 2922 Pls
+3207 3069 Pls
+4316 2595 Pls
+4322 2226 Pls
+4500 2414 Pls
+4451 2417 Pls
+4316 2587 Pls
+4313 2195 Pls
+1915 2665 Pls
+3032 3631 Pls
+4420 2456 Pls
+1974 2386 Pls
+4375 2431 Pls
+3054 3601 Pls
+2180 1887 Pls
+4320 2572 Pls
+3050 3627 Pls
+3148 3621 Pls
+2863 3464 Pls
+3890 2884 Pls
+3051 3627 Pls
+3143 3091 Pls
+3064 3625 Pls
+3465 3005 Pls
+3415 3010 Pls
+3223 3041 Pls
+4349 2440 Pls
+4397 2413 Pls
+4396 2454 Pls
+4336 2519 Pls
+0.58 0.00 0.83 C 4238 2769 Pls
+4378 2199 Pls
+4019 2931 Pls
+3839 3112 Pls
+4200 2584 Pls
+3048 3628 Pls
+4378 2196 Pls
+4217 2771 Pls
+3170 3076 Pls
+3568 2999 Pls
+2830 3409 Pls
+2809 3411 Pls
+3800 2693 Pls
+3041 3629 Pls
+1872 2631 Pls
+4225 2764 Pls
+4367 2373 Pls
+3192 3071 Pls
+3665 2979 Pls
+1794 3285 Pls
+4015 2898 Pls
+1786 3084 Pls
+1826 3102 Pls
+4243 2579 Pls
+3632 3058 Pls
+1786 3086 Pls
+2239 3284 Pls
+1800 3052 Pls
+4325 2586 Pls
+4321 2365 Pls
+4362 2291 Pls
+3180 3074 Pls
+3463 3001 Pls
+3475 3022 Pls
+4061 2905 Pls
+0.58 0.00 0.83 C 3758 3182 Pls
+4356 2373 Pls
+3808 3127 Pls
+2390 3333 Pls
+4110 2814 Pls
+4361 2357 Pls
+4356 2369 Pls
+3741 3175 Pls
+4295 2391 Pls
+4436 2590 Pls
+4248 2757 Pls
+4217 2765 Pls
+3374 2872 Pls
+4374 2351 Pls
+4365 2349 Pls
+3753 3188 Pls
+1933 2594 Pls
+4309 2603 Pls
+3138 3164 Pls
+2399 3315 Pls
+3159 3512 Pls
+4361 2353 Pls
+4493 2195 Pls
+4155 2772 Pls
+2242 3287 Pls
+4361 2352 Pls
+3683 3055 Pls
+4354 2333 Pls
+2203 1887 Pls
+3988 3374 Pls
+4009 3363 Pls
+4283 2610 Pls
+4338 2588 Pls
+4328 2624 Pls
+2019 1918 Pls
+0.58 0.00 0.83 C 2792 3391 Pls
+4293 2561 Pls
+2847 3349 Pls
+2229 1853 Pls
+2104 3257 Pls
+3296 3008 Pls
+2176 3260 Pls
+2774 3384 Pls
+4229 2571 Pls
+2278 3253 Pls
+3846 2986 Pls
+3801 2989 Pls
+3933 3334 Pls
+1857 2878 Pls
+1857 2872 Pls
+2789 3397 Pls
+4307 2555 Pls
+2165 3261 Pls
+4768 2551 Pls
+3890 3040 Pls
+2019 1955 Pls
+3296 3006 Pls
+3394 3000 Pls
+3351 3533 Pls
+2888 3330 Pls
+3296 3006 Pls
+2889 3327 Pls
+3291 2993 Pls
+2177 3260 Pls
+4267 2547 Pls
+4330 2476 Pls
+2155 3262 Pls
+2167 3255 Pls
+2175 3261 Pls
+3235 3516 Pls
+0.58 0.00 0.83 C 3378 3454 Pls
+2176 3260 Pls
+4672 2379 Pls
+2978 3376 Pls
+2018 1892 Pls
+4303 2542 Pls
+4294 2558 Pls
+3366 3446 Pls
+2147 3263 Pls
+4322 2790 Pls
+3396 3473 Pls
+3369 3473 Pls
+4364 2380 Pls
+4311 2537 Pls
+4307 2535 Pls
+3372 3458 Pls
+1872 2832 Pls
+4197 2803 Pls
+2023 1895 Pls
+3022 3361 Pls
+2001 2193 Pls
+4303 2538 Pls
+4403 2532 Pls
+1944 2026 Pls
+4742 2656 Pls
+4304 2538 Pls
+4750 2601 Pls
+4299 2522 Pls
+4220 2796 Pls
+2142 3253 Pls
+2133 3237 Pls
+4173 2810 Pls
+4222 2790 Pls
+4213 2819 Pls
+1934 2141 Pls
+0.58 0.00 0.83 C 4770 2527 Pls
+4218 2797 Pls
+2126 1883 Pls
+4750 2619 Pls
+1941 2093 Pls
+3955 2897 Pls
+4222 2796 Pls
+4754 2480 Pls
+4153 2816 Pls
+2965 3298 Pls
+4785 2574 Pls
+4765 2566 Pls
+2913 3426 Pls
+3955 2902 Pls
+3961 2893 Pls
+4767 2576 Pls
+3952 2908 Pls
+2848 3305 Pls
+4695 2797 Pls
+4769 2572 Pls
+1925 2428 Pls
+2322 3236 Pls
+2423 3229 Pls
+1916 2323 Pls
+4634 2895 Pls
+2324 3236 Pls
+4681 2824 Pls
+2313 3227 Pls
+2863 3304 Pls
+4179 2801 Pls
+4202 2773 Pls
+2834 3305 Pls
+2860 3300 Pls
+2860 3305 Pls
+1898 2446 Pls
+0.58 0.00 0.83 C 4653 2873 Pls
+2863 3304 Pls
+3482 3420 Pls
+4622 2917 Pls
+2788 3299 Pls
+1750 3177 Pls
+2863 3304 Pls
+4647 2876 Pls
+2824 3305 Pls
+4119 3036 Pls
+4671 2845 Pls
+2016 2015 Pls
+4304 2564 Pls
+1758 3155 Pls
+1759 3152 Pls
+4653 2869 Pls
+1768 3132 Pls
+3995 3046 Pls
+4519 3026 Pls
+4682 2818 Pls
+1868 2725 Pls
+3956 2895 Pls
+4055 2888 Pls
+4731 2430 Pls
+4415 3112 Pls
+3957 2894 Pls
+4494 3068 Pls
+3962 2881 Pls
+4017 3042 Pls
+2842 3296 Pls
+2863 3281 Pls
+3971 3050 Pls
+4019 3037 Pls
+4008 3060 Pls
+1841 2738 Pls
+0.58 0.00 0.83 C 4268 3213 Pls
+4016 3043 Pls
+4695 2801 Pls
+4274 3209 Pls
+3911 3047 Pls
+3077 3290 Pls
+4019 3042 Pls
+4248 3223 Pls
+3953 3052 Pls
+2116 1994 Pls
+2030 1943 Pls
+4652 2872 Pls
+3906 2942 Pls
+3075 3294 Pls
+3112 3293 Pls
+4258 3217 Pls
+3074 3296 Pls
+2014 2008 Pls
+4197 3253 Pls
+4366 3147 Pls
+1785 3090 Pls
+3077 3289 Pls
+3176 3282 Pls
+1860 2655 Pls
+4071 3316 Pls
+3078 3288 Pls
+4129 3308 Pls
+3082 3281 Pls
+2012 2060 Pls
+3977 3042 Pls
+4013 3019 Pls
+3565 3383 Pls
+2017 1974 Pls
+3589 3397 Pls
+1748 3084 Pls
+0.58 0.00 0.83 C 2054 1878 Pls
+3599 3384 Pls
+4370 3161 Pls
+3600 3495 Pls
+3520 3372 Pls
+4747 2628 Pls
+3600 3385 Pls
+2018 1903 Pls
+3551 3381 Pls
+3700 3378 Pls
+4276 3234 Pls
+4251 3222 Pls
+3478 3500 Pls
+4751 2609 Pls
+4747 2619 Pls
+2038 1896 Pls
+4744 2644 Pls
+3582 3384 Pls
+3658 3477 Pls
+3689 3466 Pls
+4744 2654 Pls
+4748 2624 Pls
+4847 2618 Pls
+1797 3054 Pls
+3516 3519 Pls
+4749 2623 Pls
+3521 3518 Pls
+4752 2606 Pls
+3599 3384 Pls
+3571 3375 Pls
+3610 3358 Pls
+2014 2005 Pls
+3601 3380 Pls
+2017 1935 Pls
+4755 2599 Pls
+0.58 0.00 0.83 C 1924 2283 Pls
+2054 1847 Pls
+1929 2071 Pls
+2016 2043 Pls
+2770 1889 Pls
+4523 3022 Pls
+2063 1846 Pls
+1978 2342 Pls
+2132 1849 Pls
+3226 1923 Pls
+1912 2376 Pls
+1916 2409 Pls
+4747 2651 Pls
+4524 3022 Pls
+4530 3015 Pls
+1932 2330 Pls
+4512 3032 Pls
+3140 1931 Pls
+2836 1934 Pls
+2014 2041 Pls
+4499 3045 Pls
+4526 3020 Pls
+4625 3014 Pls
+4655 2868 Pls
+2059 1880 Pls
+4527 3019 Pls
+2340 1894 Pls
+4541 3007 Pls
+2915 1909 Pls
+2094 1848 Pls
+1941 1843 Pls
+3189 1935 Pls
+3152 1930 Pls
+3382 1963 Pls
+4555 2990 Pls
+0.58 0.00 0.83 C 1824 2831 Pls
+1983 2328 Pls
+1837 2700 Pls
+1912 2685 Pls
+1912 2351 Pls
+3862 3406 Pls
+1982 2326 Pls
+1855 2840 Pls
+1979 2361 Pls
+2082 2320 Pls
+1808 2888 Pls
+1808 2903 Pls
+4485 3075 Pls
+3856 3408 Pls
+3905 3411 Pls
+1832 2859 Pls
+3848 3411 Pls
+1978 2338 Pls
+1934 2260 Pls
+1866 2608 Pls
+3833 3417 Pls
+3865 3405 Pls
+3964 3398 Pls
+4206 3273 Pls
+1953 2488 Pls
+3866 3404 Pls
+1891 2483 Pls
+3883 3398 Pls
+1981 2327 Pls
+1907 2316 Pls
+1914 2216 Pls
+1976 2350 Pls
+1913 2299 Pls
+1979 2334 Pls
+3956 3390 Pls
+0.58 0.00 0.83 C 1440 3711 Pls
+1440 3711 Pls
+3767 2029 Pls
+1441 3711 Pls
+1437 3712 Pls
+1439 3711 Pls
+1440 3711 Pls
+3524 1979 Pls
+4756 2425 Pls
+1682 3742 Pls
+3399 1965 Pls
+1439 3711 Pls
+2307 1861 Pls
+2534 1873 Pls
+1438 3711 Pls
+1588 3749 Pls
+1581 3749 Pls
+4775 2496 Pls
+1582 3749 Pls
+3704 2016 Pls
+1439 3711 Pls
+1439 3711 Pls
+2139 1838 Pls
+2961 1911 Pls
+1582 3749 Pls
+2043 1845 Pls
+1582 3749 Pls
+1441 3711 Pls
+1581 3749 Pls
+1446 3701 Pls
+1751 3752 Pls
+1580 3749 Pls
+1581 3749 Pls
+1437 3712 Pls
+2792 1895 Pls
+0.58 0.00 0.83 C 3554 1987 Pls
+1583 3749 Pls
+1492 3628 Pls
+4002 2077 Pls
+1580 3749 Pls
+2395 1863 Pls
+1413 3746 Pls
+1437 3712 Pls
+1584 3749 Pls
+1539 3704 Pls
+1583 3749 Pls
+3357 1960 Pls
+1786 2918 Pls
+1582 3749 Pls
+1581 3749 Pls
+1445 3711 Pls
+1440 3711 Pls
+1437 3712 Pls
+4408 2201 Pls
+1438 3711 Pls
+2830 1898 Pls
+1582 3749 Pls
+1682 3742 Pls
+1439 3711 Pls
+1440 3710 Pls
+1440 3711 Pls
+4443 2211 Pls
+2168 1849 Pls
+1438 3711 Pls
+1671 3752 Pls
+4762 2545 Pls
+1437 3711 Pls
+4760 2562 Pls
+4771 2516 Pls
+1581 3749 Pls
+0.58 0.00 0.83 C 1583 3749 Pls
+4761 2553 Pls
+1580 3749 Pls
+1584 3749 Pls
+4722 2389 Pls
+1582 3749 Pls
+4754 2568 Pls
+1579 3749 Pls
+1441 3711 Pls
+4853 2561 Pls
+1440 3711 Pls
+1582 3749 Pls
+1582 3749 Pls
+1441 3710 Pls
+2543 1872 Pls
+3484 1974 Pls
+2651 1882 Pls
+1579 3749 Pls
+1640 3341 Pls
+1580 3749 Pls
+1583 3749 Pls
+2058 1846 Pls
+1536 3704 Pls
+1582 3749 Pls
+4491 2236 Pls
+1585 3749 Pls
+1442 3711 Pls
+1587 3749 Pls
+4752 2568 Pls
+4768 2452 Pls
+1471 3660 Pls
+4774 2450 Pls
+1438 3711 Pls
+1580 3749 Pls
+1438 3711 Pls
+% End plot #1
+1.000 UL
+LTb
+LCb setrgbcolor
+5798 1082 M
+2061 941 L
+stroke
+LTb
+LCb setrgbcolor
+1402 1738 M
+2061 941 L
+stroke
+LCb setrgbcolor
+797 1304 M
+[ [(Helvetica) 180.0 0.0 true true 0 (f1)]
+] -60.0 MCshow
+LTb
+LCb setrgbcolor
+4094 813 M
+[ [(Helvetica) 180.0 0.0 true true 0 (f2)]
+] -60.0 MCshow
+LTb
+LCb setrgbcolor
+646 3218 M
+[ [(Helvetica) 180.0 0.0 true true 0 (f3)]
+] -60.0 MCshow
+LTb
+1.000 UP
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Helvetica
+%%Pages: 1

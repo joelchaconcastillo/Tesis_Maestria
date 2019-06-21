@@ -1,0 +1,81 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Evoluci\IeC {\'o}n ADI del estado-del-arte en la instancia WFG1 (escala logar\IeC {\'\i }tmica).\relax }}{5}{figure.caption.17}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Superficies de curbimiento logradas al 50\% en el problema de pruena WFG1.\relax }}{5}{figure.caption.18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ubicaci\IeC {\'o}n de los vectores ideal, ut\IeC {\'o}pico y nadir en el caso de dos objetivos.\relax }}{10}{figure.caption.37}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces El hipervolumen dominado por el frente $\Re _2 = \{ y_7, . . ., y_{10} \}$ est\'a resaltado y sus contribuciones de $\Delta _{\mathscr {S}}(y_8,\Re _2)$ y $\Delta _{\mathscr {S}}(y_9,\Re _2)$ se visualizan en los rect\'angulos con fondo verde. Las \'areas sombreadas corresponden a las regiones que contienen los puntos que dominan a $y_8$ y $y_9$ respectivamente.\relax }}{23}{figure.caption.91}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Frente de Pareto en tres objetivos de los problemas DTLZ\relax }}{30}{figure.caption.113}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Par\'ametros de posici\'on y distancia de los problemas WFG\relax }}{32}{figure.caption.117}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Frente de Pareto problema WFG5, en la izquierda con un m\IeC {\'e}todo aleatorio y con el m\IeC {\'e}todo de Hammersley considerando diez mil puntos.\relax }}{38}{figure.caption.125}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Ejemplo con 5 puntos de referencia IGD.\relax }}{40}{figure.caption.130}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces El punto obscuro representa al punto at\IeC {\'\i }pico $C$.\relax }}{42}{figure.caption.139}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces En la im\IeC {\'a}gen superior izquierda se muestra una superficie de cubrimiento de una ejecuci\IeC {\'o}n, en la im\IeC {\'a}gen superior derecha se presentan las superficies de varias ejecuciones y en la im\IeC {\'a}gen inferior se presenta el resumen de las superficies de cubrimiento logradas a $1, 2, 3, 4, 5$ que corresponde a $20\%, 40\%, 60\%, 80\%, 100\% $.\relax }}{44}{figure.caption.153}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Proceso para seleccionar una poblaci\IeC {\'o}n $P_{t+1}$ y generar una poblaci\IeC {\'o}n nueva $Q_{t+1}$ en cada generaci\IeC {\'o}n.\relax }}{49}{figure.caption.160}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Soluciones que corresponden a los extremos en dos objetivos.\relax }}{50}{figure.caption.163}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Clasificaci\IeC {\'o}n de rangos con los individuos de referencia en color rojo y los candidatos de color verde.\relax }}{51}{figure.caption.164}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Simulaci\IeC {\'o}n de la fase de remplazo, en la parte izquierda est\IeC {\'a}n los individuos en el espacio de las variables y en la parte de la derecha el espacio objetivo.\relax }}{52}{figure.caption.167}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Simulaci\IeC {\'o}n de la fase de remplazo, en la parte izquierda est\IeC {\'a}n los individuos en el espacio de las variables y en la parte de la derecha el espacio objetivo.\relax }}{52}{figure.caption.168}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Simulaci\IeC {\'o}n de la fase de remplazo, en la parte izquierda est\IeC {\'a}n los individuos en el espacio de las variables y en la parte de la derecha el espacio objetivo.\relax }}{53}{figure.caption.169}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Asociaci\IeC {\'o}n de cada individuo candiato con su individuos de referencia m\IeC {\'a}s cercano.\relax }}{53}{figure.caption.170}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Los individuos de referencia con borde rojo representan un cluster y los candidatos con borde verde representan un cluster cada uno.\relax }}{54}{figure.caption.173}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Simulaci\IeC {\'o}n de la fase de remplazo, al asignar un valor elevado al radio de la hiperesfera.\relax }}{55}{figure.caption.174}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Proceso de selecci\IeC {\'o}n utilizando la distancia Eucl\IeC {\'\i }dea en la parte izquierda y la distancia de mejor\IeC {\'\i }a en la parte derecha.\relax }}{57}{figure.caption.177}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Forma de una funci\IeC {\'o}n deceptiva en dominios continuos.\relax }}{58}{figure.caption.180}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Simulaci\IeC {\'o}n de la fase de remplazo, al asignar un valor elevado al radio de la hiperesfera.\relax }}{59}{figure.caption.181}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Simulaci\IeC {\'o}n de la fase de remplazo, al asignar un valor elevado al radio de la hiperesfera.\relax }}{59}{figure.caption.182}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Simulaci\IeC {\'o}n de la fase de remplazo, al asignar un valor elevado al radio de la hiperesfera.\relax }}{60}{figure.caption.183}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Simulaci\IeC {\'o}n de la fase de remplazo, al asignar un valor elevado al radio de la hiperesfera.\relax }}{60}{figure.caption.184}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Puntos distribuidos en el simplex, en la parte izquierda se muestran los puntos generados por el dise\IeC {\~n}o simplex-lattice y en la derecha por dise\IeC {\~n}o uniforme, en cada uno se consideran 105 puntos.\relax }}{69}{figure.caption.204}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Simulaci\IeC {\'o}n del proceso de emparejamiento, en la parte izquierda el tama\IeC {\~n}o de cada muestra es de 4 puntos y en la derecha de 20 puntos, se observa la tendencia de seleccionar a los individuos que corresponden al espacio factible.\relax }}{74}{figure.caption.215}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Actualizaci\IeC {\'o}n de los subproblemas, se observa que la soluci\IeC {\'o}n $x_4$ tendr\IeC {\'a} una mejor aptitud, por lo tanto en el cl\IeC {\'a}sico MOEA/D ser\IeC {\'a} seleccionado a todos los subproblemas ocasionando problemas de diversidad.\relax }}{75}{figure.caption.217}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Proceso de selecci\IeC {\'o}n para el subproblema $1$, en la parte izquierda es el espacio de las variables y en la derecha su respectiva ubicaci\IeC {\'o}n en el espacio objetivo. Los puntos $\{1, 2\}$ corresponden a los subproblemas actuales con borde de color rojo, en este caso \IeC {\'u}nicamente se consideran a los individuos almacenados (con borde de color negro) que del subproblema $1$.\relax }}{76}{figure.caption.218}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Selecci\IeC {\'o}n de dos semillas $S_1$ y $S_2$, considerando la aptitud de su respectivo subproblema $\lambda _i$\relax }}{79}{figure.caption.226}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Proceso para seleccionar una poblaci\IeC {\'o}n $P_{t+1}$ y generar una poblaci\IeC {\'o}n nueva $Q_{t+1}$ en cada generaci\IeC {\'o}n.\relax }}{79}{figure.caption.228}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Cada subproblema est\IeC {\'a} relacionado a tres individuos en $R_t$ que est\IeC {\'a} conformado por los padres $P_t$, hijos $Q_t$ y elite $E_t$.\relax }}{80}{figure.caption.229}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Funci\IeC {\'o}n de densidad del operador SBX con \IeC {\'\i }ndices de distribuci\IeC {\'o}n 2 y 5.\relax }}{89}{figure.caption.248}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces En la columna izquierda se presenta la simulaci\IeC {\'o}n del operador SBX y en la columna de la derecha se presenta el operador NRD-SBX, ambas distribuciones con un \IeC {\'\i }ndice de distribuci\IeC {\'o}n de 20.\relax }}{92}{figure.caption.255}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Simulaci\IeC {\'o}n del operador SBX con la probabilidad de heredar directamente las variables con 0\%, 25\% y 50\% respectivamente. Los puntos rojos representan a los individuos padres.\relax }}{93}{figure.caption.257}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces En la izquierda se muestra diez vectores, y en la parte derecha su correspondiente distribuci\IeC {\'o}n de diferencias.\relax }}{95}{figure.caption.262}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Distribuci\IeC {\'o}n emp\IeC {\'\i }rica de los vectores de prueba para los valores (a) CR = 0.0, (b) CR = 0.5, (c) CR = 1.0\relax }}{97}{figure.caption.270}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces En la izquierda se muestran 50 vectores con una distancia m\IeC {\'\i }mina al vecino m\IeC {\'a}s cercano de $D_i = 0.125$, y en la parte derecha su correspondiente distribuci\IeC {\'o}n de diferencias ($2450$), en la derecha cada punto corresponde a un vector de diferencia.\relax }}{98}{figure.caption.272}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Pruebas estad\IeC {\'\i }sticas para determinar la superioridad de un algoritmo.\relax }}{102}{figure.caption.279}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Estudio de escalabilidad en las variables de decisi\IeC {\'o}n considerando dos objetivos (Hipervolumen)\relax }}{107}{figure.caption.291}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Estudio de escalabilidad en las variables de decisi\IeC {\'o}n considerando tres objetivos (Hipervolumen)\relax }}{108}{figure.caption.292}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Estudio del par\IeC {\'a}metro $DI$ con dos objetivos\relax }}{109}{figure.caption.294}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Estudio del par\IeC {\'a}metro $DI$ con tres objetivos\relax }}{109}{figure.caption.295}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{110}{figure.caption.297}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{112}{figure.caption.302}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{116}{figure.caption.311}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Superficies de cubrimiento al 50\% obtenidas por los diferentes MOEAs con SBX y NRD-SBX\relax }}{117}{figure.caption.313}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{134}{figure.caption.342}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{135}{figure.caption.343}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{136}{figure.caption.344}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Estudio del par\IeC {\'a}metro DI de la instancias DTLZ con dos objetivos\relax }}{137}{figure.caption.345}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Estudio del par\IeC {\'a}metro DI de la instancias DTLZ con tres objetivos\relax }}{138}{figure.caption.346}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Estudio del par\IeC {\'a}metro DI de la instancias WFG con dos objetivos\relax }}{139}{figure.caption.347}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Estudio del par\IeC {\'a}metro DI de la instancias WFG con tres objetivos\relax }}{140}{figure.caption.348}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Estudio del par\IeC {\'a}metro DI de la instancias UF con dos y tres objetivos\relax }}{141}{figure.caption.349}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{145}{figure.caption.353}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{148}{figure.caption.360}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{149}{figure.caption.361}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{150}{figure.caption.362}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{154}{figure.caption.371}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{155}{figure.caption.372}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces superficies de cubrimiento logradas al 50\%\relax }}{156}{figure.caption.373}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Frente no dominado de las 35 ejecuciones, en la columna izquierda el VSD-MOEA y la derecha el VSD-MOEA/D\relax }}{157}{figure.caption.374}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Frente no dominado de las 35 ejecuciones, en la columna izquierda el VSD-MOEA y la derecha el VSD-MOEA/D\relax }}{158}{figure.caption.375}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Frente no dominado de las 35 ejecuciones, en la columna izquierda el VSD-MOEA y la derecha el VSD-MOEA/D\relax }}{159}{figure.caption.376}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Frente no dominado de las 35 ejecuciones, en la columna izquierda el VSD-MOEA y la derecha el VSD-MOEA/D\relax }}{160}{figure.caption.377}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Frente no dominado de las 35 ejecuciones, en la columna izquierda el VSD-MOEA y la derecha el VSD-MOEA/D\relax }}{161}{figure.caption.378}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Superficies de cubrimiento logradas al 50\%\relax }}{164}{figure.caption.380}

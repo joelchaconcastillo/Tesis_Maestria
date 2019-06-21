@@ -1,0 +1,118 @@
+
+
+% Chapter 7
+
+\chapter{Conclusiones y Trabajo Futuro} % Main chapter title
+
+\label{Chapter7} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+Los algoritmos evolutivos han sido de los enfoques mas populares para tratar con problemas de optimización complejos.
+%
+Particularmente, los MOEAs trabajan mediante distintos principios donde el espacio objetivo es incolucrado.
+%
+Como se ha observado en el caso de un solo objetivo, la diversidad proporciona soluciones de calidad principalmente es problemas complejos.
+%
+
+En la primera propuesta VSD-MOEA hemos proporcionado un algoritmo con una fase de remplazo especial.
+%
+Esta fase considera la diversidad en los dos espacios, específicamente la diversidad en el espacio de las variables es basada en un modelo decremental.
+%
+Así, en las primeras fases se induce la diversidad en el espacio de las variables, y de forma gradual ésta va decrementándose, por lo tanto en las últimas etapas del algoritmo la fase de remplazo trabaja de la forma usual de un MOEA.
+%
+Adicionalmente, se propuso la distancia de mejoría, la cual se basa en el indicador IGD+, que es considerado débilimente \textit{Pareto compliant}.
+%
+Es llevada a cabo la validación experimental por medio de ejecuciones a largo plazo en los tres problemas de prueba más popuares.
+%
+Esta validación demuestra que el VSD-MOEA puede resolver apropiadamente los problemas de prueba, además exhibe los mejores valores en las instancias más complejas.
+%
+En base a un estudio de escalabilidad en las variables de decisión, los resultados indican la superioridad y estabilidad de nuestra propuesta.
+%
+Así, se ha demostrado la importancia de preservar la diversidad en el espacio de las variables, por medio de un esquema explícito.
+
+
+
+La segunda propuesta fue el MOEA/D-EVSD, que es una extensión del MOEA/D, similarmente este algoritmo induce un grado de exploración elevado en las primeras fases y cambia gradualemente a la intensificación.
+%
+En orden, para lograr este comportamiento gradual, el criterio de paro fue asignado por el usuario para alterar el proceso de emparejamiento.
+%
+Particularmente el MOEA/D-EVSD tiende a combinar individuos más distantes en las etapas iniciales que en las etapas subsecuentes.
+%
+La validación experimental se realiza por medio de ejecuaciones a largo plazo y los problemas de prueba WFG.
+%
+La validación demuestra que esta propuesta puede resolver apropiadamente los problemas WFG1 y WFG8, los cuales son problemáticos para el resto de MOEAs.
+%
+Las ventajas del MOEA/D-EVSD se ilustran a través de las superficies de cubrimiento alcanzadas y el hipervolumen.
+%
+Además, se realizan pruebas estadísticas para confirmar la superioridad de la propuesta.
+%
+Sin embargo, también demostramos que la forma en que la diversidad es promovida es problemática.
+%
+En primer lugar, mostramos que el proceso de búsqueda tiende a ubicar soluciones en posiciones cercanas a las fronteras del espacio factible.
+%
+Segundo, se considera una problemática el hecho de que la diversidad no se mantiene explícitamente, porque cuando se encuentran soluciones relativamente de alta calidad o sub-óptimas en ciertas regiones, no se puede evitar la convergencia prematura, por lo que no se consigue obtener soluciones de alta calidad.
+
+
+
+Posteriormente, se realiza un análisis de los operadores evolucivos más utilizados en el dominio continuo.
+%
+Así, el operador SBX es estudiado en detalle, siendo uno de los más populares, tanto en mono-objetivo como en multi-objetivo.
+%
+En base a este análisis se propone un nuevo operador, el NRD-SBX.
+%
+El análisis realizado, muestra que las implementaciones actuales aplican un conjunto de reflexiones provocando que el operador pueda crear individuos muy alejados de los padres, reduciendo así su capacidad de intensificación.
+%
+Además, se destaca que el SBX cambia cada variable con probabilidad fija durante todo el proceso de optimización.
+%
+El NRD-SBX intrudce dos cambios principales.
+%
+Por un lado, evita la utilización de reflexiones con el fin de aumentar el proder de intensificación.
+%
+Por otro lado, adapta la probabilidad de alterar las variables a lo largo de la ejecución, induciendo un mayor grado de exploración en la fases iniciales que en las fases finales del proceso de optimización.
+%
+Con el objetivo de validar el NRD-SBX, se realizó un análisis experimenteal con tres MOEAs muy populares, considerándose el conjunto de prueba WFG.
+%
+El análisis de las superficies de cubrimiento e hipervolumen muestran las ventajas del NRD-SBX frente al SBX.
+%
+Adicionalmente, se estudia el comportamiento de los operadores de evolución diferencial, que son considerados como uno de los mejores esquemas en el ámbito evolutivo.
+%
+Sin embargo, estos operadores no se han considerado en esquemas a largo plazo en los cuales sea considerada la diversidad de forma explícita, una posible razón es su que su capacidad de búsqueda está limitado por la distribución de los vectores de diferencia.
+%
+En base a esto se proponen varias modificaciones a este operador, con las cuales se ha observado un deseado comportamiento en esquemas a largo plazo.
+
+
+Finalmente, siendo parte de los algoritmos basados en descomposición, se propone el \textit{MOEA/D-SEBV} y el \textit{VSD-MOEA/D}, siendo este último el que ofrece los mejores resultados en dos objetivos y el segundo mejor en tres objetivos.
+%
+Además se propone la versión rápida \textit{Fast VSD-MOEA/D}, la cual posee un grado de complejidad menor que el VSD-MOEA/D y cuyo desempeño no es afectado por su estrategia para conservar la diversidad en el espacio de las variables.
+%
+También se concluye que el \textit{VSD-MOEA/D} puede mejorar su rendimiento de forma considerable en el caso de tres objetivos y ser potencialmente viable en \textit{Many Objective}, por medio de alguna estrategia adecuada de normalización en el espacio de los objetivos.
+%
+
+%----------------------------------------------------------------------------------------
+\section{Trabajo futuro}
+
+En base a los descubrimientos realizados en este trabajo se consideran nuevas líneas de investigación, como se ha observado en el caso multi-objetivo la diversidad es un aspecto clave para generar soluciones de calidad, sin embargo es un reto manejar simultáneamente los dos espacios.
+%
+
+Se ha observado que la distancia de mejoría es una alternativa factible para obtener soluciones diversas en el espacio objetivo, por lo tanto se desea desarrollar un indicador en base a la distancia de mejoría, principalmente con el objetivo de evitar el uso de vectores de pesos, ya que estos tienen problemas con la geometría del frente de Pareto.
+
+Los algoritmos propuestos en este trabajo utilizan el criterio del vecino más cercano, con el objetivo de mantener diversidad en el espacio de las variables, se desea utilizar el método de LSH \textit{Local Sensitive Hashing} con dos propósitos. El primero es para disminuir el grado de complejidad de estas secciones ya que con este procedimiento el grado de complejidad sería sublineal, y además administrar apropiadamente los problemas con muchas variables, mejor conocido como \textit{Curse of dimensionality}.
+
+Desarrollar un operador el cual implemente el principio de evolución diferencial y del operador genético SBX, esto es, dirigir la distribución de los vectores de diferencia de forma apropiada donde sean considerados los límites del espacio factible y se tengan las cualidades que ofrece el operador SBX.
+
+
+Se desea implementar tanto el VSD-MOEA como el VSD-MOEA/D en un problema de aplicación real, donde se observaran las principales ventajas de los esquemas de diversidad, junto a esta línea se desea presentar un MOEA para dominios discretos.
+
+Como ya se observó, la propuesta VSD-MOEA/D mediante varios cambios, puede ser viable en problemas del tipo \textit{Many Objective}, por lo tanto es viable desarrollar una versión del MOMBI-II considerando un esquema de diversidad.
+
+Se desea aplicar la misma idea implementada en el VSD-MOEA/D, en el caso mono-objetivo, esto es, implementar la fase de remplazo del VSD-MOEA/D en un esquema usual de evolución diferencial, principalmente en un algoritmo evolutivo de optimización de partículas (PSO), ya que su principio de vecindades es similar al VSD-MOEA/D.
+
+
+% Define some commands to keep the formatting separated from the content 
+%\newcommand{\keyword}[1]{\textbf{#1}}
+%\newcommand{\tabhead}[1]{\textbf{#1}}
+%\newcommand{\code}[1]{\texttt{#1}}
+%\newcommand{\file}[1]{\texttt{\bfseries#1}}
+%\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%----------------------------------------------------------------------------------------
+
